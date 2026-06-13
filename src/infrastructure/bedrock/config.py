@@ -2,6 +2,8 @@ import os
 from pydantic import BaseModel, Field
 
 class BedrockConfig(BaseModel):
+    model_config = {'protected_namespaces': ()}
+    
     aws_region: str = Field(default_factory=lambda: os.getenv("AWS_REGION", "us-east-1"))
     model_id: str = Field(default_factory=lambda: os.getenv("BEDROCK_MODEL_ID", "anthropic.claude-v2"))
     max_tokens: int = Field(default_factory=lambda: int(os.getenv("BEDROCK_MAX_TOKENS", "1024")))
