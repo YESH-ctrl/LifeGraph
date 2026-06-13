@@ -102,3 +102,14 @@ def test_verification_agent_dynamic_graph():
     score = data["data"]["verification_score"]
     assert 0 <= score < 100
     assert len(data["data"]["missing_items"]) > 0
+
+def test_mission_debug_diagnostics():
+    """Verify that the diagnostics endpoint returns correct keys and structure."""
+    response = client.get("/mission/debug")
+    assert response.status_code == 200
+    data = response.json()
+    assert "available_models" in data
+    assert "embedding_model" in data
+    assert "reranker_model" in data
+    assert "fallback_mode" in data
+

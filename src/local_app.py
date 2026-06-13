@@ -375,6 +375,13 @@ async def detect_mission(payload: DetectionRequest, response: Response):
         response.status_code = 500
         return {"success": False, "error": str(e)}
 
+@app.get("/mission/debug")
+async def get_mission_debug():
+    try:
+        return detection_service.get_debug_diagnostics()
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
 # --- Missions ---
 @app.get("/missions")
 async def list_missions(request: Request, response: Response):

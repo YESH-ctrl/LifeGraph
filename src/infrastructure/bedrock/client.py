@@ -27,6 +27,7 @@ class BedrockClient:
         self.config = config or BedrockConfig()
         self.use_mock = False
         self.claude_available = None
+        self.nova_available = None
         try:
             self.client = boto3.client("bedrock-runtime", region_name=self.config.aws_region)
         except Exception as e:
@@ -62,13 +63,40 @@ class BedrockClient:
             self.claude_available = False
             return False
 
+    def check_nova_available(self) -> bool:
+        """Checks if Nova model access is active and approved on this account."""
+        if self.nova_available is not None:
+            return self.nova_available
+        if self.use_mock or not self.client:
+            self.nova_available = False
+            return False
+            
+        try:
+            model_id = "amazon.nova-lite-v1:0"
+            body = json.dumps({
+                "messages": [{"role": "user", "content": [{"text": "Hi"}]}],
+                "inferenceConfig": {"maxTokens": 1}
+            })
+            self.client.invoke_model(
+                modelId=model_id,
+                contentType="application/json",
+                accept="application/json",
+                body=body
+            )
+            self.nova_available = True
+            return True
+        except Exception as e:
+            logger.warning(f"Nova is not available on Bedrock: {e}. Falling back to local re-ranking.")
+            self.nova_available = False
+            return False
+
     def generate_embeddings(self, text: str) -> List[float]:
-        """Generates embeddings using amazon.titan-embed-text-v1 or falls back deterministically."""
+        """Generates embeddings using amazon.titan-embed-text-v2:0 or falls back deterministically."""
         if not self.use_mock and self.client:
             try:
                 body = json.dumps({"inputText": text})
                 response = self.client.invoke_model(
-                    modelId="amazon.titan-embed-text-v1",
+                    modelId="amazon.titan-embed-text-v2:0",
                     contentType="application/json",
                     accept="application/json",
                     body=body
@@ -80,9 +108,9 @@ class BedrockClient:
             except Exception as e:
                 logger.warning(f"Bedrock embedding generation failed: {e}. Falling back to mock embeddings.")
         
-        # Deterministic Mock Embedding (1536 dimensions for Titan consistency)
+        # Deterministic Mock Embedding (1024 dimensions for Titan consistency)
         # We fill the vector based on keyword frequency in the input text
-        vector = [0.0] * 1536
+        vector = [0.0] * 1024
         text_lower = text.lower()
         
         # Mark vocabulary hits
@@ -98,7 +126,7 @@ class BedrockClient:
             # Fallback to random-seeded deterministic vector if no words hit
             import hashlib
             h = hashlib.sha256(text.encode('utf-8')).digest()
-            for i in range(min(1536, len(h) * 8)):
+            for i in range(min(1024, len(h) * 8)):
                 byte_idx = i // 8
                 bit_idx = i % 8
                 bit_val = (h[byte_idx] >> bit_idx) & 1
@@ -112,14 +140,25 @@ class BedrockClient:
     def invoke_model(self, prompt: str, **kwargs) -> BedrockResponse:
         """Invokes a Bedrock model (Claude/Nova) or falls back to local heuristic parsing."""
         model_id = kwargs.get("model_id") or self.config.model_id
-        # Use Claude 3 Sonnet default if old Claude v2 is default in config
+        # Use Nova Lite if Claude default is fallback
         if model_id == "anthropic.claude-v2":
-            model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
+            model_id = "amazon.nova-lite-v1:0"
 
         if not self.use_mock and self.client:
             try:
-                # Format request for Claude 3 / messages API or legacy invoke
-                if "claude-3" in model_id:
+                # Format request for Nova, Claude 3, or legacy
+                if "nova" in model_id:
+                    body_dict = {
+                        "messages": [
+                            {"role": "user", "content": [{"text": prompt}]}
+                        ],
+                        "inferenceConfig": {
+                            "maxTokens": kwargs.get("max_tokens") or self.config.max_tokens or 1024,
+                            "temperature": kwargs.get("temperature") or self.config.temperature or 0.7,
+                            "topP": kwargs.get("top_p") or self.config.top_p or 0.9
+                        }
+                    }
+                elif "claude-3" in model_id:
                     body_dict = {
                         "anthropic_version": "bedrock-2023-05-31",
                         "max_tokens": kwargs.get("max_tokens") or self.config.max_tokens,
@@ -145,7 +184,9 @@ class BedrockClient:
                 response_body = json.loads(response.get("body").read())
                 
                 # Parse output based on response schema
-                if "claude-3" in model_id:
+                if "nova" in model_id:
+                    content = response_body["output"]["message"]["content"][0]["text"]
+                elif "claude-3" in model_id:
                     content = response_body["content"][0]["text"]
                 else:
                     content = response_body.get("completion", "")

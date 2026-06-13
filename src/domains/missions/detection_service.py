@@ -47,7 +47,7 @@ class DetectionService:
             return embedding
         except Exception as e:
             logger.error(f"Error generating embedding for mission {mission_id}: {e}")
-            return [0.0] * 1536
+            return [0.0] * 1024
 
     def detect_mission(self, query: str) -> Dict[str, Any]:
         """
@@ -77,7 +77,12 @@ Return ONLY the valid JSON object, no other explanation or wrapper tags.
 """
         try:
             intent_res = self.bedrock_client.invoke_model(intent_prompt)
-            intent_data = json.loads(intent_res.content)
+            clean_content = intent_res.content.strip()
+            if clean_content.startswith("```"):
+                lines = clean_content.split("\n")
+                if lines[0].startswith("```json") or lines[0].startswith("```"):
+                    clean_content = "\n".join(lines[1:-1]).strip()
+            intent_data = json.loads(clean_content)
         except Exception as e:
             logger.error(f"Step 1 (Intent Understanding) failed: {e}")
             intent_data = {"goal": "general shopping", "guest_count": 1, "event_type": "grocery", "audience": "adults"}
@@ -161,12 +166,12 @@ Return ONLY the valid JSON object, no other explanation or wrapper tags.
         top_candidates = candidates_with_score[:10]
 
         # --- Phase 5 & 9: Bedrock Re-Ranking / Fallback Layer ---
-        claude_available = self.bedrock_client.check_claude_available()
+        nova_available = self.bedrock_client.check_nova_available()
         selected_id = None
         llm_confidence = 0.85 # Fallback LLM confidence
-        rerank_reason = "Bypassed LLM re-ranking due to Claude unavailability (Phase 9 fallback)."
+        rerank_reason = "Bypassed LLM re-ranking due to Nova unavailability (Phase 9 fallback)."
 
-        if claude_available:
+        if nova_available:
             candidate_list_str = "\n".join([
                 f"- mission_id: \"{m.mission_id}\", name: \"{m.name}\", description: \"{m.description}\""
                 for m, _ in top_candidates
@@ -188,7 +193,7 @@ Return a JSON object containing:
 Return ONLY the raw JSON object, no Markdown boxes, code blocks, or extra text.
 """
             try:
-                rerank_res = self.bedrock_client.invoke_model(rerank_prompt)
+                rerank_res = self.bedrock_client.invoke_model(rerank_prompt, model_id="amazon.nova-lite-v1:0")
                 clean_content = rerank_res.content.strip()
                 if clean_content.startswith("```"):
                     lines = clean_content.split("\n")
@@ -205,7 +210,7 @@ Return ONLY the raw JSON object, no Markdown boxes, code blocks, or extra text.
         # Build candidate ranked search order list
         ranked_missions = []
         if selected_id:
-            # Place Claude selected candidate first
+            # Place Nova selected candidate first
             chosen_tuple = None
             for m, sim in top_candidates:
                 if m.mission_id == selected_id:
@@ -265,4 +270,41 @@ Return ONLY the raw JSON object, no Markdown boxes, code blocks, or extra text.
                 "graph_complete": graph_score > 0,
                 "required_products_count": len(requirements)
             }
+        }
+
+    def get_debug_diagnostics(self) -> Dict[str, Any]:
+        """Provides diagnostic information about Bedrock model access and state."""
+        nova_ok = self.bedrock_client.check_nova_available()
+        claude_ok = self.bedrock_client.check_claude_available()
+        
+        available = []
+        if nova_ok:
+            available.append("amazon.nova-lite-v1:0")
+            available.append("amazon.nova-pro-v1:0")
+        if claude_ok:
+            available.append("anthropic.claude-3-sonnet-20240229-v1:0")
+            
+        titan_ok = False
+        if not self.bedrock_client.use_mock and self.bedrock_client.client:
+            try:
+                body = json.dumps({"inputText": "test"})
+                self.bedrock_client.client.invoke_model(
+                    modelId="amazon.titan-embed-text-v2:0",
+                    contentType="application/json",
+                    accept="application/json",
+                    body=body
+                )
+                titan_ok = True
+                available.append("amazon.titan-embed-text-v2:0")
+            except Exception:
+                pass
+                
+        embedding_model = "amazon.titan-embed-text-v2:0" if titan_ok else "mock-embeddings"
+        reranker_model = "amazon.nova-lite-v1:0" if nova_ok else "mock-reranker"
+        
+        return {
+            "available_models": available,
+            "embedding_model": embedding_model,
+            "reranker_model": reranker_model,
+            "fallback_mode": not nova_ok
         }
