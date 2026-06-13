@@ -6,10 +6,15 @@ from core.exceptions import LifeGraphException
 from domains.users.controller import UserController
 from domains.products.controller import ProductController
 from domains.carts.controller import CartController
+from domains.missions.controller import MissionController
+from domains.relationships.controller import RelationshipController
+from domains.graph.controller import GraphController
 
 from domains.users.schemas import UserCreate, UserUpdate
 from domains.products.schemas import ProductCreate, ProductUpdate
 from domains.carts.schemas import CartCreate, CartUpdate, CartAddItem
+from domains.missions.schemas import MissionCreate, MissionUpdate
+from domains.relationships.schemas import RelationshipCreate
 
 app = FastAPI(
     title="Amazon LifeGraph",
@@ -20,6 +25,9 @@ app = FastAPI(
 user_ctrl = UserController()
 product_ctrl = ProductController()
 cart_ctrl = CartController()
+mission_ctrl = MissionController()
+relationship_ctrl = RelationshipController()
+graph_ctrl = GraphController()
 
 async def create_event(request: Request, payload: BaseModel = None) -> dict:
     """Adapts a FastAPI Request into an AWS API Gateway event format."""
@@ -224,6 +232,108 @@ async def add_cart_item(id: str, payload: CartAddItem, request: Request, respons
     event = await create_event(request, payload)
     try:
         res = cart_ctrl.add_item(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+# --- Missions ---
+@app.get("/missions")
+async def list_missions(request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = mission_ctrl.list_missions(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.post("/missions")
+async def create_mission(payload: MissionCreate, request: Request, response: Response):
+    event = await create_event(request, payload)
+    try:
+        res = mission_ctrl.create_mission(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.get("/missions/{id}")
+async def get_mission(id: str, request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = mission_ctrl.get_mission(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.put("/missions/{id}")
+async def update_mission(id: str, payload: MissionUpdate, request: Request, response: Response):
+    event = await create_event(request, payload)
+    try:
+        res = mission_ctrl.update_mission(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.delete("/missions/{id}")
+async def delete_mission(id: str, request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = mission_ctrl.delete_mission(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+# --- Relationships ---
+@app.get("/relationships")
+async def list_relationships(request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = relationship_ctrl.list_relationships(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.post("/relationships")
+async def create_relationship(payload: RelationshipCreate, request: Request, response: Response):
+    event = await create_event(request, payload)
+    try:
+        res = relationship_ctrl.create_relationship(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.delete("/relationships/{id}")
+async def delete_relationship(id: str, request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = relationship_ctrl.delete_relationship(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+# --- Graph ---
+@app.get("/missions/{id}/requirements")
+async def get_mission_requirements(id: str, request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = graph_ctrl.get_mission_requirements(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.get("/products/{id}/dependencies")
+async def get_product_dependencies(id: str, request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = graph_ctrl.get_product_dependencies(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+@app.get("/products/{id}/substitutes")
+async def get_product_substitutes(id: str, request: Request, response: Response):
+    event = await create_event(request)
+    try:
+        res = graph_ctrl.get_product_substitutes(event)
         return handle_controller_response(response, res)
     except Exception as e:
         return handle_exception(e, response)

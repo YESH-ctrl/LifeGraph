@@ -171,6 +171,109 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/Cart'
+    MissionCreate:
+      type: object
+      required:
+        - mission_id
+        - name
+        - description
+        - category
+      properties:
+        mission_id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        category:
+          type: string
+    Mission:
+      type: object
+      properties:
+        mission_id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        category:
+          type: string
+    MissionResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              $ref: '#/components/schemas/Mission'
+    MissionListResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              type: array
+              items:
+                $ref: '#/components/schemas/Mission'
+    RelationshipCreate:
+      type: object
+      required:
+        - source_type
+        - source_id
+        - target_type
+        - target_id
+        - relationship_type
+      properties:
+        source_type:
+          type: string
+        source_id:
+          type: string
+        target_type:
+          type: string
+        target_id:
+          type: string
+        relationship_type:
+          type: string
+          enum: [REQUIRES, DEPENDS_ON, COMPATIBLE_WITH, SUBSTITUTES_FOR, PART_OF_MISSION]
+    Relationship:
+      type: object
+      properties:
+        id:
+          type: string
+        source_type:
+          type: string
+        source_id:
+          type: string
+        target_type:
+          type: string
+        target_id:
+          type: string
+        relationship_type:
+          type: string
+    RelationshipResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              $ref: '#/components/schemas/Relationship'
+    RelationshipListResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              type: array
+              items:
+                $ref: '#/components/schemas/Relationship'
+    StringListResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              type: array
+              items:
+                type: string
 paths:
   /users:
     get:
@@ -414,3 +517,157 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/SuccessEnvelope'
+  /missions:
+    get:
+      summary: List Missions
+      responses:
+        '200':
+          description: List of missions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MissionListResponse'
+    post:
+      summary: Create Mission
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MissionCreate'
+      responses:
+        '201':
+          description: Mission created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MissionResponse'
+  /missions/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get Mission
+      responses:
+        '200':
+          description: Mission details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MissionResponse'
+    put:
+      summary: Update Mission
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MissionCreate'
+      responses:
+        '200':
+          description: Mission updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MissionResponse'
+    delete:
+      summary: Delete Mission
+      responses:
+        '200':
+          description: Mission deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessEnvelope'
+  /relationships:
+    get:
+      summary: List Relationships
+      responses:
+        '200':
+          description: List of relationships
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RelationshipListResponse'
+    post:
+      summary: Create Relationship
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RelationshipCreate'
+      responses:
+        '201':
+          description: Relationship created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RelationshipResponse'
+  /relationships/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    delete:
+      summary: Delete Relationship
+      responses:
+        '200':
+          description: Relationship deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessEnvelope'
+  /missions/{id}/requirements:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get Mission Requirements
+      responses:
+        '200':
+          description: List of required product IDs
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringListResponse'
+  /products/{id}/dependencies:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get Product Dependencies
+      responses:
+        '200':
+          description: List of product IDs
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringListResponse'
+  /products/{id}/substitutes:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get Product Substitutes
+      responses:
+        '200':
+          description: List of product IDs
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringListResponse'
