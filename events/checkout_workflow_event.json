@@ -1,0 +1,5 @@
+{
+  "path": "/workflows/checkout",
+  "httpMethod": "POST",
+  "body": "{\"user_id\": \"usr_12345\", \"cart_id\": \"crt_67890\", \"mission_id\": \"BIRTHDAY\"}"
+}
