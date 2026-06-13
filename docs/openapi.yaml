@@ -171,6 +171,79 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/Cart'
+    VerificationRequest:
+      type: object
+      required:
+        - missionId
+        - cartId
+      properties:
+        missionId:
+          type: string
+        cartId:
+          type: string
+    VerificationResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              type: object
+              properties:
+                verification_score:
+                  type: integer
+                missing_items:
+                  type: array
+                  items:
+                    type: string
+    RiskRequest:
+      type: object
+      required:
+        - verification_score
+        - missing_items
+      properties:
+        verification_score:
+          type: integer
+        missing_items:
+          type: array
+          items:
+            type: string
+    RiskResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              type: object
+              properties:
+                compatibility_risk:
+                  type: string
+                budget_risk:
+                  type: string
+                quantity_risk:
+                  type: string
+                timing_risk:
+                  type: string
+                risk_score:
+                  type: integer
+    PreventionRequest:
+      type: object
+      required:
+        - cartId
+      properties:
+        cartId:
+          type: string
+    PreventionResponse:
+      allOf:
+        - $ref: '#/components/schemas/SuccessEnvelope'
+        - type: object
+          properties:
+            data:
+              type: object
+              properties:
+                allow_checkout:
+                  type: boolean
+                reason:
+                  type: string
 paths:
   /users:
     get:
@@ -414,3 +487,51 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/SuccessEnvelope'
+  /verification/verify:
+    post:
+      summary: Verify Cart
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerificationRequest'
+      responses:
+        '200':
+          description: Verification complete
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerificationResponse'
+  /risk/analyze:
+    post:
+      summary: Analyze Risk
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RiskRequest'
+      responses:
+        '200':
+          description: Risk analysis complete
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RiskResponse'
+  /prevent-checkout:
+    post:
+      summary: Evaluate Prevention
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PreventionRequest'
+      responses:
+        '200':
+          description: Evaluation complete
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PreventionResponse'

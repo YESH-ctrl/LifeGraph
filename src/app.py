@@ -11,6 +11,9 @@ from domains.carts.controller import CartController
 from domains.memory.controller import MemoryController
 from domains.adaptive.controller import AdaptiveController
 from domains.simulator.controller import SimulatorController
+from domains.verification.controller import VerificationController
+from domains.risk.controller import RiskController
+from domains.prevention.controller import PreventionController
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -21,6 +24,9 @@ cart_ctrl = CartController()
 memory_ctrl = MemoryController()
 adaptive_ctrl = AdaptiveController()
 simulator_ctrl = SimulatorController()
+verification_ctrl = VerificationController()
+risk_ctrl = RiskController()
+prevention_ctrl = PreventionController()
 
 def handler(event, context):
     logger.info(f"Received event: {event}")
@@ -144,6 +150,18 @@ def handler(event, context):
             return simulator_ctrl.run(event)
         elif path == '/simulator/probability' and method == 'GET':
             return simulator_ctrl.run(event)
+
+        # Verification Routes
+        elif path == '/verification/verify' and method == 'POST':
+            return verification_ctrl.verify(event)
+            
+        # Risk Routes
+        elif path == '/risk/analyze' and method == 'POST':
+            return risk_ctrl.analyze(event)
+            
+        # Prevention Routes
+        elif path == '/prevent-checkout' and method == 'POST':
+            return prevention_ctrl.evaluate(event)
             
         else:
             return {

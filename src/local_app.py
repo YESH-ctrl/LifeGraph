@@ -6,6 +6,12 @@ from core.exceptions import LifeGraphException
 from domains.users.controller import UserController
 from domains.products.controller import ProductController
 from domains.carts.controller import CartController
+from domains.verification.controller import VerificationController
+from domains.risk.controller import RiskController
+from domains.prevention.controller import PreventionController
+from domains.verification.schemas import VerificationRequest
+from domains.risk.schemas import RiskRequest
+from domains.prevention.schemas import PreventionRequest
 
 from domains.users.schemas import UserCreate, UserUpdate
 from domains.products.schemas import ProductCreate, ProductUpdate
@@ -29,6 +35,9 @@ cart_ctrl = CartController()
 memory_ctrl = MemoryController()
 adaptive_ctrl = AdaptiveController()
 simulator_ctrl = SimulatorController()
+verification_ctrl = VerificationController()
+risk_ctrl = RiskController()
+prevention_ctrl = PreventionController()
 
 async def create_event(request: Request, payload: BaseModel = None) -> dict:
     """Adapts a FastAPI Request into an AWS API Gateway event format."""
@@ -299,6 +308,36 @@ async def get_success_probability(request: Request, response: Response):
     event = await create_event(request)
     try:
         res = simulator_ctrl.run(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+# --- Verification ---
+@app.post("/verification/verify")
+async def verify(request: Request, response: Response, payload: VerificationRequest):
+    event = await create_event(request)
+    try:
+        res = verification_ctrl.verify(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+# --- Risk ---
+@app.post("/risk/analyze")
+async def analyze(request: Request, response: Response, payload: RiskRequest):
+    event = await create_event(request)
+    try:
+        res = risk_ctrl.analyze(event)
+        return handle_controller_response(response, res)
+    except Exception as e:
+        return handle_exception(e, response)
+
+# --- Prevention ---
+@app.post("/prevent-checkout")
+async def evaluate(request: Request, response: Response, payload: PreventionRequest):
+    event = await create_event(request)
+    try:
+        res = prevention_ctrl.evaluate(event)
         return handle_controller_response(response, res)
     except Exception as e:
         return handle_exception(e, response)
