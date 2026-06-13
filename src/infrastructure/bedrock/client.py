@@ -187,6 +187,20 @@ class BedrockClient:
                 if cand_score > best_score:
                     best_score = cand_score
                     selected_id = cand
+            # Handle birthday party audience specifically to avoid tie or mapping to legacy BIRTHDAY
+            if "birthday" in match_text:
+                is_kids = "kids" in match_text or "child" in match_text or "children" in match_text or "kid" in match_text
+                # Check if turning age >= 13 is mentioned in the query
+                turning_age_match = re.search(r'turning\s*(\d+)', match_text) or re.search(r'turned\s*(\d+)', match_text)
+                if turning_age_match and int(turning_age_match.group(1)) >= 13:
+                    is_kids = False
+                
+                if is_kids and "kids_birthday_party" in candidates:
+                    selected_id = "kids_birthday_party"
+                    best_score = 999.0
+                elif not is_kids and "birthday_party" in candidates:
+                    selected_id = "birthday_party"
+                    best_score = 999.0
 
             res = {
                 "mission_id": selected_id,
@@ -199,65 +213,106 @@ class BedrockClient:
         if "goal" in prompt_lower or "guest_count" in prompt_lower or "event_type" in prompt_lower:
             goal = "general mission"
             event_type = "grocery"
+            audience = "adults"
             
-            # Simple keyword matching to infer event_type & goal
-            for key in ["diwali", "holi", "ganesh", "raksha", "eid", "christmas"]:
-                if key in prompt_lower:
-                    goal = f"{key} celebration"
-                    event_type = "festival"
-                    break
-            for key in ["birthday", "anniversary", "housewarming"]:
-                if key in prompt_lower:
-                    goal = f"{key} celebration"
-                    event_type = "event"
-                    break
-            for key in ["biryani", "paneer", "breakfast", "lunch", "dinner"]:
-                if key in prompt_lower:
-                    goal = f"{key} preparation"
-                    event_type = "cooking"
-                    break
-            for key in ["hostel", "semester", "exam"]:
-                if key in prompt_lower:
-                    goal = "student essentials"
-                    event_type = "student"
-                    break
-            for key in ["grocery", "refill"]:
-                if key in prompt_lower:
-                    goal = "grocery shopping"
-                    event_type = "grocery"
-                    break
-            for key in ["trip", "vacation", "travel"]:
-                if key in prompt_lower:
-                    goal = "travel planning"
-                    event_type = "travel"
-                    break
-            for key in ["sick", "first aid", "diet", "weight"]:
-                if key in prompt_lower:
-                    goal = "health management"
-                    event_type = "health"
-                    break
-            for key in ["vratham", "pooja", "lakshmi"]:
-                if key in prompt_lower:
-                    goal = f"{key} preparation"
-                    event_type = "spiritual"
-                    break
+            # turning X implies birthday celebration
+            age = None
+            turning_match = re.search(r'turning\s*(\d+)', prompt_lower) or re.search(r'turned\s*(\d+)', prompt_lower)
+            if turning_match:
+                age = int(turning_match.group(1))
+                goal = "birthday celebration"
+                event_type = "event"
+                if age < 13:
+                    audience = "children"
+                else:
+                    audience = "adults"
+            
+            # Simple keyword matching to infer event_type & goal (only if not already set by turning)
+            if goal == "general mission":
+                for key in ["diwali", "holi", "ganesh", "raksha", "eid", "christmas"]:
+                    if key in prompt_lower:
+                        goal = f"{key} celebration"
+                        event_type = "festival"
+                        break
+                for key in ["birthday", "anniversary", "housewarming"]:
+                    if key in prompt_lower:
+                        goal = f"{key} celebration"
+                        event_type = "event"
+                        if "kids" in prompt_lower or "children" in prompt_lower or "child" in prompt_lower or "kid" in prompt_lower:
+                            audience = "children"
+                        break
+                for key in ["biryani", "paneer", "breakfast", "lunch", "dinner"]:
+                    if key in prompt_lower:
+                        goal = f"{key} preparation"
+                        event_type = "cooking"
+                        break
+                for key in ["hostel", "semester", "exam"]:
+                    if key in prompt_lower:
+                        goal = "student essentials"
+                        event_type = "student"
+                        break
+                for key in ["grocery", "refill"]:
+                    if key in prompt_lower:
+                        goal = "grocery shopping"
+                        event_type = "grocery"
+                        break
+                for key in ["trip", "vacation", "travel"]:
+                    if key in prompt_lower:
+                        goal = "travel planning"
+                        event_type = "travel"
+                        break
+                for key in ["sick", "first aid", "diet", "weight"]:
+                    if key in prompt_lower:
+                        goal = "health management"
+                        event_type = "health"
+                        break
+                for key in ["vratham", "pooja", "lakshmi"]:
+                    if key in prompt_lower:
+                        goal = f"{key} preparation"
+                        event_type = "spiritual"
+                        break
 
-            # Regex to find guest counts / numbers
-            guest_match = re.search(r'(\d+)\s*(people|person|guest|children|child|kid)', prompt_lower)
-            guest_count = int(guest_match.group(1)) if guest_match else 1
-            if guest_count == 1:
-                # Look for standalone numbers if people/guests is not explicitly next to it
+            # Smart guest count extraction
+            guest_count = None
+            
+            # Check for explicit count keys: e.g. "people: 5" or "guests:5" or "pax: 5"
+            key_match = re.search(r'(?:people|guests|persons|pax|members|count)\s*[:=]\s*(\d+)', prompt_lower)
+            if key_match:
+                guest_count = int(key_match.group(1))
+            
+            if guest_count is None:
+                # Regex to find guest counts with suffixes: e.g. "5 people"
+                suffix_match = re.search(r'(\d+)\s*(?:people|person|guest|children|child|kid|adult|member|pax)', prompt_lower)
+                if suffix_match:
+                    guest_count = int(suffix_match.group(1))
+                    
+            if guest_count is None:
+                # Standalone numbers (excluding age and budget numbers if possible)
                 num_match = re.findall(r'\b\d+\b', prompt_lower)
                 if num_match:
-                    # Filter out large numbers that might be dates or years
-                    nums = [int(n) for n in num_match if int(n) < 100]
-                    if nums:
-                        guest_count = nums[0]
+                    # Filter out age or budget (usually > 100) or turning age
+                    candidates_nums = []
+                    for n_str in num_match:
+                        n = int(n_str)
+                        # Skip if it is the turning age
+                        if age is not None and n == age:
+                            continue
+                        # Skip typical budget values (> 100)
+                        if n >= 100:
+                            continue
+                        candidates_nums.append(n)
+                    if candidates_nums:
+                        guest_count = candidates_nums[0]
+                        
+            if guest_count is None:
+                guest_count = 1
 
-            # In children case:
-            audience = "adults"
-            if "children" in prompt_lower or "kid" in prompt_lower:
-                audience = "children"
+            # Determine audience if not already set by age
+            if age is None:
+                if "children" in prompt_lower or "kid" in prompt_lower or "child" in prompt_lower or "kids" in prompt_lower:
+                    audience = "children"
+                else:
+                    audience = "adults"
 
             res = {
                 "goal": goal,
@@ -266,6 +321,8 @@ class BedrockClient:
                 "audience": audience
             }
             return json.dumps(res)
+
+
 
 
 
