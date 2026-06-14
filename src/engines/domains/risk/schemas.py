@@ -1,13 +1,22 @@
 from pydantic import BaseModel
-from typing import List, Any
+from typing import List, Any, Optional
+
+class RiskRisk(BaseModel):
+    type: str
+    severity: str
+    reason: str
 
 class RiskRequest(BaseModel):
-    verification_score: int
+    mission_id: str
+    cart_products: List[str]
+    total_cost: float
+    budget: Optional[float]
+    readiness_score: int
+    critical_missing: List[str]
     missing_items: List[str]
+    guest_count: int
 
 class RiskResponseData(BaseModel):
-    compatibility_risk: str
-    budget_risk: str
-    quantity_risk: str
-    timing_risk: str
     risk_score: int
+    risk_level: str
+    risks: List[RiskRisk]

@@ -1,0 +1,44 @@
+{
+  "optimizations": [
+    {
+      "scenario": "monthly_grocery_refill",
+      "before_cart_size": 2,
+      "after_cart_size": 14,
+      "before_coherence": 40,
+      "after_coherence": 93,
+      "validation": "PASSED"
+    },
+    {
+      "scenario": "weekly_grocery_shopping",
+      "before_cart_size": 2,
+      "after_cart_size": 14,
+      "before_coherence": 40,
+      "after_coherence": 96,
+      "validation": "PASSED"
+    },
+    {
+      "scenario": "healthy_lifestyle_start",
+      "before_cart_size": 2,
+      "after_cart_size": 13,
+      "before_coherence": 40,
+      "after_coherence": 89,
+      "validation": "PASSED"
+    },
+    {
+      "scenario": "weight_loss_journey",
+      "before_cart_size": 2,
+      "after_cart_size": 10,
+      "before_coherence": 40,
+      "after_coherence": 97,
+      "validation": "PASSED"
+    },
+    {
+      "scenario": "weekend_cooking_session",
+      "before_cart_size": 2,
+      "after_cart_size": 14,
+      "before_coherence": 40,
+      "after_coherence": 96,
+      "validation": "PASSED"
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "benchmarks": [
+    {
+      "query": "Need rice, atta and oil for the month",
+      "detected_mission": "monthly_grocery_refill",
+      "cart_coherence_score": 93,
+      "cart_size": 14,
+      "critical_products_count": 6,
+      "items": [
+        {
+          "product_id": "figaro_olive_oil_100ml_bottle",
+          "title": "Figaro Olive Oil - 100ml Bottle",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (oil) for monthly grocery refill."
+        },
+        {
+          "product_id": "more_pulav_rice_loose_1kg",
+          "title": "More Pulav Rice Loose 1Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (rice) for monthly grocery refill."
+        },
+        {
+          "product_id": "tur_dal_loose_selecta_1kg",
+          "title": "Tur Dal Loose Selecta 1kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (dal) for monthly grocery refill."
+        },
+        {
+          "product_id": "keya_arabian_sea_salt_1kg",
+          "title": "Keya Arabian Sea Salt 1kg\u2026",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (salt) for monthly grocery refill."
+        },
+        {
+          "product_id": "jiwa_healthy_by_nature_gluten_free_atta_flour_1kg",
+          "title": "JIWA healthy by nature Gluten Free Atta/Flour, 1Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (atta) for monthly grocery refill."
+        },
+        {
+          "product_id": "teacurry_stinging_nettle_tea_1_month_pack_30_tea_bags_helps_with_kidney_detox_blood_sugar_blood_purify_stinging_n",
+          "title": "TEACURRY Stinging Nettle Tea (1 Month Pack, 30 Tea Bags) - Helps with Kidney Detox, Blood Sugar, Blood Purify - Stinging N...",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (sugar) for monthly grocery refill."
+        },
+        {
+          "product_id": "kalfree_detox_tea",
+          "title": "KALFREE Detox Tea",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (tea) for monthly grocery refill."
+        },
+        {
+          "product_id": "nescafe_gold_decaf_coffee_200g",
+          "title": "Nescafe Gold Decaf Coffee 200g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (coffee) for monthly grocery refill."
+        },
+        {
+          "product_id": "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
+          "title": "GO DESi POPz with Bits | Masala Jamun | 50 Pcs | Fruit Snacks | 400 gm",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (breakfast) for monthly grocery refill."
+        },
+        {
+          "product_id": "soyfit_soya_paneer_garlic_pepper_200_g",
+          "title": "Soyfit SOYA Paneer Garlic/Pepper, 200 g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (paneer) for monthly grocery refill."
+        },
+        {
+          "product_id": "mamie_yova_french_yogurt_strawberry_90_g",
+          "title": "Mamie Yova French Yogurt Strawberry, 90 g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (curd) for monthly grocery refill."
+        },
+        {
+          "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+          "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (snacks) for monthly grocery refill."
+        },
+        {
+          "product_id": "nature_prime_100_natural_premium_mix_dry_fruits_and_nuts_1_kg_almonds_cashew_kishmish_apricot_black_raisins_kiwi_dr",
+          "title": "Nature Prime 100% Natural Premium Mix Dry Fruits and Nuts 1 Kg [Almonds, Cashew, Kishmish, Apricot, Black Raisins,kiwi] Dr...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (dry fruits) for monthly grocery refill."
+        },
+        {
+          "product_id": "luvit_goodies_chocolates_assorted_gift_pack_diwali_chocolate_gift_set_best_gift_box_for_diwali_celebration_multipack",
+          "title": "LuvIt Goodies Chocolates Assorted Gift Pack | Diwali Chocolate Gift Set | Best Gift Box for Diwali Celebration | Multipack...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (chocolates) for monthly grocery refill."
+        }
+      ],
+      "recommendations": [
+        "keya_chai_masala_90_gm",
+        "jiwa_gluten_free_maida_900g",
+        "grb_ghee_pillow_pouch_500ml",
+        "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
+        "kalfree_detox_tea",
+        "nescafe_gold_decaf_coffee_200g"
+      ],
+      "reasoning": [
+        "Mission 'monthly_grocery_refill' detected because the query matched relevant keywords: oil, rice.",
+        "'Figaro Olive Oil - 100ml Bottle' selected because it is a critical cooking medium/ingredient",
+        "'More Pulav Rice Loose 1Kg' selected because mission requires staple grains",
+        "'Tur Dal Loose Selecta 1kg' selected because it is a critical requirement for monthly grocery refill",
+        "'Keya Arabian Sea Salt 1kg\u2026' selected because it is a critical requirement for monthly grocery refill",
+        "'JIWA healthy by nature Gluten Free Atta/Flour, 1Kg' selected because mission requires staple flour/atta",
+        "'TEACURRY Stinging Nettle Tea (1 Month Pack, 30 Tea Bags) - Helps with Kidney Detox, Blood Sugar, Blood Purify - Stinging N...' selected because it is a required beverage/energizer",
+        "Readiness score is 78% because some critical and important requirements are missing.",
+        "Readiness reduced due to missing critical items: Keya Chai Masala 90 Gm, Jiwa Gluten Free Maida 900G, Grb Ghee Pillow Pouch 500Ml",
+        "Risk level assessed as CRITICAL (score: 76).",
+        "Risk factor: Missing 3 critical items required for the mission.",
+        "Risk factor: 1 missing critical items have no known substitutes in the graph.",
+        "Risk factor: 7 dependent accessory items are missing from the cart.",
+        "Projected success probability can be improved from 78% to 90% (+12%) by adding recommended optimizations."
+      ]
+    },
+    {
+      "query": "Need groceries for my family of 4 this week",
+      "detected_mission": "weekly_grocery_shopping",
+      "cart_coherence_score": 96,
+      "cart_size": 14,
+      "critical_products_count": 5,
+      "items": [
+        {
+          "product_id": "brij_gwala_desi_cow_ghee_made_traditionally_from_curd_pure_cow_ghee_for_better_digestion_and_immunity_1ltr_tetrapack",
+          "title": "Brij Gwala Desi Cow Ghee |Made Traditionally from Curd |Pure Cow Ghee for Better Digestion and Immunity | 1Ltr TetraPack",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (oil) for weekly grocery shopping."
+        },
+        {
+          "product_id": "mother_dairy_uht_milk_1_ltr",
+          "title": "Mother Dairy UHT Milk, 1 Ltr",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (milk) for weekly grocery shopping."
+        },
+        {
+          "product_id": "haldiram_s_moong_dal_crispy_moong_dal_coated_with_salt_not_spiced_yet_flavorful_favorite_teatime_snack_of_india_ma",
+          "title": "Haldiram's Moong Dal | Crispy Moong Dal coated with Salt | Not Spiced yet Flavorful | Favorite Teatime Snack of India | Ma...",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (dal) for weekly grocery shopping."
+        },
+        {
+          "product_id": "more_pulav_rice_loose_1kg",
+          "title": "More Pulav Rice Loose 1Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (rice) for weekly grocery shopping."
+        },
+        {
+          "product_id": "jiwa_healthy_by_nature_gluten_free_atta_flour_1kg",
+          "title": "JIWA healthy by nature Gluten Free Atta/Flour, 1Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (atta) for weekly grocery shopping."
+        },
+        {
+          "product_id": "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
+          "title": "Bob's Red Mill Artisan Bread Flour (Unbleached), 2.27 kg",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (breakfast) for weekly grocery shopping."
+        },
+        {
+          "product_id": "kalfree_detox_tea",
+          "title": "KALFREE Detox Tea",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (tea) for weekly grocery shopping."
+        },
+        {
+          "product_id": "soyfit_soya_paneer_garlic_pepper_200_g",
+          "title": "Soyfit SOYA Paneer Garlic/Pepper, 200 g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (paneer) for weekly grocery shopping."
+        },
+        {
+          "product_id": "mamie_yova_french_yogurt_strawberry_90_g",
+          "title": "Mamie Yova French Yogurt Strawberry, 90 g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (curd) for weekly grocery shopping."
+        },
+        {
+          "product_id": "slurrp_farm_chocolate_cake_mix_eggless_wheat_and_maida_free_400g",
+          "title": "Slurrp Farm Chocolate Cake Mix | Eggless, Wheat and Maida Free, 400g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (eggs) for weekly grocery shopping."
+        },
+        {
+          "product_id": "lijjat_papad_udad_200g",
+          "title": "Lijjat Papad - Udad, 200g",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (snacks) for weekly grocery shopping."
+        },
+        {
+          "product_id": "pure_nuts_dry_fruits_combo_pack_250g_4_1kg_almonds_cashews_pistachios_raisins_all_premium",
+          "title": "Pure Nuts Dry Fruits Combo Pack - (250g * 4) 1kg (Almonds, Cashews, Pistachios, Raisins) - All Premium.",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (cashews) for weekly grocery shopping."
+        },
+        {
+          "product_id": "nature_prime_100_natural_premium_mix_dry_fruits_and_nuts_1_kg_almonds_cashew_kishmish_apricot_black_raisins_kiwi_dr",
+          "title": "Nature Prime 100% Natural Premium Mix Dry Fruits and Nuts 1 Kg [Almonds, Cashew, Kishmish, Apricot, Black Raisins,kiwi] Dr...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (nuts) for weekly grocery shopping."
+        },
+        {
+          "product_id": "dried_treats_premium_seeds_musk_melon_seeds_kharbooj_200g",
+          "title": "Dried Treats Premium Seeds (Musk Melon Seeds (kharbooj), 200g)",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (treats) for weekly grocery shopping."
+        }
+      ],
+      "recommendations": [
+        "keya_chai_masala_90_gm",
+        "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
+        "amul_cheese_sauce_mexican_200_g",
+        "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
+        "kalfree_detox_tea",
+        "nutrifruits_roasted_cashew_black_pepper_flavour"
+      ],
+      "reasoning": [
+        "Mission 'weekly_grocery_shopping' detected because the query matched relevant keywords: grocery, shopping, weekly, restock.",
+        "'Brij Gwala Desi Cow Ghee |Made Traditionally from Curd |Pure Cow Ghee for Better Digestion and Immunity | 1Ltr TetraPack' selected because it is a critical cooking medium/ingredient",
+        "'Mother Dairy UHT Milk, 1 Ltr' selected because it is a key dairy/breakfast component",
+        "'Haldiram's Moong Dal | Crispy Moong Dal coated with Salt | Not Spiced yet Flavorful | Favorite Teatime Snack of India | Ma...' selected because it is a key flavoring/masala ingredient",
+        "'More Pulav Rice Loose 1Kg' selected because mission requires staple grains",
+        "'JIWA healthy by nature Gluten Free Atta/Flour, 1Kg' selected because mission requires staple flour/atta",
+        "Readiness score is 36% because some critical and important requirements are missing.",
+        "Readiness reduced due to missing critical items: Keya Chai Masala 90 Gm, Bob S Red Mill Artisan Bread Flour Unbleached 2 27 Kg, Amul Cheese Sauce Mexican 200 G",
+        "Risk level assessed as CRITICAL (score: 100).",
+        "Risk factor: Missing 3 critical items required for the mission.",
+        "Risk factor: Cart readiness is low (36%), indicating insufficient mission coverage.",
+        "Risk factor: 2 missing critical items have no known substitutes in the graph.",
+        "Projected success probability can be improved from 36% to 76% (+40%) by adding recommended optimizations."
+      ]
+    },
+    {
+      "query": "I want to start eating healthy",
+      "detected_mission": "healthy_lifestyle_start",
+      "cart_coherence_score": 89,
+      "cart_size": 13,
+      "critical_products_count": 5,
+      "items": [
+        {
+          "product_id": "capilano_honey_500_g",
+          "title": "CAPILANO Honey, 500 g",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (honey) for healthy lifestyle start."
+        },
+        {
+          "product_id": "saffola_masala_oats_classic_masala_39g",
+          "title": "Saffola Masala Oats, Classic Masala, 39g",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (oats) for healthy lifestyle start."
+        },
+        {
+          "product_id": "nikunj_premium_green_tea_jar_250g",
+          "title": "Nikunj Premium Green Tea Jar, 250g",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (green tea) for healthy lifestyle start."
+        },
+        {
+          "product_id": "figaro_olive_oil_100ml_bottle",
+          "title": "Figaro Olive Oil - 100ml Bottle",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple for healthy lifestyle start."
+        },
+        {
+          "product_id": "sft_sunflower_seeds_1_kg",
+          "title": "SFT Sunflower Seeds 1 Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (seeds) for healthy lifestyle start."
+        },
+        {
+          "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+          "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (quinoa) for healthy lifestyle start."
+        },
+        {
+          "product_id": "amazon_brand_solimo_cornflakes_1_2kg",
+          "title": "Amazon Brand - Solimo CornFlakes, 1.2Kg",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (muesli) for healthy lifestyle start."
+        },
+        {
+          "product_id": "nutraj_chironji_nuts_100_g",
+          "title": "Nutraj Chironji Nuts (100 g)",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (nuts) for healthy lifestyle start."
+        },
+        {
+          "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+          "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (almonds) for healthy lifestyle start."
+        },
+        {
+          "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+          "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (dry fruits) for healthy lifestyle start."
+        },
+        {
+          "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+          "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (protein) for healthy lifestyle start."
+        },
+        {
+          "product_id": "galaxy_fusions_silky_smooth_dark_chocolate_pack_made_with_70_cocoa_luxuriously_smooth_deliciously_intense_chocolate",
+          "title": "Galaxy Fusions Silky Smooth Dark Chocolate Pack | Made with 70% Cocoa | Luxuriously Smooth & Deliciously Intense Chocolate...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (dark chocolate) for healthy lifestyle start."
+        },
+        {
+          "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+          "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (bar) for healthy lifestyle start."
+        }
+      ],
+      "recommendations": [
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutraj_chironji_nuts_100_g"
+      ],
+      "reasoning": [
+        "Mission 'healthy_lifestyle_start' detected because the query matched relevant keywords: healthy, start.",
+        "'CAPILANO Honey, 500 g' selected because it is a critical requirement for healthy lifestyle start",
+        "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+        "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+        "'Figaro Olive Oil - 100ml Bottle' selected because it is a critical cooking medium/ingredient",
+        "'SFT Sunflower Seeds 1 Kg' selected because it is a critical requirement for healthy lifestyle start",
+        "Readiness score is 52% because some critical and important requirements are missing.",
+        "Readiness reduced due to missing critical items: Mindful Eat Anytime Mindful Millet Energy Bars Variety Box Ragi Bajra Quinoa And Jowar 25 G X 12 Bars, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary, Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives",
+        "Risk level assessed as CRITICAL (score: 89).",
+        "Risk factor: Missing 4 critical items required for the mission.",
+        "Risk factor: Cart readiness is low (52%), indicating insufficient mission coverage.",
+        "Risk factor: 4 missing critical items have no known substitutes in the graph.",
+        "Projected success probability can be improved from 52% to 84% (+32%) by adding recommended optimizations."
+      ]
+    },
+    {
+      "query": "I want to lose weight and improve my diet",
+      "detected_mission": "weight_loss_journey",
+      "cart_coherence_score": 97,
+      "cart_size": 10,
+      "critical_products_count": 5,
+      "items": [
+        {
+          "product_id": "saffola_masala_oats_classic_masala_39g",
+          "title": "Saffola Masala Oats, Classic Masala, 39g",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (oats) for weight loss journey."
+        },
+        {
+          "product_id": "nikunj_premium_green_tea_jar_250g",
+          "title": "Nikunj Premium Green Tea Jar, 250g",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (green tea) for weight loss journey."
+        },
+        {
+          "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+          "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (quinoa) for weight loss journey."
+        },
+        {
+          "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+          "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (diet) for weight loss journey."
+        },
+        {
+          "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+          "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (low calorie) for weight loss journey."
+        },
+        {
+          "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+          "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (seeds) for weight loss journey."
+        },
+        {
+          "product_id": "nutraj_chironji_nuts_100_g",
+          "title": "Nutraj Chironji Nuts (100 g)",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (nuts) for weight loss journey."
+        },
+        {
+          "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+          "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (almonds) for weight loss journey."
+        },
+        {
+          "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+          "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (protein) for weight loss journey."
+        },
+        {
+          "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+          "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (bar) for weight loss journey."
+        }
+      ],
+      "recommendations": [
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "reasoning": [
+        "Mission 'weight_loss_journey' detected because the query matched relevant keywords: weight, diet.",
+        "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+        "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+        "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+        "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+        "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+        "Readiness score is 39% because some critical and important requirements are missing.",
+        "Readiness reduced due to missing critical items: Amazon Brand Solimo Cornflakes 1 2Kg, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary, Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg",
+        "Readiness affected by missing important items: Capilano Honey 500 G",
+        "Risk level assessed as CRITICAL (score: 100).",
+        "Risk factor: Missing 5 critical items required for the mission.",
+        "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+        "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+        "Projected success probability can be improved from 39% to 79% (+40%) by adding recommended optimizations."
+      ]
+    },
+    {
+      "query": "Planning a weekend cooking session for my family",
+      "detected_mission": "weekly_grocery_shopping",
+      "cart_coherence_score": 96,
+      "cart_size": 14,
+      "critical_products_count": 5,
+      "items": [
+        {
+          "product_id": "brij_gwala_desi_cow_ghee_made_traditionally_from_curd_pure_cow_ghee_for_better_digestion_and_immunity_1ltr_tetrapack",
+          "title": "Brij Gwala Desi Cow Ghee |Made Traditionally from Curd |Pure Cow Ghee for Better Digestion and Immunity | 1Ltr TetraPack",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (oil) for weekly grocery shopping."
+        },
+        {
+          "product_id": "mother_dairy_uht_milk_1_ltr",
+          "title": "Mother Dairy UHT Milk, 1 Ltr",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (milk) for weekly grocery shopping."
+        },
+        {
+          "product_id": "haldiram_s_moong_dal_crispy_moong_dal_coated_with_salt_not_spiced_yet_flavorful_favorite_teatime_snack_of_india_ma",
+          "title": "Haldiram's Moong Dal | Crispy Moong Dal coated with Salt | Not Spiced yet Flavorful | Favorite Teatime Snack of India | Ma...",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (dal) for weekly grocery shopping."
+        },
+        {
+          "product_id": "more_pulav_rice_loose_1kg",
+          "title": "More Pulav Rice Loose 1Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (rice) for weekly grocery shopping."
+        },
+        {
+          "product_id": "jiwa_healthy_by_nature_gluten_free_atta_flour_1kg",
+          "title": "JIWA healthy by nature Gluten Free Atta/Flour, 1Kg",
+          "priority": "CRITICAL",
+          "reason": "Selected because it is a critical staple (atta) for weekly grocery shopping."
+        },
+        {
+          "product_id": "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
+          "title": "Bob's Red Mill Artisan Bread Flour (Unbleached), 2.27 kg",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (breakfast) for weekly grocery shopping."
+        },
+        {
+          "product_id": "kalfree_detox_tea",
+          "title": "KALFREE Detox Tea",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (tea) for weekly grocery shopping."
+        },
+        {
+          "product_id": "soyfit_soya_paneer_garlic_pepper_200_g",
+          "title": "Soyfit SOYA Paneer Garlic/Pepper, 200 g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (paneer) for weekly grocery shopping."
+        },
+        {
+          "product_id": "mamie_yova_french_yogurt_strawberry_90_g",
+          "title": "Mamie Yova French Yogurt Strawberry, 90 g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (curd) for weekly grocery shopping."
+        },
+        {
+          "product_id": "slurrp_farm_chocolate_cake_mix_eggless_wheat_and_maida_free_400g",
+          "title": "Slurrp Farm Chocolate Cake Mix | Eggless, Wheat and Maida Free, 400g",
+          "priority": "IMPORTANT",
+          "reason": "Selected because it is a important component (eggs) for weekly grocery shopping."
+        },
+        {
+          "product_id": "lijjat_papad_udad_200g",
+          "title": "Lijjat Papad - Udad, 200g",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (snacks) for weekly grocery shopping."
+        },
+        {
+          "product_id": "pure_nuts_dry_fruits_combo_pack_250g_4_1kg_almonds_cashews_pistachios_raisins_all_premium",
+          "title": "Pure Nuts Dry Fruits Combo Pack - (250g * 4) 1kg (Almonds, Cashews, Pistachios, Raisins) - All Premium.",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (cashews) for weekly grocery shopping."
+        },
+        {
+          "product_id": "nature_prime_100_natural_premium_mix_dry_fruits_and_nuts_1_kg_almonds_cashew_kishmish_apricot_black_raisins_kiwi_dr",
+          "title": "Nature Prime 100% Natural Premium Mix Dry Fruits and Nuts 1 Kg [Almonds, Cashew, Kishmish, Apricot, Black Raisins,kiwi] Dr...",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (nuts) for weekly grocery shopping."
+        },
+        {
+          "product_id": "dried_treats_premium_seeds_musk_melon_seeds_kharbooj_200g",
+          "title": "Dried Treats Premium Seeds (Musk Melon Seeds (kharbooj), 200g)",
+          "priority": "OPTIONAL",
+          "reason": "Selected because it is a optional choice (treats) for weekly grocery shopping."
+        }
+      ],
+      "recommendations": [
+        "keya_chai_masala_90_gm",
+        "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
+        "amul_cheese_sauce_mexican_200_g",
+        "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
+        "kalfree_detox_tea",
+        "nutrifruits_roasted_cashew_black_pepper_flavour"
+      ],
+      "reasoning": [
+        "Mission 'weekly_grocery_shopping' detected because the query matched relevant keywords: weekend, session, cooking.",
+        "'Brij Gwala Desi Cow Ghee |Made Traditionally from Curd |Pure Cow Ghee for Better Digestion and Immunity | 1Ltr TetraPack' selected because it is a critical cooking medium/ingredient",
+        "'Mother Dairy UHT Milk, 1 Ltr' selected because it is a key dairy/breakfast component",
+        "'Haldiram's Moong Dal | Crispy Moong Dal coated with Salt | Not Spiced yet Flavorful | Favorite Teatime Snack of India | Ma...' selected because it is a key flavoring/masala ingredient",
+        "'More Pulav Rice Loose 1Kg' selected because mission requires staple grains",
+        "'JIWA healthy by nature Gluten Free Atta/Flour, 1Kg' selected because mission requires staple flour/atta",
+        "Readiness score is 36% because some critical and important requirements are missing.",
+        "Readiness reduced due to missing critical items: Keya Chai Masala 90 Gm, Bob S Red Mill Artisan Bread Flour Unbleached 2 27 Kg, Amul Cheese Sauce Mexican 200 G",
+        "Risk level assessed as CRITICAL (score: 100).",
+        "Risk factor: Missing 3 critical items required for the mission.",
+        "Risk factor: Cart readiness is low (36%), indicating insufficient mission coverage.",
+        "Risk factor: 2 missing critical items have no known substitutes in the graph.",
+        "Projected success probability can be improved from 36% to 76% (+40%) by adding recommended optimizations."
+      ]
+    }
+  ]
+}

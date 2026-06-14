@@ -55,8 +55,8 @@ class MissionDetectionService:
 
     def _load_graph_data(self):
         """Loads and caches the graph data for detection."""
-        #if self._graph_cache is not None:
-        #    return self._graph_cache
+        if self._graph_cache is not None:
+            return self._graph_cache
 
         print("Loading graph data into detection engine cache...")
         
@@ -86,7 +86,8 @@ class MissionDetectionService:
             if pk.startswith('MISSION#') and sk == 'METADATA':
                 m_id = pk.split('#')[1]
                 missions[m_id] = item
-                mission_edges[m_id] = 0
+                if m_id not in mission_edges:
+                    mission_edges[m_id] = 0
             elif pk.startswith('INTENT#') and sk == 'METADATA':
                 intent_nodes.append(item)
             elif pk.startswith('INTENT#') and sk.startswith('INTENT_TO#MISSION#'):
@@ -142,29 +143,26 @@ class MissionDetectionService:
             params["age"] = int(age_match.group(1))
             
         # Budget
-        budget_match = re.search(r'(?:budget|under|for|rupees|rs)\s*[$₹]?\s*(\d+)', text_lower)
+        budget_match = re.search(r'(?:budget\s*of|budget|under|within|maximum|less\s*than|around|rupees|rs)\s*[$₹]?\s*(\d+)', text_lower)
         if budget_match:
-            val = int(budget_match.group(1))
-            if val > 100: # usually guest counts are small, budgets are large
-                params["budget"] = val
-                
-        # Guest Count support for: "15 friends", "20 guests", "inviting 50 people", "for 30 attendees"
-        guest_match = re.search(r'(\d+)\s*(?:friends|guests|people|attendees)', text_lower)
+            params["budget"] = int(budget_match.group(1))
+
+        # Guest Count support for: "15 friends", "20 guests", "inviting 50 people", "for 30 attendees", "party of 20"
+        guest_match = re.search(r'(?:party\s*of\s*(\d+))|(\d+)\s*(?:friends|guests|people|attendees)', text_lower)
         if guest_match:
-            params["guest_count"] = int(guest_match.group(1))
+            params["guest_count"] = int(guest_match.group(1) or guest_match.group(2))
                 
         # Family Size
-        family_match = re.search(r'(?:family of|family size)\s*(\d+)', text_lower)
+        family_match = re.search(r'(?:family\s*of\s*(\d+))|(?:(\d+)\s*family\s*members?)', text_lower)
         if family_match:
-            params["family_size"] = int(family_match.group(1))
+            params["family_size"] = int(family_match.group(1) or family_match.group(2))
             if params["guest_count"] is None:
                 params["guest_count"] = params["family_size"]
                 
         # Date approximations
-        if "tomorrow" in text_lower:
-            params["event_date"] = "tomorrow"
-        elif "weekend" in text_lower:
-            params["event_date"] = "weekend"
+        date_match = re.search(r'(tomorrow|next\s*week|weekend|this\s*month|next\s*month)', text_lower)
+        if date_match:
+            params["event_date"] = date_match.group(1)
             
         # Audience classification
         if params["age"] is not None:
@@ -226,6 +224,8 @@ class MissionDetectionService:
         
         # Calculate max edges for normalization
         max_edges = max(mission_edges.values()) if mission_edges else 1
+        if max_edges == 0:
+            max_edges = 1
         
         # Score Missions
         candidates = []
@@ -286,7 +286,7 @@ class MissionDetectionService:
             if m_id == "chicken_biryani" and "biryani" in text_lower:
                 keyword_score = 0.96; intent_score = 0.97; embedding_score = 0.88
                 matched_keywords.append("biryani")
-            if m_id == "weekly_grocery_shopping" and "grocery" in text_lower:
+            if m_id == "weekly_grocery_shopping" and "grocer" in text_lower:
                 keyword_score = 0.93; intent_score = 0.95; embedding_score = 0.86
                 matched_keywords.append("grocery")
             if m_id == "train_journey_essentials" and "train" in text_lower:

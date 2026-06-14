@@ -685,6 +685,21 @@ async def execute_mission(payload: MissionExecutionRequest, request: Request, re
     except Exception as e:
         return handle_exception(e, response)
 
+from orchestration.master_orchestrator import OutcomeOrchestrator
+
+class OutcomeIntelligenceRequest(BaseModel):
+    query: str
+
+@app.post("/orchestrator/outcome-intelligence", tags=["Orchestrator"], summary="Outcome Intelligence Pipeline")
+async def run_outcome_intelligence(payload: OutcomeIntelligenceRequest, response: Response):
+    try:
+        orch = OutcomeOrchestrator()
+        res = orch.run_outcome_intelligence(payload.query)
+        return res
+    except Exception as e:
+        response.status_code = 500
+        return {"success": False, "error": str(e)}
+
 # --- Admin Ingestion Routes ---
 @app.post("/admin/import-products", tags=["Admin"])
 async def import_products(file: UploadFile = File(...)):

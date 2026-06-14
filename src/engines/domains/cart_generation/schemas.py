@@ -11,6 +11,7 @@ class CartProduct(BaseModel):
     quantity: int
     priority: str
     estimated_cost: float
+    reason: Optional[str] = None
 
 class Substitution(BaseModel):
     product: str
@@ -25,3 +26,4 @@ class CartGenerationResponse(BaseModel):
     graph_coverage: int
     reasoning: List[str]
     substitutions: List[Substitution]
+    mission_coherence_score: Optional[int] = None

@@ -231,6 +231,18 @@ def handler(event, context):
             from domains.mission_detection.controller import MissionDetectionController
             mission_detection_ctrl = MissionDetectionController()
             return mission_detection_ctrl.detect_mission(event)
+        elif path == '/orchestrator/outcome-intelligence' and method == 'POST':
+            from orchestration.master_orchestrator import OutcomeOrchestrator
+            orch = OutcomeOrchestrator()
+            body = event.get('body', '{}')
+            if isinstance(body, str):
+                body = json.loads(body) if body else {}
+            res = orch.run_outcome_intelligence(body.get("query", ""))
+            return {
+                "statusCode": 200,
+                "headers": {"Content-Type": "application/json"},
+                "body": json.dumps(res)
+            }
         elif path == '/agents/mission-discovery' and method == 'POST':
             from agents.mission_discovery_agent import MissionDiscoveryAgent
             body = event.get('body', '{}')

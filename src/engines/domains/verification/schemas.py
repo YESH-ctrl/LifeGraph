@@ -1,12 +1,16 @@
 from pydantic import BaseModel
-from typing import List, Any
+from typing import List, Dict, Any
 
 class VerificationRequest(BaseModel):
-    missionId: str
-    cartId: str
+    mission_id: str
+    cart_products: List[str]
 
 class VerificationResponseData(BaseModel):
-    verification_score: int
+    readiness_score: int
+    readiness_breakdown: Dict[str, int]
+    required_items: List[str]
     missing_items: List[str]
-    readiness_score: int = 0
-    recommended_additions: List[str] = []
+    critical_missing: List[str]
+    important_missing: List[str]
+    optional_missing: List[str]
+    recommended_products: List[str]
