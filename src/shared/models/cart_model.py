@@ -1,19 +1,24 @@
 from typing import Dict, Any
 
 class CartModel:
-    def __init__(self, id: str, user_id: str, status: str = 'ACTIVE', total: float = 0.0):
+    def __init__(self, id: str, user_id: str, status: str = 'ACTIVE', total: float = 0.0,
+                 detected_mission: str = "", readiness_score: int = 0):
         self.id = id
         self.user_id = user_id
         self.status = status
         self.total = total
+        self.detected_mission = detected_mission
+        self.readiness_score = readiness_score
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'CartModel':
         return cls(
-            id=data.get('id', ''),
-            user_id=data.get('user_id', ''),
+            id=data.get('id') or data.get('cartId') or '',
+            user_id=data.get('user_id') or data.get('PK', '').replace('USER#', '') if 'USER#' in data.get('PK', '') else data.get('user_id', ''),
             status=data.get('status', 'ACTIVE'),
-            total=float(data.get('total', 0.0))
+            total=float(data.get('total', 0.0)),
+            detected_mission=data.get('detected_mission') or data.get('detectedMission') or '',
+            readiness_score=int(data.get('readiness_score') or data.get('readinessScore') or 0)
         )
 
     def to_dict(self) -> Dict[str, Any]:
@@ -26,7 +31,9 @@ class CartModel:
             'id': self.id,
             'user_id': self.user_id,
             'status': self.status,
-            'total': Decimal(str(self.total))
+            'total': Decimal(str(self.total)),
+            'detected_mission': self.detected_mission,
+            'readiness_score': self.readiness_score
         }
 
 class CartItemModel:

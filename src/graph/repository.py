@@ -32,3 +32,21 @@ class GraphRepository(BaseRepository):
             if len(parts) >= 3:
                 target_ids.append(parts[2])
         return target_ids
+
+    def get_mission_requirements_weighted(self, mission_id: str) -> List[dict]:
+        requires_items = self.query_by_pk(f"MISSION#{mission_id}", "REQUIRES#")
+        optional_items = self.query_by_pk(f"MISSION#{mission_id}", "OPTIONAL#")
+        
+        result = []
+        for item in requires_items + optional_items:
+            sk = item.get('SK', '')
+            parts = sk.split('#')
+            if len(parts) >= 3:
+                product_id = parts[2]
+                result.append({
+                    "product_id": product_id,
+                    "priority": item.get("priority", "IMPORTANT"),
+                    "weight": int(item.get("weight", 10)),
+                    "required": sk.startswith("REQUIRES#")
+                })
+        return result

@@ -27,9 +27,9 @@ def main():
     test_endpoint("Mission Detection", "POST", f"{base_url}/detect-mission", {"text": "My friend turns 20 tomorrow"})
     
     # Task 4
-    test_endpoint("Verification", "POST", f"{base_url}/verification/verify", {"missionId": "BIRTHDAY", "cartId": "C1"})
+    test_endpoint("Verification", "POST", f"{base_url}/verification/verify", {"missionId": "BIRTHDAY_PARTY", "cartId": "CART_B_PARTIAL"})
     test_endpoint("Risk", "POST", f"{base_url}/risk/analyze", {"verification_score": 75, "missing_items": ["CANDLES"]})
-    test_endpoint("Prevention", "POST", f"{base_url}/prevent-checkout", {"missionId": "BIRTHDAY", "cartId": "C1"})
+    test_endpoint("Prevention", "POST", f"{base_url}/prevent-checkout", {"missionId": "BIRTHDAY_PARTY", "cartId": "CART_B_PARTIAL"})
 
 if __name__ == "__main__":
     main()

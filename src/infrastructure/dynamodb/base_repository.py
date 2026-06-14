@@ -43,5 +43,13 @@ class BaseRepository:
     def scan_prefix(self, pk_prefix: str, sk_prefix: str) -> List[Dict[str, Any]]:
         """Scans the table for items matching PK and SK prefixes. Use carefully."""
         filter_expression = Key('PK').begins_with(pk_prefix) & Key('SK').begins_with(sk_prefix)
-        response = self.table.scan(FilterExpression=filter_expression)
-        return response.get('Items', [])
+        items = []
+        scan_kwargs = {'FilterExpression': filter_expression}
+        while True:
+            response = self.table.scan(**scan_kwargs)
+            items.extend(response.get('Items', []))
+            start_key = response.get('LastEvaluatedKey')
+            if not start_key:
+                break
+            scan_kwargs['ExclusiveStartKey'] = start_key
+        return items

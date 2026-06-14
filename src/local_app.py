@@ -1,5 +1,5 @@
 import json
-from fastapi import FastAPI, Request, Response
+from fastapi import FastAPI, Request, Response, HTTPException
 from pydantic import ValidationError, BaseModel
 from core.exceptions import LifeGraphException
 
@@ -359,6 +359,32 @@ async def evaluate(request: Request, response: Response, payload: PreventionRequ
     except Exception as e:
         return handle_exception(e, response)
 
+# --- Mission Detection ---
+from domains.missions.detection_service import DetectionService
+
+detection_service = DetectionService()
+
+class DetectionRequest(BaseModel):
+    query: str
+
+@app.post("/mission/detect")
+async def detect_mission(payload: DetectionRequest, response: Response):
+    try:
+        res = detection_service.detect_mission(payload.query)
+        if not res.get("success", False):
+            response.status_code = 400
+        return res
+    except Exception as e:
+        response.status_code = 500
+        return {"success": False, "error": str(e)}
+
+@app.get("/mission/debug")
+async def get_mission_debug():
+    try:
+        return detection_service.get_debug_diagnostics()
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
 # --- Missions ---
 @app.get("/missions")
 async def list_missions(request: Request, response: Response):
@@ -509,3 +535,91 @@ async def seed_bulk(payload: BulkMissionSeedRequest, request: Request, response:
         return handle_controller_response(response, res)
     except Exception as e:
         return handle_exception(e, response)
+
+# --- Agents Swagger Testing Layer ---
+from shared.schemas.agent_test_schemas import (
+    MissionDetectionTestRequest, MissionDetectionTestResponse,
+    VerificationTestRequest, VerificationTestResponse,
+    RiskTestRequest, RiskTestResponse,
+    SimulatorTestRequest, SimulatorTestResponse,
+    PreventionTestRequest, PreventionTestResponse,
+    MemoryTestRequest, MemoryTestResponse,
+    AdaptiveTestRequest, AdaptiveTestResponse,
+    GraphMissionResponse,
+    OrchestratorTestRequest, OrchestratorTestResponse,
+    SystemStatusResponse
+)
+from domains.missions.agent_test_service import AgentTestService
+
+agent_test_service = AgentTestService()
+
+@app.post("/agents/mission-detection/test", response_model=MissionDetectionTestResponse, tags=["Agents"])
+async def test_mission_detection(payload: MissionDetectionTestRequest):
+    try:
+        return agent_test_service.test_mission_detection(payload.query)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/verification/test", response_model=VerificationTestResponse, tags=["Agents"])
+async def test_verification(payload: VerificationTestRequest):
+    try:
+        return agent_test_service.test_verification(payload.mission_id, payload.products)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/risk/test", response_model=RiskTestResponse, tags=["Agents"])
+async def test_risk(payload: RiskTestRequest):
+    try:
+        return agent_test_service.test_risk(payload.mission_id, payload.products)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/simulator/test", response_model=SimulatorTestResponse, tags=["Agents"])
+async def test_simulator(payload: SimulatorTestRequest):
+    try:
+        products_input = [{"product": p.product, "quantity": p.quantity} for p in payload.products]
+        return agent_test_service.test_simulator(payload.mission_id, payload.guest_count, products_input)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/prevention/test", response_model=PreventionTestResponse, tags=["Agents"])
+async def test_prevention(payload: PreventionTestRequest):
+    try:
+        return agent_test_service.test_prevention(payload.products)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/memory/test", response_model=MemoryTestResponse, tags=["Agents"])
+async def test_memory(payload: MemoryTestRequest):
+    try:
+        return agent_test_service.test_memory(payload.user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/adaptive/test", response_model=AdaptiveTestResponse, tags=["Agents"])
+async def test_adaptive(payload: AdaptiveTestRequest):
+    try:
+        return agent_test_service.test_adaptive(payload.user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/agents/graph/mission/{mission_id}", response_model=GraphMissionResponse, tags=["Agents"])
+async def test_graph(mission_id: str):
+    try:
+        return agent_test_service.test_graph(mission_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/agents/orchestrator/test", response_model=OrchestratorTestResponse, tags=["Agents"])
+async def test_orchestrator(payload: OrchestratorTestRequest):
+    try:
+        return agent_test_service.test_orchestrator(payload.query)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/agents/system/status", response_model=SystemStatusResponse, tags=["Agents"])
+async def test_system_status():
+    try:
+        return agent_test_service.test_system_status()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

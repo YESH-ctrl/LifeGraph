@@ -5,6 +5,16 @@ from shared.models.cart_model import CartModel, CartItemModel
 class CartRepository(BaseRepository):
     def create_cart(self, cart: CartModel) -> CartModel:
         self.put_item(cart.to_dict())
+        v2_cart = {
+            'PK': f"USER#{cart.user_id}",
+            'SK': "CART#ACTIVE",
+            'entityType': "CART",
+            'cartId': cart.id,
+            'status': cart.status,
+            'detectedMission': cart.detected_mission,
+            'readinessScore': cart.readiness_score
+        }
+        self.table.put_item(Item=v2_cart)
         return cart
 
     def get_cart(self, cart_id: str) -> Optional[CartModel]:
@@ -19,6 +29,16 @@ class CartRepository(BaseRepository):
 
     def update_cart(self, cart: CartModel) -> CartModel:
         self.put_item(cart.to_dict())
+        v2_cart = {
+            'PK': f"USER#{cart.user_id}",
+            'SK': "CART#ACTIVE",
+            'entityType': "CART",
+            'cartId': cart.id,
+            'status': cart.status,
+            'detectedMission': cart.detected_mission,
+            'readinessScore': cart.readiness_score
+        }
+        self.table.put_item(Item=v2_cart)
         return cart
 
     def delete_cart(self, cart_id: str) -> None:
@@ -30,6 +50,17 @@ class CartRepository(BaseRepository):
 
     def add_item_to_cart(self, item: CartItemModel) -> None:
         self.put_item(item.to_dict())
+        cart = self.get_cart(item.cart_id)
+        if cart and cart.user_id:
+            v2_item = {
+                'PK': f"USER#{cart.user_id}",
+                'SK': f"CARTITEM#{item.product_id}",
+                'entityType': "CARTITEM",
+                'cartId': item.cart_id,
+                'product_id': item.product_id,
+                'quantity': item.quantity
+            }
+            self.table.put_item(Item=v2_item)
 
     def get_cart_items(self, cart_id: str) -> List[CartItemModel]:
         items = self.query_by_pk(f"CART#{cart_id}", "CONTAINS#PRODUCT#")

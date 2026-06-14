@@ -8,7 +8,9 @@ class UserRepository(BaseRepository):
         return user
 
     def get_user(self, user_id: str) -> Optional[UserModel]:
-        item = self.get_item(f"USER#{user_id}", "METADATA")
+        item = self.get_item(f"USER#{user_id}", "PROFILE")
+        if not item:
+            item = self.get_item(f"USER#{user_id}", "METADATA")
         if item:
             return UserModel.from_dict(item)
         return None

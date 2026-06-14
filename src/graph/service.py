@@ -13,3 +13,6 @@ class GraphService:
 
     def get_product_substitutes(self, product_id: str) -> List[str]:
         return self.repository.get_product_substitutes(product_id)
+
+    def get_mission_requirements_weighted(self, mission_id: str) -> List[dict]:
+        return self.repository.get_mission_requirements_weighted(mission_id)
