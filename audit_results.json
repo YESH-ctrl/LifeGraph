@@ -18,6 +18,8 @@
     "/verification/verify",
     "/risk/analyze",
     "/prevent-checkout",
+    "/mission/detect",
+    "/mission/debug",
     "/missions",
     "/missions/{id}",
     "/relationships",
@@ -26,375 +28,163 @@
     "/products/{id}/dependencies",
     "/products/{id}/substitutes",
     "/workflows/checkout",
-    "/mission/execute"
+    "/mission/execute",
+    "/admin/import-products",
+    "/admin/import-missions",
+    "/admin/data-quality-report",
+    "/admin/enrich-products",
+    "/agents/mission-detection/test",
+    "/agents/verification/test",
+    "/agents/risk/test",
+    "/agents/simulator/test",
+    "/agents/prevention/test",
+    "/agents/memory/test",
+    "/agents/adaptive/test",
+    "/agents/graph/mission/{mission_id}",
+    "/agents/orchestrator/test",
+    "/agents/system/status",
+    "/agents/debug/agent-health",
+    "/agents/debug/mission/{mission_id}"
   ],
   "tests": [
     {
       "method": "GET",
       "path": "/users",
-      "status_code": 500,
+      "status_code": 200,
       "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
+        "success": true,
+        "data": []
       }
     },
     {
       "method": "POST",
       "path": "/users",
-      "status_code": 500,
+      "status_code": 201,
       "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
+        "success": true,
+        "data": {
+          "name": "Test",
+          "email": "test@test.com",
+          "id": "ffd3dd1b-1ac9-4c82-ba3a-761d02e422d5"
         }
       }
     },
     {
       "method": "GET",
       "path": "/users/u1",
-      "status_code": 500,
+      "status_code": 404,
       "response": {
         "success": false,
         "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
+          "code": "NOT_FOUND",
+          "message": "User with id u1 not found."
         }
       }
     },
     {
       "method": "GET",
       "path": "/products",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/products",
-      "status_code": 422,
-      "response": {
-        "detail": [
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "stock"
-            ],
-            "msg": "Field required",
-            "input": {
-              "product_id": "p1",
-              "name": "Cake",
-              "price": 10.0,
-              "category": "Food"
-            }
-          }
-        ]
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/products/p1",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/carts",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/carts",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/carts/c1/items",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/missions",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/missions",
-      "status_code": 422,
-      "response": {
-        "detail": [
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "description"
-            ],
-            "msg": "Field required",
-            "input": {
-              "mission_id": "m1",
-              "name": "Birthday"
-            }
-          },
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "category"
-            ],
-            "msg": "Field required",
-            "input": {
-              "mission_id": "m1",
-              "name": "Birthday"
-            }
-          }
-        ]
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/relationships",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/relationships",
-      "status_code": 422,
-      "response": {
-        "detail": [
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "source_type"
-            ],
-            "msg": "Field required",
-            "input": {
-              "source_id": "m1",
-              "target_id": "p1",
-              "type": "REQUIRES"
-            }
-          },
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "target_type"
-            ],
-            "msg": "Field required",
-            "input": {
-              "source_id": "m1",
-              "target_id": "p1",
-              "type": "REQUIRES"
-            }
-          },
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "relationship_type"
-            ],
-            "msg": "Field required",
-            "input": {
-              "source_id": "m1",
-              "target_id": "p1",
-              "type": "REQUIRES"
-            }
-          }
-        ]
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/missions/m1/requirements",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/products/p1/dependencies",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/verification/verify",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/risk/analyze",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "'GraphRepository' object has no attribute 'query_prefix'"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/prevent-checkout",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "'PreventionRequest' object has no attribute 'missionId'"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "GET",
       "path": "/memory/active/u1",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/memory/track",
-      "status_code": 422,
-      "response": {
-        "detail": [
-          {
-            "type": "missing",
-            "loc": [
-              "body",
-              "mission_name"
-            ],
-            "msg": "Field required",
-            "input": {
-              "user_id": "u1",
-              "mission_id": "m1",
-              "status": "ACTIVE",
-              "context": {}
-            }
-          }
-        ]
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/adaptive/analyze",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/simulator/run",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/workflows/checkout",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     },
     {
       "method": "POST",
       "path": "/mission/execute",
-      "status_code": 500,
-      "response": {
-        "success": false,
-        "error": {
-          "code": "INTERNAL_ERROR",
-          "message": "Unable to locate credentials"
-        }
-      }
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=2)"
     }
   ]
 }
