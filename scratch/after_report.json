@@ -1,0 +1,277 @@
+{
+  "graph_integrity": {
+    "products": 1665,
+    "missions": 22,
+    "relationships": 9,
+    "invalid_products": 0,
+    "duplicate_products": 19,
+    "orphan_products": 1656,
+    "invalid_relationships": 0
+  },
+  "missions": {
+    "chicken_biryani": {
+      "mission": {
+        "missionId": "chicken_biryani",
+        "name": "Chicken Biryani"
+      },
+      "verification": {
+        "score": 0,
+        "missingItems": [
+          "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+          "house_of_saffron_1_gram_pure_kashmir_mogra_kesar_premium_original_saffron_for_pregnant_women_milk_biryani_cooking_sk",
+          "tilda_premium_basmati_rice_5_kg"
+        ],
+        "criticalCompletion": 0.0,
+        "importantCompletion": 0.0,
+        "optionalCompletion": 0.0,
+        "criticalMissing": [],
+        "importantMissing": [],
+        "optionalMissing": [],
+        "recommendedProducts": []
+      },
+      "risk": {
+        "overallRisk": "HIGH",
+        "completionRisk": 0,
+        "quantityRisk": 90,
+        "compatibilityRisk": 50,
+        "budgetRisk": 10,
+        "timingRisk": 10
+      },
+      "simulation": {
+        "successProbability": 0,
+        "requiredProducts": {
+          "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa": 1,
+          "house_of_saffron_1_gram_pure_kashmir_mogra_kesar_premium_original_saffron_for_pregnant_women_milk_biryani_cooking_sk": 1,
+          "tilda_premium_basmati_rice_5_kg": 1
+        },
+        "availableProducts": {},
+        "quantityGaps": {
+          "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa": 1,
+          "house_of_saffron_1_gram_pure_kashmir_mogra_kesar_premium_original_saffron_for_pregnant_women_milk_biryani_cooking_sk": 1,
+          "tilda_premium_basmati_rice_5_kg": 1
+        },
+        "assumptions": [
+          "Barosi premium cow ghee 500ml cultured danedar desi ghee churned from curd with bilona method pure and aromatic fa estimated at 1 per guest.",
+          "House of saffron 1 gram pure kashmir mogra kesar premium original saffron for pregnant women milk biryani cooking sk estimated at 1 per guest.",
+          "Tilda premium basmati rice 5 kg estimated at 1 per guest."
+        ]
+      },
+      "adaptiveDecision": {
+        "strictMode": false,
+        "shopperType": "Student Shopper",
+        "recommendedIntervention": "Focus on budget-friendly alternatives and study essentials."
+      },
+      "checkout": {
+        "allowCheckout": false,
+        "blockingIssues": [
+          "Overall risk is too high (100%)."
+        ],
+        "reason": "Chicken Biryani mission is only 0% ready.",
+        "recommendedActions": [],
+        "riskSummary": {
+          "completion_risk": 0,
+          "quantity_risk": 90,
+          "compatibility_risk": 50,
+          "timing_risk": 10,
+          "budget_risk": 10
+        }
+      },
+      "recommendations": [
+        {
+          "productId": "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+          "name": "Barosi Premium Cow Ghee 500ml | Cultured Danedar Desi Ghee | Churned from Curd with Bilona Method | Pure and Aromatic | Fa...",
+          "price": 45.0,
+          "reason": "Required item for mission chicken_biryani."
+        },
+        {
+          "productId": "house_of_saffron_1_gram_pure_kashmir_mogra_kesar_premium_original_saffron_for_pregnant_women_milk_biryani_cooking_sk",
+          "name": "House of Saffron 1 gram Pure Kashmir Mogra Kesar | Premium Original Saffron for Pregnant Women, Milk, Biryani, Cooking, Sk...",
+          "price": 45.0,
+          "reason": "Required item for mission chicken_biryani."
+        },
+        {
+          "productId": "tilda_premium_basmati_rice_5_kg",
+          "name": "Tilda Premium Basmati Rice 5 kg",
+          "price": 45.0,
+          "reason": "Required item for mission chicken_biryani."
+        }
+      ]
+    },
+    "movie_night": {
+      "mission": {
+        "missionId": "movie_night",
+        "name": "Movie Night"
+      },
+      "verification": {
+        "score": 0,
+        "missingItems": [
+          "4700bc_gourmet_popcorn_belgian_choco_caramel_tin_150g",
+          "snn_popcorn_maize_1kg_imported_raw_maize_popcorn_kernels_1kg_ready_to_cook_high_expansion_homemade_healthy_snack",
+          "toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces",
+          "too_yumm_multigrain_chips_dahi_papdi_chaat_54g"
+        ],
+        "criticalCompletion": 0.0,
+        "importantCompletion": 0.0,
+        "optionalCompletion": 0.0,
+        "criticalMissing": [],
+        "importantMissing": [],
+        "optionalMissing": [],
+        "recommendedProducts": []
+      },
+      "risk": {
+        "overallRisk": "HIGH",
+        "completionRisk": 0,
+        "quantityRisk": 90,
+        "compatibilityRisk": 50,
+        "budgetRisk": 10,
+        "timingRisk": 10
+      },
+      "simulation": {
+        "successProbability": 0,
+        "requiredProducts": {
+          "4700bc_gourmet_popcorn_belgian_choco_caramel_tin_150g": 1,
+          "snn_popcorn_maize_1kg_imported_raw_maize_popcorn_kernels_1kg_ready_to_cook_high_expansion_homemade_healthy_snack": 1,
+          "toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces": 1,
+          "too_yumm_multigrain_chips_dahi_papdi_chaat_54g": 1
+        },
+        "availableProducts": {},
+        "quantityGaps": {
+          "4700bc_gourmet_popcorn_belgian_choco_caramel_tin_150g": 1,
+          "snn_popcorn_maize_1kg_imported_raw_maize_popcorn_kernels_1kg_ready_to_cook_high_expansion_homemade_healthy_snack": 1,
+          "toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces": 1,
+          "too_yumm_multigrain_chips_dahi_papdi_chaat_54g": 1
+        },
+        "assumptions": [
+          "4700bc gourmet popcorn belgian choco caramel tin 150g estimated at 1 per guest.",
+          "Snn popcorn maize 1kg imported raw maize popcorn kernels 1kg ready to cook high expansion homemade healthy snack estimated at 1 per guest.",
+          "Toblerone swiss dark tiny chocolate 272 gm 34 pieces estimated at 1 per guest.",
+          "Too yumm multigrain chips dahi papdi chaat 54g estimated at 1 per guest."
+        ]
+      },
+      "adaptiveDecision": {
+        "strictMode": false,
+        "shopperType": "Research Buyer",
+        "recommendedIntervention": "Provide detailed product comparisons and reviews."
+      },
+      "checkout": {
+        "allowCheckout": false,
+        "blockingIssues": [
+          "Overall risk is too high (100%)."
+        ],
+        "reason": "Movie Night mission is only 0% ready.",
+        "recommendedActions": [],
+        "riskSummary": {
+          "completion_risk": 0,
+          "quantity_risk": 90,
+          "compatibility_risk": 50,
+          "timing_risk": 10,
+          "budget_risk": 10
+        }
+      },
+      "recommendations": [
+        {
+          "productId": "4700bc_gourmet_popcorn_belgian_choco_caramel_tin_150g",
+          "name": "4700BC Gourmet Popcorn, Belgian Choco Caramel, Tin, 150g",
+          "price": 45.0,
+          "reason": "Required item for mission movie_night."
+        },
+        {
+          "productId": "snn_popcorn_maize_1kg_imported_raw_maize_popcorn_kernels_1kg_ready_to_cook_high_expansion_homemade_healthy_snack",
+          "name": "SNN Popcorn Maize 1kg | Imported Raw Maize | Popcorn Kernels 1kg | Ready to Cook | High Expansion | Homemade Healthy Snack...",
+          "price": 45.0,
+          "reason": "Required item for mission movie_night."
+        },
+        {
+          "productId": "toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces",
+          "name": "Toblerone Swiss Dark Tiny Chocolate, 272 gm (34 Pieces)",
+          "price": 45.0,
+          "reason": "Required item for mission movie_night."
+        },
+        {
+          "productId": "too_yumm_multigrain_chips_dahi_papdi_chaat_54g",
+          "name": "Too Yumm! Multigrain Chips, Dahi Papdi Chaat, 54g",
+          "price": 45.0,
+          "reason": "Required item for mission movie_night."
+        }
+      ]
+    },
+    "house_party": {
+      "mission": {
+        "missionId": "house_party",
+        "name": "House Party"
+      },
+      "verification": {
+        "score": 0,
+        "missingItems": [
+          "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o",
+          "mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f"
+        ],
+        "criticalCompletion": 0.0,
+        "importantCompletion": 0.0,
+        "optionalCompletion": 0.0,
+        "criticalMissing": [],
+        "importantMissing": [],
+        "optionalMissing": [],
+        "recommendedProducts": []
+      },
+      "risk": {
+        "overallRisk": "HIGH",
+        "completionRisk": 0,
+        "quantityRisk": 90,
+        "compatibilityRisk": 50,
+        "budgetRisk": 10,
+        "timingRisk": 10
+      },
+      "simulation": {
+        "successProbability": 0,
+        "requiredProducts": {
+          "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o": 1,
+          "mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f": 1
+        },
+        "availableProducts": {},
+        "quantityGaps": {
+          "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o": 1,
+          "mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f": 1
+        },
+        "assumptions": [
+          "Happilo premium international salted partymix 200g healthy dry fruits snack contains kaju kishmish badam pista o estimated at 1 per guest.",
+          "Mr makhana roasted makhana foxnuts pudina party cream onion butter tomato pack of 3x75 gm gluten free msg f estimated at 1 per guest."
+        ]
+      },
+      "adaptiveDecision": {
+        "strictMode": false,
+        "shopperType": "Research Buyer",
+        "recommendedIntervention": "Provide detailed product comparisons and reviews."
+      },
+      "checkout": {
+        "allowCheckout": false,
+        "blockingIssues": [
+          "Overall risk is too high (90%)."
+        ],
+        "reason": "House Party mission is only 0% ready.",
+        "recommendedActions": [],
+        "riskSummary": {
+          "completion_risk": 0,
+          "quantity_risk": 90,
+          "compatibility_risk": 50,
+          "timing_risk": 10,
+          "budget_risk": 10
+        }
+      },
+      "recommendations": [
+        {
+          "productId": "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o",
+          "name": "Happilo Premium International Salted Partymix 200g | Healthy Dry Fruits Snack | Contains Kaju, Kishmish, Badam & Pista | O...",
+          "price": 45.0,
+          "reason": "Required item for mission house_party."
+        },
+        {
+          "productId": "mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f",
+          "name": "Mr. Makhana Roasted Makhana & Foxnuts : Pudina Party, Cream & Onion, Butter Tomato (Pack of 3x75 gm) | Gluten Free | MSG F...",
+          "price": 45.0,
+          "reason": "Required item for mission house_party."
+        }
+      ]
+    }
+  }
+}

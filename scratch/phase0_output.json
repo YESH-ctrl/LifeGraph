@@ -1,0 +1,234 @@
+{
+  "health_check": {
+    "total": 960,
+    "categories": {
+      "grocery & gourmet foods": 960
+    },
+    "subcategories": {
+      "All Grocery & Gourmet Foods": 960
+    },
+    "top_product_types": [
+      [
+        "pack of",
+        42
+      ],
+      [
+        "pouch g",
+        11
+      ],
+      [
+        "x g",
+        8
+      ],
+      [
+        "of x",
+        5
+      ],
+      [
+        "no artificial",
+        5
+      ],
+      [
+        "sugar free",
+        4
+      ],
+      [
+        "gluten free",
+        4
+      ],
+      [
+        "tea bags",
+        4
+      ],
+      [
+        "g of",
+        4
+      ],
+      [
+        "weight loss",
+        4
+      ],
+      [
+        "black tea",
+        3
+      ],
+      [
+        "powder g",
+        3
+      ],
+      [
+        "pack g",
+        3
+      ],
+      [
+        "bags pieces",
+        3
+      ],
+      [
+        "in additives",
+        3
+      ],
+      [
+        "cocoa powder",
+        3
+      ],
+      [
+        "oil pouch",
+        3
+      ],
+      [
+        "no added",
+        3
+      ],
+      [
+        "spread g",
+        3
+      ],
+      [
+        "gram each",
+        3
+      ],
+      [
+        "grammage may",
+        3
+      ],
+      [
+        "herbal tea",
+        2
+      ],
+      [
+        "for kids",
+        2
+      ],
+      [
+        "bottle l",
+        2
+      ],
+      [
+        "tea flavoury",
+        2
+      ],
+      [
+        "chocolate g",
+        2
+      ],
+      [
+        "nutritious flour",
+        2
+      ],
+      [
+        "pesticides free",
+        2
+      ],
+      [
+        "powder of",
+        2
+      ],
+      [
+        "puffed kernels",
+        2
+      ],
+      [
+        "and vegan",
+        2
+      ],
+      [
+        "gold biscuits",
+        2
+      ],
+      [
+        "coconut oil",
+        2
+      ],
+      [
+        "oil jar",
+        2
+      ],
+      [
+        "to cook",
+        2
+      ],
+      [
+        "seeds g",
+        2
+      ],
+      [
+        "high protein",
+        2
+      ],
+      [
+        "vitamins minerals",
+        2
+      ],
+      [
+        "natural sweetener",
+        2
+      ],
+      [
+        "sauce g",
+        2
+      ],
+      [
+        "cinnamon powder",
+        2
+      ],
+      [
+        "immunity booster",
+        2
+      ],
+      [
+        "chemical free",
+        2
+      ],
+      [
+        "may vary",
+        2
+      ],
+      [
+        "olive oil",
+        2
+      ],
+      [
+        "dahi g",
+        2
+      ],
+      [
+        "flour kg",
+        2
+      ],
+      [
+        "vending machine",
+        2
+      ],
+      [
+        "no additives",
+        2
+      ],
+      [
+        "no preservatives",
+        2
+      ]
+    ],
+    "duplicates": [
+      "EAT BETTER CO - Better Laddoos - Peanut & Chocolate - Delicious Sugar-Free Laddoos | Energy-Bar Replacement | Dry-Fruit La...",
+      "Carbamide Forte 100% Pure Extra Virgin Cold Pressed Coconut Oil for Skin, Hair Growth & Cooking \u2013 200ml",
+      "Nutella Chocolate Hazelnut Spread, 350 g",
+      "Taj Mahal Spicy Ginger Tea Bags, 25 Pieces",
+      "Add me Punjabi Mix Pickle 500gm Mango Chilli Lemon Carrot ker Ginger karonda lasoda Fruit Mix Achar Pickles Glass Pack, 50...",
+      "Cadbury Oreo Vanilla Flavour Cookie Sandwich Cream Biscuit (113.75g / 120g grammage May Vary)"
+    ],
+    "empty_metadata_count": 0,
+    "malformed_metadata_count": 0
+  },
+  "dry_run": {
+    "current_products": 954,
+    "current_edges": 0,
+    "projected_products": 954,
+    "projected_edges": {
+      "REQUIRES": 250,
+      "OPTIONAL": 150,
+      "DEPENDS_ON": 100,
+      "SUBSTITUTES_FOR": 4800
+    }
+  }
+}

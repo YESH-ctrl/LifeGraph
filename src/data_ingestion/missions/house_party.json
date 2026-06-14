@@ -23,16 +23,30 @@
   "rules": [],
   "mapping_rules": {
     "required": {
-      "product_ids": [
-        "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o",
-        "mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f",
-        "c14e1371-adf9-4d47-a3a7-f6a463e121e9",
-        "d41ee4c8-7486-45c8-b381-b2fb34e2d464",
-        "0180ce1d-8a7f-4733-ab43-ca0ba645a07b"
+      "semantic_tags": [
+        "party mix",
+        "snacks",
+        "cold drink",
+        "juice"
+      ],
+      "mission_hints": [
+        "party snack",
+        "party drinks",
+        "makhana"
       ]
     },
     "optional": {
-      "product_ids": []
+      "semantic_tags": [
+        "paper plates",
+        "cups",
+        "napkins",
+        "party popper",
+        "chips"
+      ],
+      "mission_hints": [
+        "party supplies",
+        "disposable"
+      ]
     }
   },
   "product_relationships": {

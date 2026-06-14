@@ -1,0 +1,307 @@
+{
+  "graph_integrity": {
+    "products": 1665,
+    "missions": 22,
+    "relationships": 15,
+    "invalid_products": 0,
+    "duplicate_products": 19,
+    "orphan_products": 1651,
+    "invalid_relationships": 0
+  },
+  "mission_dependencies": {
+    "chicken_biryani": [
+      {
+        "product_id": "4aae71db-b1ab-4f74-bcf1-8fc027d78886",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "bingo_tedhe_medhe_masala_tadka_50g_spindle_shaped_crunchy_snack_with_indian_masala_flavour_perfect_for_snacking",
+        "priority": "HIGH",
+        "weight": 5,
+        "required": true
+      },
+      {
+        "product_id": "boost_health_energy_and_sports_nutrition_chocolate_drink_1_kg_refill_pack_fortified_with_17_essential_vitamins_and_min",
+        "priority": "HIGH",
+        "weight": 6,
+        "required": true
+      },
+      {
+        "product_id": "centre_fresh_mint_chewy_mints_spearmint_flavour_candy_pocket_bottle_33_g",
+        "priority": "HIGH",
+        "weight": 8,
+        "required": true
+      },
+      {
+        "product_id": "d247414e-0b5d-4f02-8f1e-06668330304d",
+        "priority": "HIGH",
+        "weight": 6,
+        "required": true
+      },
+      {
+        "product_id": "dc10fe0a-3b8c-42be-9f10-cb14867358b0",
+        "priority": "CRITICAL",
+        "weight": 40,
+        "required": true
+      },
+      {
+        "product_id": "del_monte_tomato_ketchup_classic_blend_200g",
+        "priority": "HIGH",
+        "weight": 6,
+        "required": true
+      },
+      {
+        "product_id": "dulal_chandra_bhar_s_palm_candy_organic_palm_candy_made_in_natural_traditional_method_1_kg",
+        "priority": "HIGH",
+        "weight": 9,
+        "required": true
+      },
+      {
+        "product_id": "house_of_saffron_1_gram_pure_kashmir_mogra_kesar_premium_original_saffron_for_pregnant_women_milk_biryani_cooking_sk",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "the_tea_trove_red_raspberry_leaf_tea_organic_50g_rasberry_leaf_tea_to_supports_the_female_system_caffeine_free_raspb",
+        "priority": "HIGH",
+        "weight": 6,
+        "required": true
+      },
+      {
+        "product_id": "tilda_premium_basmati_rice_5_kg",
+        "priority": "CRITICAL",
+        "weight": 20,
+        "required": true
+      },
+      {
+        "product_id": "mala_s_fruit_mocktail_syrup_green_mint_750ml_1_count",
+        "priority": "LOW",
+        "weight": 4,
+        "required": false
+      },
+      {
+        "product_id": "sft_fennel_seeds_small_saunf_400_gm",
+        "priority": "LOW",
+        "weight": 3,
+        "required": false
+      },
+      {
+        "product_id": "the_laughing_cow_creamy_cheese_triangles_5_essential_vitamins_mineral_protein_goodness_of_cow_s_milk_24_creamy_ch",
+        "priority": "LOW",
+        "weight": 4,
+        "required": false
+      },
+      {
+        "product_id": "vahdam_organic_green_tea_bags_15_units_green_tea_for_weight_loss_usda_certified_zero_calories_improves_metabolism",
+        "priority": "LOW",
+        "weight": 2,
+        "required": false
+      }
+    ],
+    "movie_night": [
+      {
+        "product_id": "0180ce1d-8a7f-4733-ab43-ca0ba645a07b",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "2461a5ea-f992-4a73-9bff-f77b77b7aab8",
+        "priority": "HIGH",
+        "weight": 8,
+        "required": true
+      },
+      {
+        "product_id": "26627fbe-dfe1-4233-91ca-769cd25880d1",
+        "priority": "HIGH",
+        "weight": 9,
+        "required": true
+      },
+      {
+        "product_id": "4700bc_gourmet_popcorn_belgian_choco_caramel_tin_150g",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "bdb9e8a4-0376-4cd1-927d-e69a4289c7e8",
+        "priority": "HIGH",
+        "weight": 5,
+        "required": true
+      },
+      {
+        "product_id": "c9283222-b509-472c-9599-0eb40f6fd2d3",
+        "priority": "HIGH",
+        "weight": 5,
+        "required": true
+      },
+      {
+        "product_id": "knorr_all_in_1_seasoning_powder_800_g",
+        "priority": "HIGH",
+        "weight": 7,
+        "required": true
+      },
+      {
+        "product_id": "ruchi_daliya_500grm_pack_of_2",
+        "priority": "HIGH",
+        "weight": 8,
+        "required": true
+      },
+      {
+        "product_id": "snn_popcorn_maize_1kg_imported_raw_maize_popcorn_kernels_1kg_ready_to_cook_high_expansion_homemade_healthy_snack",
+        "priority": "CRITICAL",
+        "weight": 20,
+        "required": true
+      },
+      {
+        "product_id": "toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces",
+        "priority": "CRITICAL",
+        "weight": 40,
+        "required": true
+      },
+      {
+        "product_id": "too_yumm_multigrain_chips_dahi_papdi_chaat_54g",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "tropicana_mixed_fruit_juice_1_litre",
+        "priority": "HIGH",
+        "weight": 5,
+        "required": true
+      },
+      {
+        "product_id": "24_mantra_organic_7_grain_multigrain_atta_1000_g",
+        "priority": "LOW",
+        "weight": 3,
+        "required": false
+      },
+      {
+        "product_id": "blue_tokai_coffee_easy_pour_over_coffee_drip_bags_dark_roast_vienna_roast_bold_strong_pack_of_10_sachets_100_ar",
+        "priority": "LOW",
+        "weight": 2,
+        "required": false
+      },
+      {
+        "product_id": "kwality_wall_s_party_pack_chocolate_700ml",
+        "priority": "LOW",
+        "weight": 4,
+        "required": false
+      },
+      {
+        "product_id": "mtr_ready_to_eat_dal_makhani_300g",
+        "priority": "LOW",
+        "weight": 1,
+        "required": false
+      }
+    ],
+    "house_party": [
+      {
+        "product_id": "0180ce1d-8a7f-4733-ab43-ca0ba645a07b",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "7605a392-065f-46eb-8ab4-d1de5d5b5999",
+        "priority": "HIGH",
+        "weight": 9,
+        "required": true
+      },
+      {
+        "product_id": "b19e6cc8-c532-4647-a689-09441221ec2f",
+        "priority": "HIGH",
+        "weight": 7,
+        "required": true
+      },
+      {
+        "product_id": "c14e1371-adf9-4d47-a3a7-f6a463e121e9",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "d41ee4c8-7486-45c8-b381-b2fb34e2d464",
+        "priority": "IMPORTANT",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "delight_foods_banarasi_meetha_paan_without_supari_areca_nut_300g",
+        "priority": "HIGH",
+        "weight": 6,
+        "required": true
+      },
+      {
+        "product_id": "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o",
+        "priority": "CRITICAL",
+        "weight": 20,
+        "required": true
+      },
+      {
+        "product_id": "keya_arabian_sea_salt_1kg",
+        "priority": "HIGH",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f",
+        "priority": "CRITICAL",
+        "weight": 40,
+        "required": true
+      },
+      {
+        "product_id": "mtr_macaroni_elbow_400g",
+        "priority": "HIGH",
+        "weight": 10,
+        "required": true
+      },
+      {
+        "product_id": "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+        "priority": "HIGH",
+        "weight": 7,
+        "required": true
+      },
+      {
+        "product_id": "snackible_chatpata_crispy_sweet_corn_pack_of_1_175gm_vacuum_fried_zero_cholestrol_zero_trans_fat_gluten_free",
+        "priority": "HIGH",
+        "weight": 9,
+        "required": true
+      },
+      {
+        "product_id": "45bafaff-8e1d-4588-a465-59fcc8e5a032",
+        "priority": "LOW",
+        "weight": 1,
+        "required": false
+      },
+      {
+        "product_id": "a6dead5d-2c00-4bd8-bb65-f59abc0731cb",
+        "priority": "LOW",
+        "weight": 3,
+        "required": false
+      },
+      {
+        "product_id": "add_me_home_made_lasode_gunda_pickle_achar_500gm_rajasthani_lasoda_fruit_ka_achaar_glass_jar",
+        "priority": "LOW",
+        "weight": 3,
+        "required": false
+      },
+      {
+        "product_id": "natureland_organics_coconut_oil_400_ml_organic_raw_virgin_oil",
+        "priority": "LOW",
+        "weight": 4,
+        "required": false
+      }
+    ]
+  }
+}

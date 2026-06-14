@@ -40,6 +40,16 @@ app = FastAPI(
     description="Local verification environment for LifeGraph APIs"
 )
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 user_ctrl = UserController()
 product_ctrl = ProductController()
 cart_ctrl = CartController()

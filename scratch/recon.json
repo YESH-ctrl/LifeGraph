@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "original_csv": 954,
+    "dynamodb_total": 1653,
+    "unique_titles": 1646,
+    "duplicate_titles": 7,
+    "uuid_products": 699,
+    "slug_products": 954,
+    "uuid_in_csv": 0,
+    "uuid_NOT_in_csv": 699,
+    "slug_NOT_in_csv": 0
+  },
+  "samples": {
+    "uuid_not_in_csv": [
+      "Motomax Car Shampoo Concentrated Wash",
+      "Palak - Organically Grown",
+      "San Remo Pasta 500G+Disano Olive Oil Extra Virgin 1L+Happy Chef Pasta Sauce 270G",
+      "Nilgiri Oolong Tea - Wa",
+      "Probiotic Curd",
+      "Hazelnut Coffee - Ready To Drink",
+      "100% Natural Porridge Mix - Sathu Maavu, 6-8 Months, No Preservatives, No Artificial Colours",
+      "Body Wash - Bitter Orange & Mandarin",
+      "Croissant - Plain Butter, Mini",
+      "Bar Cake - Pineapple"
+    ],
+    "slug_not_in_csv": [],
+    "duplicates": [
+      "Extra Virgin Olive Oil",
+      "Carrot Crackers",
+      "Bajra Flour",
+      "Masala - Pav Bhaji",
+      "Sambar Masala",
+      "Organic - Ragi Flour/Ragi Hittu",
+      "Organic - Jowar Flour/Jolada Hittu"
+    ]
+  }
+}

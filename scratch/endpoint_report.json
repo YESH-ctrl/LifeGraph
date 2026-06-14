@@ -1,0 +1,50 @@
+[
+  {
+    "endpoint": "/mission/detect",
+    "payload": {
+      "query": "I want to cook chicken biryani for 4 people"
+    },
+    "response": {
+      "statusCode": 400,
+      "body": "{\"success\": false, \"error\": {\"code\": \"VALIDATION_ERROR\", \"message\": \"Invalid request payload\", \"details\": [{\"type\": \"missing\", \"loc\": [\"text\"], \"msg\": \"Field required\", \"input\": {\"query\": \"I want to cook chicken biryani for 4 people\"}, \"url\": \"https://errors.pydantic.dev/2.6/v/missing\"}]}}"
+    },
+    "status": "FAIL"
+  },
+  {
+    "endpoint": "/verification/verify",
+    "payload": {
+      "missionId": "chicken_biryani",
+      "cartId": "edf8e1a8-4b55-4135-8088-5166bfa60532"
+    },
+    "response": {
+      "statusCode": 200,
+      "body": "{\"success\": true, \"data\": {\"verification_score\": 0, \"missing_items\": [\"56d87ab0-78c9-4d91-aa25-d5d544b1b47c\", \"bdf56983-20a2-4acb-a89e-314edbd047ba\", \"fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l\", \"hugo_reitzel_gherkin_in_vinegar_american_style_sandwich_stackers_350g_pack_of_2\", \"veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo\"], \"readiness_score\": 0, \"recommended_additions\": []}}"
+    },
+    "status": "PASS"
+  },
+  {
+    "endpoint": "/risk/analyze",
+    "payload": {
+      "userId": "test_user",
+      "cartId": "edf8e1a8-4b55-4135-8088-5166bfa60532",
+      "missionId": "chicken_biryani"
+    },
+    "response": {
+      "statusCode": 400,
+      "body": "{\"success\": false, \"error\": {\"code\": \"VALIDATION_ERROR\", \"message\": \"Invalid request payload\", \"details\": [{\"type\": \"missing\", \"loc\": [\"verification_score\"], \"msg\": \"Field required\", \"input\": {\"userId\": \"test_user\", \"cartId\": \"edf8e1a8-4b55-4135-8088-5166bfa60532\", \"missionId\": \"chicken_biryani\"}, \"url\": \"https://errors.pydantic.dev/2.6/v/missing\"}, {\"type\": \"missing\", \"loc\": [\"missing_items\"], \"msg\": \"Field required\", \"input\": {\"userId\": \"test_user\", \"cartId\": \"edf8e1a8-4b55-4135-8088-5166bfa60532\", \"missionId\": \"chicken_biryani\"}, \"url\": \"https://errors.pydantic.dev/2.6/v/missing\"}]}}"
+    },
+    "status": "FAIL"
+  },
+  {
+    "endpoint": "/prevent-checkout",
+    "payload": {
+      "userId": "test_user",
+      "cartId": "edf8e1a8-4b55-4135-8088-5166bfa60532"
+    },
+    "response": {
+      "statusCode": 400,
+      "body": "{\"success\": false, \"error\": {\"code\": \"VALIDATION_ERROR\", \"message\": \"Invalid request payload\", \"details\": [{\"type\": \"missing\", \"loc\": [\"missionId\"], \"msg\": \"Field required\", \"input\": {\"userId\": \"test_user\", \"cartId\": \"edf8e1a8-4b55-4135-8088-5166bfa60532\"}, \"url\": \"https://errors.pydantic.dev/2.6/v/missing\"}]}}"
+    },
+    "status": "FAIL"
+  }
+]

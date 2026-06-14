@@ -1,6 +1,6 @@
 from domains.risk.repository import RiskRepository
 from domains.risk.schemas import RiskRequest, RiskResponseData
-from domains.graph.service import GraphService
+from graph.service import GraphService
 
 class RiskService:
     def __init__(self):
@@ -19,14 +19,18 @@ class RiskService:
         quantity_risk = 10
         timing_risk = 10
         
-        # Base logic on verification results
-        if data.verification_score < 50:
+        # Base logic on verification results and critical completion
+        if data.critical_completion < 1.0:
             risk_score += 50
+            quantity_risk = 90
+            
+        if data.verification_score < 50:
+            risk_score += 40
         elif data.verification_score < 80:
             risk_score += 20
             
         if len(data.missing_items) > 2:
-            quantity_risk = 90
+            quantity_risk = max(quantity_risk, 90)
             risk_score += 15
             
         # Use graph data to infer compatibility and deep dependency risk

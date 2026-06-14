@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "Total Products": 1665,
+    "Total Missions": 22,
+    "Total Relationships": 1088,
+    "Dependency Relationships Count": 167,
+    "Substitute Relationships Count": 167,
+    "Average Dependencies per Mission": 0.0,
+    "Average Substitutes per Product": 0.1
+  },
+  "edges": {
+    "chicken_biryani": [
+      "chicken_biryani -> OPTIONAL -> 72cb91be-4399-4693-b517-3f0028e319a7",
+      "chicken_biryani -> OPTIONAL -> a240e1ab-1915-46db-bade-b93c8e9b8973",
+      "chicken_biryani -> OPTIONAL -> muscleblaze_whey_gold_100_whey_protein_isolate_labdoor_usa_certified_25_g_pure_isolate_whey_per_scoop_rich_milk_choco",
+      "chicken_biryani -> REQUIRES -> 30d4c46f-c75b-49ae-942a-c43f3b13e6e1",
+      "chicken_biryani -> REQUIRES -> 453e59fc-2f71-4d6f-bf51-57aef1cd1957",
+      "chicken_biryani -> REQUIRES -> 543b57a2-5ff0-4d80-85e2-d6efe6074f7f",
+      "chicken_biryani -> REQUIRES -> kor_garlic_powder_800g_pack_of_1_ready_to_use_instant_garlic_flavour_additive_free_all_natural_and_free_flowing_lehs",
+      "chicken_biryani -> REQUIRES -> mtr_macaroni_elbow_400g"
+    ],
+    "movie_night": [
+      "movie_night -> OPTIONAL -> 6e4fcfed-5512-42ae-b70b-e07656a85986",
+      "movie_night -> OPTIONAL -> nutella_chocolate_hazelnut_spread_350_g",
+      "movie_night -> OPTIONAL -> parle_20_20_gold_cashew_almond_cookies_pouch_600g_604_8g_item_weight_may_vary",
+      "movie_night -> REQUIRES -> 30f07feb-6d90-4e6a-a30a-3ffb6b50cbec",
+      "movie_night -> REQUIRES -> 65c59f9f-749e-43ca-bbee-9e8ff9b18d7c",
+      "movie_night -> REQUIRES -> bbf2a88a-e787-484f-bbd4-389d07a973ca",
+      "movie_night -> REQUIRES -> paper_boat_dry_fruit_chikki_no_preservatives_and_colors_250g_280g_weight_may_vary",
+      "movie_night -> REQUIRES -> rungtas_real_gold_special_assam_black_tea_2_kg_strong_fresh_kadak_chai_india_premium_blended_aromatic_long_leaf_te"
+    ],
+    "house_party": [
+      "house_party -> OPTIONAL -> 1025495c-c6d9-4f46-920f-91a665f7f480",
+      "house_party -> OPTIONAL -> alkalen_water_based_electrolyte_drink_ph_alkaline_8_5_to_9_5_1_l_pack_of_12",
+      "house_party -> OPTIONAL -> qonty_defatted_soya_flour_52_protein_1_5_fat_lab_tested_8_gm_protein_per_roti_no_preservatives_gluten_free",
+      "house_party -> REQUIRES -> 352c054c-5687-4cbd-bd11-5a01e6594dcb",
+      "house_party -> REQUIRES -> b634ad84-a2e6-4cbc-8484-3442ff2d5997",
+      "house_party -> REQUIRES -> dc10fe0a-3b8c-42be-9f10-cb14867358b0",
+      "house_party -> REQUIRES -> saffola_honey_gold_100_pure_nmr_tested_honey_made_with_kashmir_honey_1kg",
+      "house_party -> REQUIRES -> toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces"
+    ]
+  },
+  "recommendations": {
+    "chicken_biryani": [
+      {
+        "missing": "30d4c46f-c75b-49ae-942a-c43f3b13e6e1",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Biscuits - Osmania (ID: 819d6db3-e103-46db-9434-455b2ca1a9ea)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "453e59fc-2f71-4d6f-bf51-57aef1cd1957",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Daawat Pulav, Long Grains, Fluffy Basmati for finest Pulav, 1 Kg (ID: daawat_pulav_long_grains_fluffy_basmati_for_finest_pulav_1_kg)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "543b57a2-5ff0-4d80-85e2-d6efe6074f7f",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Barilla Pasta Linguine Durum Wheat, 500g (ID: barilla_pasta_linguine_durum_wheat_500g)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "kor garlic powder 800g pack of 1 ready to use instant garlic flavour additive free all natural and free flowing lehs",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Tata Sampann Dry Fruits & Nuts Mix (Contains Almonds, Black Raisins, Cashews, Cranberries, Green raisins, and Pistachio ke... (ID: tata_sampann_dry_fruits_nuts_mix_contains_almonds_black_raisins_cashews_cranberries_green_raisins_and_pistachio_ke)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "mtr macaroni elbow 400g",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Orbit Chewing Gum - Spearmint , Sugarfree (ID: 53eb33a4-7506-4396-9c4c-74125248208d)",
+        "source": "Graph Node"
+      }
+    ],
+    "movie_night": [
+      {
+        "missing": "30f07feb-6d90-4e6a-a30a-3ffb6b50cbec",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Nutraj Special Walnut Kernels 250g - Vacuum Pack Without Shell Walnut Kernels | Dry Fruits | Akhroth Giri | Unsalted | for... (ID: nutraj_special_walnut_kernels_250g_vacuum_pack_without_shell_walnut_kernels_dry_fruits_akhroth_giri_unsalted_for)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "65c59f9f-749e-43ca-bbee-9e8ff9b18d7c",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Powder - Sandal (ID: 8171c55e-6e1d-48c6-b8e9-e83774847604)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "bbf2a88a-e787-484f-bbd4-389d07a973ca",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Colgate\u00a0Active Salt Neem\u00a0Toothpaste\u00a0, Pack of 600g, Buy 2 Get 1 Free,\u00a0Germ-Fighting\u00a0\u00a0Colgate Toothpaste\u00a0With Active Natura... (ID: colgate_active_salt_neem_toothpaste_pack_of_600g_buy_2_get_1_free_germ_fighting_colgate_toothpaste_with_active_natura)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "paper boat dry fruit chikki no preservatives and colors 250g 280g weight may vary",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Ceres Foods Bengali Mustard Fish Instant Liquid Masala |Shipped Fresh |Fish cooking paste|Curry Paste| Curry Mix | Ceres F... (ID: ceres_foods_bengali_mustard_fish_instant_liquid_masala_shipped_fresh_fish_cooking_paste_curry_paste_curry_mix_ceres_f)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "rungtas real gold special assam black tea 2 kg strong fresh kadak chai india premium blended aromatic long leaf te",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Starbucks Single Origin Sumatra Coffee Dark Roast Coffee Capsule by Nespresso Intensity 10, 55g (ID: starbucks_single_origin_sumatra_coffee_dark_roast_coffee_capsule_by_nespresso_intensity_10_55g)",
+        "source": "Graph Node"
+      }
+    ],
+    "house_party": [
+      {
+        "missing": "352c054c-5687-4cbd-bd11-5a01e6594dcb",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Mr. Makhana Roasted Makhana & Foxnuts : Pudina Party, Cream & Onion, Butter Tomato (Pack of 3x75 gm) | Gluten Free | MSG F... (ID: mr_makhana_roasted_makhana_foxnuts_pudina_party_cream_onion_butter_tomato_pack_of_3x75_gm_gluten_free_msg_f)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "b634ad84-a2e6-4cbc-8484-3442ff2d5997",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Chocolate Milk - Choc (ID: 646207d8-553f-443c-9174-9ad9a6edb7c6)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "dc10fe0a-3b8c-42be-9f10-cb14867358b0",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Traditional Filter Coffee Decoction (ID: 25b09d5b-2523-4346-8e3c-c18e6117b154)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "saffola honey gold 100 pure nmr tested honey made with kashmir honey 1kg",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Wagh Bakri Premium Leaf Tea, Poly Pack, 500g (ID: wagh_bakri_premium_leaf_tea_poly_pack_500g)",
+        "source": "Graph Node"
+      },
+      {
+        "missing": "toblerone swiss dark tiny chocolate 272 gm 34 pieces",
+        "relationship": "SUBSTITUTES_FOR / DIRECT",
+        "recommended": "Loacker Quadratini Tiramisu - 220g (ID: loacker_quadratini_tiramisu_220g)",
+        "source": "Graph Node"
+      }
+    ]
+  }
+}

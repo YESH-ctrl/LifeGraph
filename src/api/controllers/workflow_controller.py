@@ -37,11 +37,13 @@ class WorkflowController:
         prev_res = self.prevention_service.evaluate(prev_req)
 
         response_data = {
-            "mission_id": mission_id,
-            "cart_id": cart_id,
-            "verification": ver_res.dict(),
-            "risk": risk_res.dict(),
-            "prevention": prev_res.dict()
+            "mission": mission_id,
+            "confidence": 0.95,
+            "readiness_score": ver_res.verification_score,
+            "risk_score": risk_res.risk_score,
+            "missing_items": ver_res.missing_items,
+            "recommendations": ver_res.recommended_products,
+            "explanation": prev_res.reason
         }
 
         return {

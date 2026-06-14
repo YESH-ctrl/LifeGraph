@@ -76,10 +76,11 @@ class BedrockClient:
             return False
             
         try:
-            model_id = "us.amazon.nova-lite-v1:0"
+            model_id = "anthropic.claude-3-haiku-20240307-v1:0"
             body = json.dumps({
-                "messages": [{"role": "user", "content": [{"text": "Hi"}]}],
-                "inferenceConfig": {"maxTokens": 1}
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 1,
+                "messages": [{"role": "user", "content": "Hi"}]
             })
             self.client.invoke_model(
                 modelId=model_id,
@@ -90,7 +91,7 @@ class BedrockClient:
             self.nova_available = True
             return True
         except Exception as e:
-            logger.warning(f"Nova is not available on Bedrock: {e}. Falling back to local re-ranking.")
+            logger.warning(f"Nova/Haiku is not available on Bedrock: {e}. Falling back to local re-ranking.")
             self.nova_available = False
             return False
 
@@ -144,9 +145,9 @@ class BedrockClient:
     def invoke_model(self, prompt: str, **kwargs) -> BedrockResponse:
         """Invokes a Bedrock model (Claude/Nova) or falls back to local heuristic parsing."""
         model_id = kwargs.get("model_id") or self.config.model_id
-        # Use Nova Lite if Claude default is fallback
+        # Use Haiku if Claude default is fallback
         if model_id == "anthropic.claude-v2":
-            model_id = "us.amazon.nova-lite-v1:0"
+            model_id = "anthropic.claude-3-haiku-20240307-v1:0"
 
         if not self.use_mock and self.client:
             try:
@@ -423,4 +424,3 @@ class BedrockClient:
 
     def generate_adaptive_guidance(self, user_context: dict) -> BedrockResponse:
         return self.invoke_model(f"Generate adaptive guidance: {json.dumps(user_context)}")
-

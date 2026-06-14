@@ -1,0 +1,237 @@
+{
+  "catalog_quality": {
+    "total_products": 1653,
+    "categories": {
+      "GROCERY": 1323,
+      "BEAUTY_&_HYGIENE": 37,
+      "FRUITS_&_VEGETABLES": 32,
+      "PET_CARE": 6,
+      "FESTIVALS": 36,
+      "HOME": 3,
+      "BABY_CARE": 24,
+      "HEALTH_AND_PERSONAL_CARE": 50,
+      "CLEANING_&_HOUSEHOLD": 45,
+      "BAKERY,_CAKES_&_DAIRY": 13,
+      "TRAVEL": 6,
+      "BEVERAGES": 39,
+      "STUDENT": 7,
+      "SNACKS_&_SWEETS": 32
+    },
+    "duplicate_titles_count": 7,
+    "uuid_only_count": 699,
+    "no_title_count": 0
+  },
+  "trace_evidence": {
+    "mtr_macaroni_elbow_400g": {
+      "title": "MTR Macaroni Elbow 400g",
+      "missionHints": [
+        "monthly_grocery_refill",
+        "weekly_grocery_shopping"
+      ],
+      "semanticTags": [
+        "grocery",
+        "food",
+        "staple",
+        "kitchen essentials"
+      ],
+      "category": "GROCERY",
+      "intelligent_enrichment": {
+        "category": "GROCERY",
+        "subcategory": "General Grocery",
+        "semanticTags": [
+          "grocery",
+          "food",
+          "staple",
+          "kitchen essentials"
+        ],
+        "missionHints": [
+          "monthly_grocery_refill",
+          "weekly_grocery_shopping"
+        ],
+        "embeddingText": "title: MTR Macaroni Elbow 400g | category: GROCERY | subcategory: General Grocery | semanticTags: grocery, food, staple, kitchen essentials | missionHints: monthly_grocery_refill, weekly_grocery_shopping"
+      }
+    },
+    "rungtas_real_gold_special_assam_black_tea_2_kg_strong_fresh_kadak_chai_india_premium_blended_aromatic_long_leaf_te": {
+      "title": "Rungtas Real Gold Special Assam Black Tea - 2 Kg | Strong & Fresh Kadak Chai | India Premium Blended Aromatic Long Leaf Te...",
+      "missionHints": [
+        "monthly_grocery_refill",
+        "weekly_grocery_shopping",
+        "family_breakfast_setup",
+        "family_gathering"
+      ],
+      "semanticTags": [
+        "tea",
+        "chai",
+        "beverage",
+        "breakfast",
+        "hot beverage",
+        "staple"
+      ],
+      "category": "GROCERY",
+      "intelligent_enrichment": {
+        "category": "GROCERY",
+        "subcategory": "Tea",
+        "semanticTags": [
+          "tea",
+          "chai",
+          "beverage",
+          "breakfast",
+          "hot beverage",
+          "staple"
+        ],
+        "missionHints": [
+          "monthly_grocery_refill",
+          "weekly_grocery_shopping",
+          "family_breakfast_setup",
+          "family_gathering"
+        ],
+        "embeddingText": "title: Rungtas Real Gold Special Assam Black Tea - 2 Kg | Strong & Fresh Kadak Chai | India Premium Blended Aromatic Long Leaf Te... | category: GROCERY | subcategory: Tea | semanticTags: tea, chai, beverage, breakfast, hot beverage, staple | missionHints: monthly_grocery_refill, weekly_grocery_shopping, family_breakfast_setup, family_gathering"
+      }
+    },
+    "saffola_honey_gold_100_pure_nmr_tested_honey_made_with_kashmir_honey_1kg": {
+      "title": "Saffola Honey Gold, 100% Pure NMR Tested Honey, Made with Kashmir Honey, 1Kg",
+      "missionHints": [
+        "monthly_grocery_refill",
+        "weekly_grocery_shopping"
+      ],
+      "semanticTags": [
+        "grocery",
+        "food",
+        "staple",
+        "kitchen essentials"
+      ],
+      "category": "GROCERY",
+      "intelligent_enrichment": {
+        "category": "GROCERY",
+        "subcategory": "General Grocery",
+        "semanticTags": [
+          "grocery",
+          "food",
+          "staple",
+          "kitchen essentials"
+        ],
+        "missionHints": [
+          "monthly_grocery_refill",
+          "weekly_grocery_shopping"
+        ],
+        "embeddingText": "title: Saffola Honey Gold, 100% Pure NMR Tested Honey, Made with Kashmir Honey, 1Kg | category: GROCERY | subcategory: General Grocery | semanticTags: grocery, food, staple, kitchen essentials | missionHints: monthly_grocery_refill, weekly_grocery_shopping"
+      }
+    }
+  },
+  "missions_actual": {
+    "chicken_biryani": {
+      "requires": [
+        {
+          "id": "56d87ab0-78c9-4d91-aa25-d5d544b1b47c",
+          "title": "Motomax Car Shampoo Concentrated Wash"
+        },
+        {
+          "id": "bdf56983-20a2-4acb-a89e-314edbd047ba",
+          "title": "Palak - Organically Grown"
+        },
+        {
+          "id": "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+          "title": "Fortune Xpert Pro Sugar Conscious Edible Oil, Pouch, 1 L"
+        },
+        {
+          "id": "hugo_reitzel_gherkin_in_vinegar_american_style_sandwich_stackers_350g_pack_of_2",
+          "title": "Hugo Reitzel Gherkin in Vinegar (American Style Sandwich Stackers), 350g | Pack of 2"
+        },
+        {
+          "id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+          "title": "Veganic Rice Kachari - 400GM | Salted Rice Wafer Fryum | Rice Finger Papad | Sun Dried Rice Kurdai | Chaval Charauri, Tilo..."
+        }
+      ],
+      "optional": [
+        {
+          "id": "ba570049-8a4c-4e7b-87ba-7dddf2074dbc",
+          "title": "San Remo Pasta 500G+Disano Olive Oil Extra Virgin 1L+Happy Chef Pasta Sauce 270G"
+        },
+        {
+          "id": "bf1ce7c9-a998-47b2-b31d-d7990ed79378",
+          "title": "Nilgiri Oolong Tea - Wa"
+        },
+        {
+          "id": "urban_platter_jaggery_powder_1kg_35_2oz_pure_natural_chemical_free",
+          "title": "Urban Platter Jaggery Powder, 1Kg / 35.2oz [Pure, Natural & Chemical Free]"
+        }
+      ]
+    },
+    "movie_night": {
+      "requires": [
+        {
+          "id": "56d87ab0-78c9-4d91-aa25-d5d544b1b47c",
+          "title": "Motomax Car Shampoo Concentrated Wash"
+        },
+        {
+          "id": "bdf56983-20a2-4acb-a89e-314edbd047ba",
+          "title": "Palak - Organically Grown"
+        },
+        {
+          "id": "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+          "title": "Fortune Xpert Pro Sugar Conscious Edible Oil, Pouch, 1 L"
+        },
+        {
+          "id": "hugo_reitzel_gherkin_in_vinegar_american_style_sandwich_stackers_350g_pack_of_2",
+          "title": "Hugo Reitzel Gherkin in Vinegar (American Style Sandwich Stackers), 350g | Pack of 2"
+        },
+        {
+          "id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+          "title": "Veganic Rice Kachari - 400GM | Salted Rice Wafer Fryum | Rice Finger Papad | Sun Dried Rice Kurdai | Chaval Charauri, Tilo..."
+        }
+      ],
+      "optional": [
+        {
+          "id": "ba570049-8a4c-4e7b-87ba-7dddf2074dbc",
+          "title": "San Remo Pasta 500G+Disano Olive Oil Extra Virgin 1L+Happy Chef Pasta Sauce 270G"
+        },
+        {
+          "id": "bf1ce7c9-a998-47b2-b31d-d7990ed79378",
+          "title": "Nilgiri Oolong Tea - Wa"
+        },
+        {
+          "id": "urban_platter_jaggery_powder_1kg_35_2oz_pure_natural_chemical_free",
+          "title": "Urban Platter Jaggery Powder, 1Kg / 35.2oz [Pure, Natural & Chemical Free]"
+        }
+      ]
+    },
+    "house_party": {
+      "requires": [
+        {
+          "id": "56d87ab0-78c9-4d91-aa25-d5d544b1b47c",
+          "title": "Motomax Car Shampoo Concentrated Wash"
+        },
+        {
+          "id": "bdf56983-20a2-4acb-a89e-314edbd047ba",
+          "title": "Palak - Organically Grown"
+        },
+        {
+          "id": "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+          "title": "Fortune Xpert Pro Sugar Conscious Edible Oil, Pouch, 1 L"
+        },
+        {
+          "id": "hugo_reitzel_gherkin_in_vinegar_american_style_sandwich_stackers_350g_pack_of_2",
+          "title": "Hugo Reitzel Gherkin in Vinegar (American Style Sandwich Stackers), 350g | Pack of 2"
+        },
+        {
+          "id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+          "title": "Veganic Rice Kachari - 400GM | Salted Rice Wafer Fryum | Rice Finger Papad | Sun Dried Rice Kurdai | Chaval Charauri, Tilo..."
+        }
+      ],
+      "optional": [
+        {
+          "id": "ba570049-8a4c-4e7b-87ba-7dddf2074dbc",
+          "title": "San Remo Pasta 500G+Disano Olive Oil Extra Virgin 1L+Happy Chef Pasta Sauce 270G"
+        },
+        {
+          "id": "bf1ce7c9-a998-47b2-b31d-d7990ed79378",
+          "title": "Nilgiri Oolong Tea - Wa"
+        },
+        {
+          "id": "urban_platter_jaggery_powder_1kg_35_2oz_pure_natural_chemical_free",
+          "title": "Urban Platter Jaggery Powder, 1Kg / 35.2oz [Pure, Natural & Chemical Free]"
+        }
+      ]
+    }
+  }
+}

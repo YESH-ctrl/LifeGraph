@@ -386,13 +386,33 @@ class OrchestratorService(BaseAgent):
             except Exception:
                 pass
                 
-            sub_name = substitutes[0] if substitutes else f"Premium {item_name.replace('_', ' ').title()}"
+            price = 0.0
+            if substitutes:
+                rec_id = substitutes[0]
+                try:
+                    prod = self.product_service.get_product(rec_id)
+                    rec_name = prod.title if prod else rec_id.replace('_', ' ').title()
+                    if prod and hasattr(prod, 'price') and prod.price is not None:
+                        price = float(prod.price)
+                except:
+                    rec_name = rec_id.replace('_', ' ').title()
+                reason = f"Required for mission {state['missionId']}. Substitute for missing {item_name.replace('_', ' ')}."
+            else:
+                rec_id = item_name
+                try:
+                    prod = self.product_service.get_product(rec_id)
+                    rec_name = prod.title if prod else rec_id.replace('_', ' ').title()
+                    if prod and hasattr(prod, 'price') and prod.price is not None:
+                        price = float(prod.price)
+                except:
+                    rec_name = rec_id.replace('_', ' ').title()
+                reason = f"Required item for mission {state['missionId']}."
             
             recs.append({
-                "product_id": f"SUB_{item_name.upper()}",
-                "name": sub_name,
-                "price": 45.0,
-                "reason": f"Required for mission {state['missionId']}. Substitute for missing {item_name.replace('_', ' ')}."
+                "product_id": rec_id,
+                "name": rec_name,
+                "price": price,
+                "reason": reason
             })
             
         state["recommendations_data"] = recs

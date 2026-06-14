@@ -1,0 +1,186 @@
+{
+  "taxonomy": {
+    "GROCERY": [
+      "Coffee",
+      "Flour & Atta",
+      "Cereals",
+      "Tea",
+      "General Grocery",
+      "bakery",
+      "Rice",
+      "Snacks & Confectionery",
+      "Dairy & Alternatives",
+      "Spices"
+    ],
+    "BEAUTY_&_HYGIENE": [
+      "General Grocery"
+    ],
+    "FRUITS_&_VEGETABLES": [
+      "General Grocery"
+    ],
+    "PET_CARE": [
+      "General Grocery"
+    ],
+    "FESTIVALS": [
+      "Pooja & Festival Supplies"
+    ],
+    "HOME": [
+      "Home Comfort"
+    ],
+    "BABY_CARE": [
+      "General Grocery"
+    ],
+    "HEALTH_AND_PERSONAL_CARE": [
+      "Oral Care",
+      "Protein Supplements",
+      "Nutrition Bars",
+      "Personal Care & Wellness"
+    ],
+    "CLEANING_&_HOUSEHOLD": [
+      "General Grocery"
+    ],
+    "BAKERY,_CAKES_&_DAIRY": [
+      "General Grocery"
+    ],
+    "TRAVEL": [
+      "travel"
+    ],
+    "BEVERAGES": [
+      "General Grocery"
+    ],
+    "STUDENT": [
+      "study"
+    ],
+    "SNACKS_&_SWEETS": [
+      "General Grocery"
+    ]
+  },
+  "top_product_types": [
+    [
+      "pack of",
+      43
+    ],
+    [
+      "pouch g",
+      11
+    ],
+    [
+      "organically grown",
+      8
+    ],
+    [
+      "x g",
+      8
+    ],
+    [
+      "olive oil",
+      7
+    ],
+    [
+      "tea bags",
+      5
+    ],
+    [
+      "gluten free",
+      5
+    ],
+    [
+      "ragi hittu",
+      5
+    ],
+    [
+      "of x",
+      5
+    ],
+    [
+      "no artificial",
+      5
+    ],
+    [
+      "long leaf",
+      5
+    ],
+    [
+      "dark chocolate",
+      4
+    ],
+    [
+      "sugar free",
+      4
+    ],
+    [
+      "green tea",
+      4
+    ],
+    [
+      "cocoa powder",
+      4
+    ],
+    [
+      "g of",
+      4
+    ],
+    [
+      "weight loss",
+      4
+    ],
+    [
+      "may vary",
+      4
+    ],
+    [
+      "mouth freshener",
+      4
+    ],
+    [
+      "black tea",
+      3
+    ]
+  ],
+  "coverage": {
+    "total_products": 1653,
+    "total_edges": 1879,
+    "edge_types": {
+      "OPTIONAL": 66,
+      "REQUIRES": 111,
+      "DEPENDS_ON": 3
+    },
+    "zero_edges_count": 0,
+    "low_edges_count": 1616,
+    "abnormal_edges_count": 8,
+    "top_abnormal": [
+      {
+        "id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+        "count": 24
+      },
+      {
+        "id": "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "count": 24
+      },
+      {
+        "id": "hugo_reitzel_gherkin_in_vinegar_american_style_sandwich_stackers_350g_pack_of_2",
+        "count": 23
+      },
+      {
+        "id": "56d87ab0-78c9-4d91-aa25-d5d544b1b47c",
+        "count": 15
+      },
+      {
+        "id": "bdf56983-20a2-4acb-a89e-314edbd047ba",
+        "count": 15
+      },
+      {
+        "id": "ba570049-8a4c-4e7b-87ba-7dddf2074dbc",
+        "count": 14
+      },
+      {
+        "id": "bf1ce7c9-a998-47b2-b31d-d7990ed79378",
+        "count": 14
+      },
+      {
+        "id": "urban_platter_jaggery_powder_1kg_35_2oz_pure_natural_chemical_free",
+        "count": 13
+      }
+    ]
+  }
+}
