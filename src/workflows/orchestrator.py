@@ -66,7 +66,7 @@ class OrchestratorAgent(BaseAgent):
         
         # 4. Prevention check (uses V2 graph dependencies)
         prevention_req = PreventionRequest(cartId=cart_id)
-        prevention_res = self.prevention_agent.execute("evaluate", prevention_req)
+        prevention_res = self.prevention_service.evaluate(prevention_req)
         
         # 5. Outcome simulation (V2 graph-driven)
         cart_products = []
