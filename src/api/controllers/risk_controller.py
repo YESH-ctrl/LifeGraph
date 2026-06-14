@@ -1,6 +1,6 @@
 import json
-from domains.risk.service import RiskService
-from shared.schemas.engine_schemas import RiskRequest
+from engines.domains.risk.service import RiskService
+from foundation.shared.schemas.engine_schemas import RiskRequest
 
 class RiskController:
     def __init__(self):

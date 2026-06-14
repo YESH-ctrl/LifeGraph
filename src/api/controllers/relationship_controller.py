@@ -1,6 +1,6 @@
 import json
-from shared.services.relationship_service import RelationshipService
-from shared.schemas.relationship_schemas import RelationshipCreate, RelationshipResponse
+from foundation.shared.services.relationship_service import RelationshipService
+from foundation.shared.schemas.relationship_schemas import RelationshipCreate, RelationshipResponse
 
 class RelationshipController:
     def __init__(self):

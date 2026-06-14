@@ -1,6 +1,6 @@
 import json
-from domains.prevention.service import PreventionService
-from shared.schemas.engine_schemas import PreventionRequest
+from engines.domains.prevention.service import PreventionService
+from foundation.shared.schemas.engine_schemas import PreventionRequest
 
 class PreventionController:
     def __init__(self):

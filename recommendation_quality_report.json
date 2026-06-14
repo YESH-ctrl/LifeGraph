@@ -1,0 +1,2902 @@
+[
+  {
+    "target_product_id": "krishna_s_night_jasmine_parijat_harshringar_leaf_juice_500_ml",
+    "target_title": "Krishna's Night Jasmine Parijat Harshringar Leaf Juice - 500 ml",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "bakerswhip_whipping_cream_powder_vanilla_200g_gluten_free_whipping_cream_powder_200g",
+    "target_title": "BakersWhip Whipping Cream Powder ( Vanilla ), 200g | Gluten Free Whipping Cream Powder, 200g",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "orion_choco_pie_combo_mango_choco_pie_12pcs_x_2_24_pies_centre_filled_chocolate_biscuit",
+    "target_title": "ORION Choco Pie Combo - Mango Choco Pie 12pcs x 2 (24 pies)| centre-filled chocolate biscuit",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "himalayan_natives_organic_bilona_cow_ghee_100_natural_organic_cow_ghee_100_pure_natural_organic_cow_ghee_organic_co",
+    "target_title": "Himalayan Natives Organic Bilona Cow Ghee | 100% Natural Organic Cow Ghee |100% Pure Natural Organic Cow Ghee | Organic Co...",
+    "category": "GROCERY",
+    "subcategory": "Dairy & Alternatives",
+    "top_5_recommendations": [
+      {
+        "product_id": "tosca_muso_gold_chocolate_gold_chocolate_truffles_center_filled_milk_chocolate_60_pcs_in_a_box",
+        "title": "Tosca Muso Gold Chocolate- Gold Chocolate Truffles- Center Filled Milk Chocolate (60 pcs in a Box)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+        "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_no_added_sugar_dark_chocolate_protein_peanut_butter_325g_with_9g_protein_per_serve_crunchy",
+        "title": "The Whole Truth - No Added Sugar Dark Chocolate Protein Peanut Butter - 325g with 9g Protein per serve - Crunchy",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_dark_chocolate_peanut_butter_325_g_crunchy_no_added_sugar_high_protein_no_artificial_sweetener",
+        "title": "The Whole Truth - Dark Chocolate Peanut Butter | 325 g | Crunchy | No Added Sugar | High Protein | No Artificial Sweetener...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+        "title": "The Whole Truth - Breakfast Muesli | Quinoa Choco Crunch Muesli | 320grams | Vegan | Dairy-free | No Artificial Sweeteners...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "wingreens_farms_cheesy_sauce_180_g",
+    "target_title": "Wingreens Farms Cheesy Sauce, 180 g",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "jellytown_heart_shape_jellypop_sticks_pack_of_15",
+    "target_title": "JELLYTOWN\u00ae Heart Shape JellyPop Sticks Pack of 15",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "chaizup_instant_cardamom_premix_tea_karak_ready_to_drink_chai_with_cardamom_and_low_sugar_elaichi_flavor_10_sachets",
+    "target_title": "Chaizup Instant Cardamom Premix Tea - Karak Ready to Drink Chai with Cardamom and Low Sugar | Elaichi Flavor | 10 Sachets...",
+    "category": "GROCERY",
+    "subcategory": "Tea",
+    "top_5_recommendations": [
+      {
+        "product_id": "woolah_rare_assam_green_tea_world_s_1st_bagless_whole_leaf_organic_tea_dip_15_pcs_30_cups_single_origin_tea_natu",
+        "title": "Woolah Rare Assam Green Tea - World's 1st Bagless Whole Leaf Organic Tea Dip | 15 pcs (30 Cups) | Single Origin Tea | Natu...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wheafree_gluten_free_milk_rusk_non_veg_pack_of_2_x_300g_each_tasty_crunchy_and_crispy_best_tea_time_snacks_no_m",
+        "title": "Wheafree Gluten Free Milk Rusk - Non-Veg (Pack of 2 x 300g Each) | Tasty, Crunchy and Crispy | Best Tea Time Snacks | No M...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wagh_bakri_premium_leaf_tea_poly_pack_500g",
+        "title": "Wagh Bakri Premium Leaf Tea, Poly Pack, 500g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wagh_bakri_premium_assam_tea_100_tea_bags",
+        "title": "Wagh Bakri Premium Assam Tea - 100 Tea Bags",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wagh_bakri_masala_chai_tea_bags_200g",
+        "title": "Wagh Bakri Masala Chai Tea Bags, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "unived_ksm_66_ashwagandha_600mg_vegan_full_spectrum_root_extract_standardized_to_5_withanolides_for_stress_anxiety",
+    "target_title": "Unived KSM-66 Ashwagandha | 600mg Vegan Full Spectrum Root Extract Standardized to 5% Withanolides | for Stress, Anxiety, ...",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "act_ii_instant_popcorn_golden_sizzle_60g_pack_of_3",
+    "target_title": "Act II Instant Popcorn - Golden Sizzle, 60g (Pack of 3)",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "maggi_professional_rice_and_noodle_seasoning_wok_flavour_200g_pouch",
+    "target_title": "Maggi Professional Rice and Noodle Seasoning, Wok Flavour - 200g Pouch",
+    "category": "GROCERY",
+    "subcategory": "Rice",
+    "top_5_recommendations": [
+      {
+        "product_id": "yuvika_mulethi_multhi_spl_glycyrrhiza_glabra_yashtimadhu_jeshthamadha_licorice_root_100_grams",
+        "title": "YUVIKA Mulethi - Multhi Spl - Glycyrrhiza Glabra - Yashtimadhu - Jeshthamadha - Licorice Root (100 Grams)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+        "title": "Veganic Rice Kachari - 400GM | Salted Rice Wafer Fryum | Rice Finger Papad | Sun Dried Rice Kurdai | Chaval Charauri, Tilo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "tilda_premium_basmati_rice_5_kg",
+        "title": "Tilda Premium Basmati Rice 5 kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "thanjai_organics_karuppu_kavuni_rice_black_rice_low_gi_traditional_kavuni_arisi_weight_1kg",
+        "title": "Thanjai Organics Karuppu Kavuni Rice | Black Rice | Low GI |Traditional Kavuni Arisi (Weight: 1kg)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "taja_puffed_rice_500_gms_pack_of_2_muri_murmura",
+        "title": "Taja Puffed Rice 500 GMS, Pack of 2 (MURI/MURMURA)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "electrofizz_instant_hydration_energy_drink_for_workout_for_men_and_women_electrolyte_powder_vitamin_c_probiotics_1_kg",
+    "target_title": "ElectroFizz Instant Hydration Energy Drink for Workout for Men and Women- Electrolyte Powder, Vitamin C, Probiotics - 1 Kg...",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "amul_ice_cream_sundae_strawberry_magic_1_litre",
+    "target_title": "Amul Ice Cream Sundae Strawberry Magic, 1 Litre",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "cadbury_birthday_celebrations_box_430g",
+    "target_title": "Cadbury Birthday Celebrations Box, 430g",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "third_wave_coffee_french_roast_100_arabica_coffee_250_gram_cold_brew_french_press",
+    "target_title": "Third Wave Coffee French Roast 100% Arabica Coffee, 250 gram (Cold Brew/French Press)",
+    "category": "GROCERY",
+    "subcategory": "Coffee",
+    "top_5_recommendations": [
+      {
+        "product_id": "tata_coffee_gold_100_pure_coffee_original_50g",
+        "title": "Tata Coffee Gold, 100% Pure Coffee, Original, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "sunbean_beaten_caffe_strong_125g_rich_creamy_strong_beaten_coffee_whipped_coffee_paste_strong_instant_beaten_coffe",
+        "title": "Sunbean Beaten Caffe Strong, 125g | Rich, Creamy Strong Beaten Coffee | Whipped Coffee Paste | Strong Instant Beaten Coffe...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "sunbean_beaten_caffe_instant_coffee_paste_250g_jar_rich_creamy_and_frothy_beaten_coffee_make_hot_coffee_cappuccino",
+        "title": "Sunbean Beaten Caffe, Instant Coffee Paste 250g Jar | Rich, Creamy and Frothy Beaten Coffee | Make Hot Coffee, Cappuccino ...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "starbucks_single_origin_sumatra_coffee_dark_roast_coffee_capsule_by_nespresso_intensity_10_55g",
+        "title": "Starbucks Single Origin Sumatra Coffee Dark Roast Coffee Capsule by Nespresso Intensity 10, 55g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "sleepy_owl_premium_instant_coffee_sachets_96_gm_pack_of_48_assorted_coffee_powder_sachets_2g_each_original_french",
+        "title": "Sleepy Owl Premium Instant Coffee Sachets | 96 gm - Pack of 48 Assorted Coffee Powder Sachets | 2g Each - Original, French...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "coco_mama_coconut_water_tetrapak_250_ml",
+    "target_title": "Coco Mama Coconut Water Tetrapak, 250 ml",
+    "category": "FESTIVALS",
+    "subcategory": "Pooja & Festival Supplies",
+    "top_5_recommendations": [
+      {
+        "product_id": "urban_platter_nori_komi_furikake_seasoning_100g_japanese_style_vegan_made_with_ao_nori_sesame_seeds_pink_salt_seaso",
+        "title": "Urban Platter Nori Komi Furikake Seasoning, 100g (Japanese Style, Vegan, Made with Ao Nori, Sesame Seeds, Pink Salt, Seaso...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "slurrp_farm_coconut_sugar_natural_sweetener_300g",
+        "title": "Slurrp Farm Coconut Sugar \u2013 Natural Sweetener, 300g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "puvi_1l_cold_pressed_gingelly_sesame_oil_virgin_chekku_ghani_1_litre",
+        "title": "Puvi 1L Cold Pressed Gingelly / Sesame Oil (Virgin, Chekku / Ghani) - 1 Litre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "pansari_til_oil_gingelly_sesame_oil_til_oil_virgin_chekku_ghani_1_ltr",
+        "title": "Pansari Til Oil Gingelly/Sesame Oil/Til Oil (Virgin, Chekku/Ghani) (1 LTR)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "organic_india_cold_pressed_virgin_coconut_oil_500ml_pack_of_1",
+        "title": "ORGANIC INDIA Cold Pressed Virgin Coconut Oil, 500ml (Pack of 1)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "krishna_s_amla_aloe_vera_wheat_grass_haldi_tulsi_juice_500_ml_pack_of_1_powerful_antioxidant_enriched_with_vita",
+    "target_title": "Krishna's Amla Aloe Vera Wheat-grass, Haldi & Tulsi Juice - 500 ml (Pack of 1) | Powerful Antioxidant | Enriched with Vita...",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "jhaji_store_s_lemon_ginger_green_chili_mixed_pickle_neembu_adrak_mirch_ka_khatta_achar_tangy_sour_chatpata_spicy",
+    "target_title": "Jhaji Store\u2019s Lemon, Ginger & Green Chili Mixed Pickle| Neembu Adrak Mirch Ka Khatta Achar | Tangy, Sour, Chatpata & Spicy...",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "nutri_desire_dried_californian_blueberry_sweet_and_delicious_1kg_rich_in_calcium_and_vitamin_k_vegan_non_gmo_no_prese",
+    "target_title": "NUTRI DESIRE Dried Californian Blueberry Sweet and Delicious 1KG Rich in Calcium and Vitamin K | Vegan, Non-GMO & No Prese...",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "urban_platter_psyllium_husk_powder_isabgol_atta_pack_of_600g",
+    "target_title": "Urban Platter Psyllium Husk Powder (Isabgol Atta),Pack of 600g",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "sunfeast_dark_fantasy_bourbon_classic_with_real_chocolate_100g",
+    "target_title": "Sunfeast Dark Fantasy Bourbon Classic With Real Chocolate, 100g",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "baidyanath_karela_jamun_juice_diabetes_care_all_natural_no_sugar_maintain_healthy_sugar_levels_1l_pack_of_2",
+    "target_title": "Baidyanath Karela Jamun Juice | Diabetes Care| All Natural| No Sugar| Maintain Healthy Sugar Levels - 1L (Pack of 2)",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "raw_pressery_lactose_free_skimmed_milk_1_litre",
+    "target_title": "Raw Pressery Lactose Free Skimmed Milk, 1 Litre",
+    "category": "GROCERY",
+    "subcategory": "Dairy & Alternatives",
+    "top_5_recommendations": [
+      {
+        "product_id": "tosca_muso_gold_chocolate_gold_chocolate_truffles_center_filled_milk_chocolate_60_pcs_in_a_box",
+        "title": "Tosca Muso Gold Chocolate- Gold Chocolate Truffles- Center Filled Milk Chocolate (60 pcs in a Box)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+        "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_no_added_sugar_dark_chocolate_protein_peanut_butter_325g_with_9g_protein_per_serve_crunchy",
+        "title": "The Whole Truth - No Added Sugar Dark Chocolate Protein Peanut Butter - 325g with 9g Protein per serve - Crunchy",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_dark_chocolate_peanut_butter_325_g_crunchy_no_added_sugar_high_protein_no_artificial_sweetener",
+        "title": "The Whole Truth - Dark Chocolate Peanut Butter | 325 g | Crunchy | No Added Sugar | High Protein | No Artificial Sweetener...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+        "title": "The Whole Truth - Breakfast Muesli | Quinoa Choco Crunch Muesli | 320grams | Vegan | Dairy-free | No Artificial Sweeteners...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "arnott_s_tim_tam_smooth_and_crunchy_classic_chocolate_sandwich_biscuit_with_selected_cocoa_beans_81gm_imported",
+    "target_title": "ARNOTT'S Tim TAM Smooth and Crunchy Classic Chocolate Sandwich Biscuit with Selected Cocoa Beans 81GM(Imported)",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "parle_marie_biscuit_250g_300g_weight_may_vary",
+    "target_title": "Parle Marie Biscuit , 250g / 300g (Weight May Vary)",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "mom_meal_of_the_moment_makhana_cream_n_onion_60_g_pack_of_3",
+    "target_title": "MOM - MEAL OF THE MOMENT, Makhana (Cream n Onion, 60 g (Pack of 3))",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "farm_honey_wild_unprocessed_honey_pure_organic_raw_honey_100_natural_no_preservatives_no_artificial_color_no_added_suga",
+    "target_title": "Farm Honey Wild Unprocessed Honey|Pure Organic Raw Honey|100% Natural|no preservatives| No Artificial Color|no Added Suga...",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "patanjali_pushtahar_dalia_500g",
+    "target_title": "Patanjali Pushtahar Dalia, 500g",
+    "category": "GROCERY",
+    "subcategory": "Flour & Atta",
+    "top_5_recommendations": [
+      {
+        "product_id": "yogabar_choco_cereal_345g_no_maida_chocos_for_kids_delicious_chocolate_chocos_healthy_protein_food_breakfast_cerea",
+        "title": "Yogabar Choco Cereal 345g | No Maida Chocos for Kids | Delicious Chocolate Chocos | Healthy Protein Food & Breakfast Cerea...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+        "title": "Wiggles EveryDawg Dry Adult Dog Food, 1.2kg (Chicken, Oats & Vegetables)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wheafree_gluten_free_multigrain_flour_5kg_soya_free_lactose_free_easy_to_digest_suitable_for_celiacs",
+        "title": "Wheafree Gluten Free Multigrain Flour (5Kg) | Soya Free | Lactose Free | Easy to Digest | Suitable for Celiacs",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "vishvanetre_pure_natural_chestnut_oak_flour_shaahabaloot_ka_atta_singhra_atta_500_gm",
+        "title": "Vishvanetre Pure & Natural Chestnut Oak Flour Shaahabaloot Ka Atta ,Singhra Atta....... (500 GM)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_better_flour_value_saver_combo_vegan_low_carb_flour_contains_plant_based_proteins_gluten_free_protein_rich_multip",
+        "title": "The Better Flour Value Saver Combo, Vegan Low Carb Flour | Contains Plant Based Proteins | Gluten Free Protein Rich Multip...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "krishna_s_diabic_care_juice_1000_ml_blend_of_11_herbs_methi_amla_karela_jamun_kutki_guduchi_5_other_herbs_to_ma",
+    "target_title": "Krishna's Diabic Care Juice - 1000 ml | Blend of 11 herbs Methi, Amla, Karela, Jamun, Kutki, Guduchi & 5 other herbs to ma...",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+    "target_title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_pizza_pasta_sauce_180g_nozzle_pack",
+        "title": "Wingreens Farms Pizza & Pasta Sauce, 180g| Nozzle Pack",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "shanai_foods_100_natural_california_almonds_500g_premium_badam_giri",
+    "target_title": "Shanai Foods 100% Natural California Almonds, 500g | Premium Badam Giri",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "wagh_bakri_ginger_instant_tea_premix_140g",
+    "target_title": "Wagh Bakri Ginger Instant Tea Premix, 140g",
+    "category": "GROCERY",
+    "subcategory": "Tea",
+    "top_5_recommendations": [
+      {
+        "product_id": "woolah_rare_assam_green_tea_world_s_1st_bagless_whole_leaf_organic_tea_dip_15_pcs_30_cups_single_origin_tea_natu",
+        "title": "Woolah Rare Assam Green Tea - World's 1st Bagless Whole Leaf Organic Tea Dip | 15 pcs (30 Cups) | Single Origin Tea | Natu...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wheafree_gluten_free_milk_rusk_non_veg_pack_of_2_x_300g_each_tasty_crunchy_and_crispy_best_tea_time_snacks_no_m",
+        "title": "Wheafree Gluten Free Milk Rusk - Non-Veg (Pack of 2 x 300g Each) | Tasty, Crunchy and Crispy | Best Tea Time Snacks | No M...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wagh_bakri_premium_leaf_tea_poly_pack_500g",
+        "title": "Wagh Bakri Premium Leaf Tea, Poly Pack, 500g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wagh_bakri_premium_assam_tea_100_tea_bags",
+        "title": "Wagh Bakri Premium Assam Tea - 100 Tea Bags",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wagh_bakri_masala_chai_tea_bags_200g",
+        "title": "Wagh Bakri Masala Chai Tea Bags, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "pro_nature_organic_spices_black_pepper_whole_100g_pouch",
+    "target_title": "Pro Nature Organic Spices - Black Pepper Whole, 100g Pouch",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "alkalen_water_based_electrolyte_drink_ph_alkaline_8_5_to_9_5_1_l_pack_of_12",
+    "target_title": "Alkalen Water-Based Electrolyte Drink pH Alkaline 8.5 to 9.5 1 L (Pack of 12)",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "saptamveda_100_organic_amla_indian_gooseberry_powder_150gm_drinking_eating_hair_nourishment_repair_damage_hair_sk",
+    "target_title": "Saptamveda 100% Organic Amla Indian Gooseberry Powder (150gm)| Drinking, Eating, Hair Nourishment, Repair Damage Hair & Sk...",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "lg_laljee_godhoo_co_compounded_asafoetida_powder_100gms",
+    "target_title": "LG LALJEE GODHOO & CO. Compounded Asafoetida Powder-100Gms",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "first_bud_organics_homemade_mango_pickle_350g_secret_rajasthani_recipe_dry_and_spicy_pickle_100_natural_ingredi",
+    "target_title": "First Bud Organics - Homemade Mango Pickle (350g) | Secret Rajasthani Recipe | Dry and Spicy Pickle | 100% Natural Ingredi...",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "ih_food_products_kalmi_dates_khajur_khajoor_dry_fruits_energy_booster_healthy_superfoods_for_breakfast_antioxidant_rich_fi",
+    "target_title": "IH FOOD PRODUCTS Kalmi Dates Khajur Khajoor Dry Fruits Energy Booster Healthy Superfoods For Breakfast Antioxidant Rich Fi...",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "bogatchi_whipped_cream_whipping_cream_powder_whipping_cream_for_cake_premium_whipping_cream_powder_free_one_extra_w",
+    "target_title": "BOGATCHI Whipped Cream | Whipping Cream Powder, Whipping Cream for Cake, Premium Whipping Cream Powder, | Free One Extra W...",
+    "category": "GROCERY",
+    "subcategory": "Spices",
+    "top_5_recommendations": [
+      {
+        "product_id": "weikfield_green_chilli_sauce_200g",
+        "title": "Weikfield Green Chilli Sauce, 200g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_50g",
+        "title": "Weikfield Cocoa Powder, 50g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_cocoa_powder_150g",
+        "title": "Weikfield Cocoa Powder, 150g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_dessert_mix_400g_jar",
+        "title": "Weikfield Baking Powder - Dessert Mix 400g Jar",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "weikfield_baking_powder_100g",
+        "title": "Weikfield Baking Powder, 100g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+    "target_title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_pizza_pasta_sauce_180g_nozzle_pack",
+        "title": "Wingreens Farms Pizza & Pasta Sauce, 180g| Nozzle Pack",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "dabur_amla_juice_rich_source_of_vitamin_c_and_antioxidants_for_immunity_boosting_pure_natural_and_100_ayurvedic_juice_1l",
+    "target_title": "Dabur Amla Juice: Rich Source of Vitamin C and Antioxidants for Immunity boosting |Pure, Natural and 100% Ayurvedic Juice -1L",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "asli_black_poppy_seeds_basil_posta_dhana_khus_khus_100_grams",
+    "target_title": "ASLI Black Poppy Seeds Basil Posta Dhana Khus Khus 100 Grams",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "limca_bottle_600ml",
+    "target_title": "Limca Bottle, 600ml",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "mala_s_fruit_mocktail_syrup_green_mint_750ml_1_count",
+    "target_title": "Mala's, Fruit Mocktail Syrup Green Mint 750ml, 1 count",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "24_mantra_organic_quinoa_500g",
+    "target_title": "24 Mantra Organic Quinoa, 500g",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "dry_fruit_wala_sabudana_papad_plain_250gms_gluten_free_upwas_friendly_tapioca_papads",
+    "target_title": "Dry Fruit Wala Sabudana Papad Plain 250gms (Gluten-Free & Upwas-Friendly Tapioca Papads)",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "chef_s_art_premium_italian_seasoning_oregano_spice_sprinkler_150_sachet",
+    "target_title": "Chef's art Premium Italian Seasoning/Oregano Spice sprinkler-150 Sachet",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "parle_melody_chocolate_195g",
+    "target_title": "Parle Melody Chocolate, 195g",
+    "category": "GROCERY",
+    "subcategory": "Snacks & Confectionery",
+    "top_5_recommendations": [
+      {
+        "product_id": "veganic_marshmallows_pure_veg_80_pieces_pack_strawberry_vanilla_flavour_mini_marshmallow_soft_and_tasty_candy_perfect_fo",
+        "title": "Veganic Marshmallows Pure Veg (80 Pieces) Pack Strawberry Vanilla Flavour Mini Marshmallow Soft And Tasty Candy Perfect Fo...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_snack_bar_fruit_nut_360g_pack_of_12_360g",
+        "title": "Unibic Snack bar\u00a0 Fruit & Nut 360g Pack of 12, 360g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_fruit_and_nut_cookies_75g",
+        "title": "UNIBIC Fruit and Nut Cookies, 75g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "unibic_choco_chip_cookie_500g_pack_of_3",
+        "title": "Unibic Choco Chip Cookie - 500g (Pack of 3)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+        "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "siridhanya_unpolised_and_organic_millets_flour_combo_pack_of_5_kodo_foxtail_browntop_barnyard_and_little_millet_750gm",
+    "target_title": "Siridhanya Unpolised and organic millets Flour Combo Pack of 5, [Kodo, Foxtail, Browntop Barnyard, and Little Millet]750gm...",
+    "category": "GROCERY",
+    "subcategory": "Flour & Atta",
+    "top_5_recommendations": [
+      {
+        "product_id": "yogabar_choco_cereal_345g_no_maida_chocos_for_kids_delicious_chocolate_chocos_healthy_protein_food_breakfast_cerea",
+        "title": "Yogabar Choco Cereal 345g | No Maida Chocos for Kids | Delicious Chocolate Chocos | Healthy Protein Food & Breakfast Cerea...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+        "title": "Wiggles EveryDawg Dry Adult Dog Food, 1.2kg (Chicken, Oats & Vegetables)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wheafree_gluten_free_multigrain_flour_5kg_soya_free_lactose_free_easy_to_digest_suitable_for_celiacs",
+        "title": "Wheafree Gluten Free Multigrain Flour (5Kg) | Soya Free | Lactose Free | Easy to Digest | Suitable for Celiacs",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "vishvanetre_pure_natural_chestnut_oak_flour_shaahabaloot_ka_atta_singhra_atta_500_gm",
+        "title": "Vishvanetre Pure & Natural Chestnut Oak Flour Shaahabaloot Ka Atta ,Singhra Atta....... (500 GM)",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "the_better_flour_value_saver_combo_vegan_low_carb_flour_contains_plant_based_proteins_gluten_free_protein_rich_multip",
+        "title": "The Better Flour Value Saver Combo, Vegan Low Carb Flour | Contains Plant Based Proteins | Gluten Free Protein Rich Multip...",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "saffola_honey_active_made_with_sundarban_forest_honey_100_pure_honey_no_sugar_adulteration_natural_immunity_booster",
+    "target_title": "Saffola Honey Active, Made with Sundarban Forest Honey, 100% Pure Honey, No sugar adulteration, Natural Immunity booster, ...",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  },
+  {
+    "target_product_id": "sundrop_oil_super_lite_advanced_1l_pouch",
+    "target_title": "Sundrop Oil - Super Lite Advanced, 1L Pouch",
+    "category": "GROCERY",
+    "subcategory": "General Grocery",
+    "top_5_recommendations": [
+      {
+        "product_id": "zorabian_chicken_sausages_250_g",
+        "title": "Zorabian Chicken Sausages, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zorabian_chicken_salami_250_g",
+        "title": "Zorabian Chicken Salami, 250 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zone_marketing_organic_palm_sugar_crystals_panag_kalkandu_1kg",
+        "title": "Zone Marketing Organic Palm Sugar Crystals / Panag Kalkandu 1kg",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "zenith_nutrition_pantothenic_acid_vitamin_b5_5000mcg_energy_metabolism_100_veg_capsules",
+        "title": "Zenith Nutrition Pantothenic Acid (Vitamin B5) 5000mcg, Energy & Metabolism - 100 Veg capsules",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      },
+      {
+        "product_id": "wingreens_farms_thousand_island_nozzle_pack_200_g",
+        "title": "Wingreens Farms Thousand Island Nozzle Pack, 200 g",
+        "similarity_score": 1.0,
+        "validation": {
+          "same_category": true,
+          "same_subcategory": true,
+          "similar_mission_hints": true
+        }
+      }
+    ]
+  }
+]

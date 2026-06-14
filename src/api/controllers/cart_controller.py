@@ -1,6 +1,6 @@
 import json
-from shared.services.cart_service import CartService
-from shared.schemas.cart_schemas import CartCreate, CartUpdate, CartAddItem, CartResponse, CartItem
+from foundation.shared.services.cart_service import CartService
+from foundation.shared.schemas.cart_schemas import CartCreate, CartUpdate, CartAddItem, CartResponse, CartItem
 
 class CartController:
     def __init__(self):

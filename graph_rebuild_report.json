@@ -1,0 +1,17 @@
+{
+  "status": "SUCCESS",
+  "metrics": {
+    "missions": 24,
+    "products": 954,
+    "requires_edges": 5329,
+    "optional_edges": 797,
+    "depends_on_edges": 7171,
+    "compatible_edges": 3162,
+    "substitute_edges": 2630,
+    "orphan_nodes": 2,
+    "orphan_percentage": 0.21,
+    "category_consistency": 95.0,
+    "subcategory_consistency": 98.0,
+    "mission_quality_score": 92.5
+  }
+}

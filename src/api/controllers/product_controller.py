@@ -1,6 +1,6 @@
 import json
-from shared.services.product_service import ProductService
-from shared.schemas.product_schemas import ProductCreate, ProductUpdate, ProductResponse
+from foundation.shared.services.product_service import ProductService
+from foundation.shared.schemas.product_schemas import ProductCreate, ProductUpdate, ProductResponse
 
 class ProductController:
     def __init__(self):
@@ -98,4 +98,25 @@ class ProductController:
         return {
             "statusCode": 200,
             "body": json.dumps({"success": True, "data": response})
+        }
+
+    def debug_product(self, event: dict) -> dict:
+        product_id = event['pathParameters']['id']
+        product = self.service.get_product(product_id)
+        
+        from data_ingestion.product_intelligence import enrich_product_metadata
+        res = enrich_product_metadata(product.title, product.category)
+        
+        return {
+            "statusCode": 200,
+            "body": json.dumps({
+                "success": True, 
+                "data": {
+                    "category": res["category"],
+                    "subcategory": res["subcategory"],
+                    "semanticTags": res["semanticTags"],
+                    "missionHints": res["missionHints"],
+                    "embeddingText": res["embeddingText"]
+                }
+            })
         }

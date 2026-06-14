@@ -1,6 +1,6 @@
 import json
-from domains.memory.service import MemoryService
-from domains.memory.schemas import MissionStateRequest, ActiveMissionResponse, CompletedMissionResponse, MissionHistoryResponse
+from foundation.domains.memory.service import MemoryService
+from foundation.domains.memory.schemas import MissionStateRequest, ActiveMissionResponse, CompletedMissionResponse, MissionHistoryResponse
 
 class MemoryController:
     """Controller for routing memory requests."""

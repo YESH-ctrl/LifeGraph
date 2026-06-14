@@ -5,7 +5,7 @@ import json
 # Add src to python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 
-from data_ingestion.pipeline import enrich_products_pipeline, generate_data_quality_report
+from ingestion.pipeline import enrich_products_pipeline, generate_data_quality_report
 
 def run_enrichment():
     print("Starting Product Intelligence Enrichment Pipeline...")

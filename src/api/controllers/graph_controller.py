@@ -1,5 +1,5 @@
 import json
-from graph.service import GraphService
+from foundation.graph.service import GraphService
 
 class GraphController:
     def __init__(self):
@@ -12,7 +12,7 @@ class GraphController:
         """
         mission_id = event['pathParameters']['id']
         # Fetch raw mission item directly via repository (metadata)
-        from graph.repository import GraphRepository
+        from foundation.graph.repository import GraphRepository
         repo = GraphRepository()
         mission_item = repo.get_item(f"MISSION#{mission_id}")  # assumes BaseRepository get_item
         # Weighted requirements (with priority & weight)
@@ -67,3 +67,51 @@ class GraphController:
             "statusCode": 200,
             "body": json.dumps({"success": True, "data": substitutes})
         }
+
+    def get_graph_health(self, event: dict) -> dict:
+        metrics = self.service.get_health_metrics()
+        return {
+            "statusCode": 200,
+            "body": json.dumps({"success": True, "data": metrics})
+        }
+
+    def get_mission_visualize(self, event: dict) -> dict:
+        mission_id = event['pathParameters']['id']
+        data = self.service.get_mission_visualize(mission_id)
+        return {"statusCode": 200, "body": json.dumps(data)}
+
+    def get_product_visualize(self, event: dict) -> dict:
+        product_id = event['pathParameters']['id']
+        data = self.service.get_product_visualize(product_id)
+        return {"statusCode": 200, "body": json.dumps(data)}
+
+    def get_mission_coverage(self, event: dict) -> dict:
+        data = self.service.get_mission_coverage()
+        return {"statusCode": 200, "body": json.dumps(data)}
+
+    def get_product_coverage(self, event: dict) -> dict:
+        data = self.service.get_product_coverage()
+        return {"statusCode": 200, "body": json.dumps(data)}
+
+    def get_relationships_audit(self, event: dict) -> dict:
+        data = self.service.get_relationships_audit()
+        return {"statusCode": 200, "body": json.dumps(data)}
+
+    def validate_graph(self, event: dict) -> dict:
+        data = self.service.validate_graph()
+        return {"statusCode": 200, "body": json.dumps(data)}
+
+    def get_system_readiness(self, event: dict) -> dict:
+        # Mock readiness endpoint
+        data = {
+            "graph_foundation": True,
+            "mission_detection": True,
+            "verification_engine": True,
+            "risk_engine": True,
+            "simulation_engine": True,
+            "prevention_engine": True,
+            "adaptive_engine": True,
+            "memory_engine": True,
+            "overall_readiness_score": 92
+        }
+        return {"statusCode": 200, "body": json.dumps(data)}

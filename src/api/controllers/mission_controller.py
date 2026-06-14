@@ -1,6 +1,6 @@
 import json
-from agents.mission_agent import MissionAgent
-from shared.schemas.mission_schemas import MissionCreate, MissionUpdate, MissionResponse
+from engines.agents.mission_agent import MissionAgent
+from foundation.shared.schemas.mission_schemas import MissionCreate, MissionUpdate, MissionResponse
 
 class MissionController:
     def __init__(self):

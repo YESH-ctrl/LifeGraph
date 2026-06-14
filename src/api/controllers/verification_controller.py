@@ -1,6 +1,6 @@
 import json
-from domains.verification.service import VerificationService
-from shared.schemas.engine_schemas import VerificationRequest
+from engines.domains.verification.service import VerificationService
+from foundation.shared.schemas.engine_schemas import VerificationRequest
 
 class VerificationController:
     def __init__(self):

@@ -1,0 +1,178 @@
+[
+  {
+    "mission_id": "road_trip_essentials",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "weekly_grocery_shopping",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "exam_preparation_week",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "train_journey_essentials",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "weekend_cooking_session",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "elderly_care_essentials",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "chicken_biryani",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "diwali_celebration",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "ganesh_chaturthi",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "hostel_essentials_refill",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "house_party",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "sankranti_preparation",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "paneer_butter_masala_dinner",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "weight_loss_journey",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "new_semester_setup",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "healthy_lifestyle_start",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "movie_night",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "birthday_party",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "family_gathering",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "housewarming_ceremony",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "family_breakfast_setup",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  },
+  {
+    "mission_id": "monthly_grocery_refill",
+    "requires_edges": 5,
+    "optional_edges": 3,
+    "depends_on_edges": 8,
+    "substitute_edges": 8,
+    "serves_edges": 8
+  }
+]

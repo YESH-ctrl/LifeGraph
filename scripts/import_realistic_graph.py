@@ -6,18 +6,18 @@ import csv
 # Add src to the path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from shared.models.mission_model import MissionModel
-from shared.repositories.mission_repository import MissionRepository
-from shared.models.product_model import ProductModel
-from shared.repositories.product_repository import ProductRepository
-from shared.models.relationship_model import RelationshipModel
-from shared.repositories.relationship_repository import RelationshipRepository
-from domains.relationships.schemas import RelationshipType
-from shared.repositories.cart_repository import CartRepository
-from shared.models.cart_model import CartModel, CartItemModel
+from foundation.shared.models.mission_model import MissionModel
+from foundation.shared.repositories.mission_repository import MissionRepository
+from foundation.shared.models.product_model import ProductModel
+from foundation.shared.repositories.product_repository import ProductRepository
+from foundation.shared.models.relationship_model import RelationshipModel
+from foundation.shared.repositories.relationship_repository import RelationshipRepository
+from foundation.domains.relationships.schemas import RelationshipType
+from foundation.shared.repositories.cart_repository import CartRepository
+from foundation.shared.models.cart_model import CartModel, CartItemModel
 
 import boto3
-from core.config import settings
+from foundation.core.config import settings
 
 def backup_and_clear():
     dynamodb = boto3.resource('dynamodb', region_name=settings.REGION_NAME)

@@ -1,6 +1,6 @@
 from typing import List, Optional
-from infrastructure.dynamodb.base_repository import BaseRepository
-from domains.memory.models import MemoryModel
+from foundation.infrastructure.dynamodb.base_repository import BaseRepository
+from foundation.domains.memory.models import MemoryModel
 
 class MemoryRepository(BaseRepository):
     """Repository for managing memory data in DynamoDB."""

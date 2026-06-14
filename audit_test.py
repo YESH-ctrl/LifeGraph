@@ -6,7 +6,7 @@ from unittest.mock import patch, MagicMock
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 # Patch GraphRepository bugs left by Person 1
-from domains.graph.repository import GraphRepository
+from foundation.domains.graph.repository import GraphRepository
 if not hasattr(GraphRepository, 'query_gsi1_prefix'):
     def fake_query_gsi1(self, pk, sk_prefix):
         return self.query_by_pk(pk, sk_prefix)

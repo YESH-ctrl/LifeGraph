@@ -3,8 +3,8 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
-from domains.mission_detection.service import MissionDetectionService
-from domains.mission_detection.schemas import MissionDetectionRequest
+from engines.domains.mission_detection.service import MissionDetectionService
+from engines.domains.mission_detection.schemas import MissionDetectionRequest
 
 def run_benchmarks():
     service = MissionDetectionService()

@@ -1,0 +1,200 @@
+[
+  {
+    "mission_id": "family_gathering",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "housewarming_ceremony",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "birthday_party",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "weight_loss_journey",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "healthy_lifestyle_start",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "movie_night",
+    "mission_exists": true,
+    "requires_edges": 4,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 4
+  },
+  {
+    "mission_id": "chicken_biryani",
+    "mission_exists": true,
+    "requires_edges": 3,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 3
+  },
+  {
+    "mission_id": "weekly_grocery_shopping",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "ganesh_chaturthi",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "monthly_grocery_refill",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "train_journey_essentials",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "new_semester_setup",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "house_party",
+    "mission_exists": true,
+    "requires_edges": 2,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 2
+  },
+  {
+    "mission_id": "road_trip_essentials",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "family_breakfast_setup",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "sankranti_preparation",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "elderly_care_essentials",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "diwali_celebration",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "paneer_butter_masala_dinner",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "weekend_cooking_session",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "exam_preparation_week",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  },
+  {
+    "mission_id": "hostel_essentials_refill",
+    "mission_exists": true,
+    "requires_edges": 0,
+    "optional_edges": 0,
+    "depends_on_edges": 0,
+    "serves_edges": 0,
+    "weighted_requirements_count": 0
+  }
+]

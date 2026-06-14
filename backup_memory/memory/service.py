@@ -1,7 +1,7 @@
 from typing import List
-from domains.memory.repository import MemoryRepository
-from domains.memory.models import MemoryModel
-from domains.memory.schemas import MissionStateRequest
+from foundation.domains.memory.repository import MemoryRepository
+from foundation.domains.memory.models import MemoryModel
+from foundation.domains.memory.schemas import MissionStateRequest
 
 class MemoryService:
     """Service handling business logic for the memory domain."""

@@ -1,8 +1,8 @@
 import json
-from domains.verification.service import VerificationService
-from domains.risk.service import RiskService
-from domains.prevention.service import PreventionService
-from shared.schemas.engine_schemas import VerificationRequest, RiskRequest, PreventionRequest
+from engines.domains.verification.service import VerificationService
+from engines.domains.risk.service import RiskService
+from engines.domains.prevention.service import PreventionService
+from foundation.shared.schemas.engine_schemas import VerificationRequest, RiskRequest, PreventionRequest
 
 class WorkflowController:
     def __init__(self):

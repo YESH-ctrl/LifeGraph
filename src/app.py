@@ -3,28 +3,28 @@ import logging
 import re
 import os
 from pydantic import ValidationError
-from core.exceptions import LifeGraphException
+from foundation.core.exceptions import LifeGraphException
 
-from domains.users.controller import UserController
-from domains.products.controller import ProductController
-from domains.carts.controller import CartController
-from domains.verification.controller import VerificationController
-from domains.risk.controller import RiskController
-from domains.prevention.controller import PreventionController
-from domains.missions.controller import MissionController
-from domains.relationships.controller import RelationshipController
-from domains.graph.controller import GraphController
-from domains.memory.controller import MemoryController
-from domains.adaptive.controller import AdaptiveController
-from domains.simulator.controller import SimulatorController
-from domains.verification.controller import VerificationController
-from domains.risk.controller import RiskController
-from domains.prevention.controller import PreventionController
+from foundation.domains.users.controller import UserController
+from foundation.domains.products.controller import ProductController
+from foundation.domains.carts.controller import CartController
+from engines.domains.verification.controller import VerificationController
+from engines.domains.risk.controller import RiskController
+from engines.domains.prevention.controller import PreventionController
+from foundation.domains.missions.controller import MissionController
+from foundation.domains.relationships.controller import RelationshipController
+from foundation.domains.graph.controller import GraphController
+from foundation.domains.memory.controller import MemoryController
+from engines.domains.adaptive.controller import AdaptiveController
+from engines.domains.simulator.controller import SimulatorController
+from engines.domains.verification.controller import VerificationController
+from engines.domains.risk.controller import RiskController
+from engines.domains.prevention.controller import PreventionController
 from api.controllers.mission_controller import MissionController
 from api.controllers.relationship_controller import RelationshipController
 from api.controllers.graph_controller import GraphController
 from api.controllers.workflow_controller import WorkflowController
-from agents.orchestrator.controller import OrchestratorController
+from orchestration.agents.orchestrator.controller import OrchestratorController
 # Seeder import removed
 
 logger = logging.getLogger()
@@ -122,6 +122,9 @@ def handler(event, context):
         elif path == '/products' and method == 'POST':
             return product_ctrl.create_product(event)
         elif path.startswith('/products/') and method == 'GET':
+            if path.startswith('/products/debug/'):
+                event['pathParameters'] = {'id': path.split('/')[-1]}
+                return product_ctrl.debug_product(event)
             if path.endswith('/dependencies'):
                 event['pathParameters'] = {'id': path.split('/')[-2]}
                 return graph_ctrl.get_product_dependencies(event)
@@ -228,6 +231,19 @@ def handler(event, context):
             from domains.mission_detection.controller import MissionDetectionController
             mission_detection_ctrl = MissionDetectionController()
             return mission_detection_ctrl.detect_mission(event)
+        elif path == '/agents/mission-discovery' and method == 'POST':
+            from agents.mission_discovery_agent import MissionDiscoveryAgent
+            body = event.get('body', '{}')
+            if isinstance(body, str):
+                body = json.loads(body) if body else {}
+            query = body.get('query', '')
+            agent = MissionDiscoveryAgent()
+            result = agent.discover(query)
+            return {
+                "statusCode": 200,
+                "headers": {"Content-Type": "application/json"},
+                "body": json.dumps(result),
+            }
 
         # Admin Ingestion Routes
         elif path == '/admin/import-products' and method == 'POST':

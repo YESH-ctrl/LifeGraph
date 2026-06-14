@@ -1,0 +1,162 @@
+[
+  {
+    "mission_id": "monthly_grocery_refill",
+    "required_products": 228,
+    "important_products": 278,
+    "optional_products": 42,
+    "relationship_count": 505,
+    "valid": true
+  },
+  {
+    "mission_id": "weekly_grocery_shopping",
+    "required_products": 82,
+    "important_products": 151,
+    "optional_products": 111,
+    "relationship_count": 326,
+    "valid": true
+  },
+  {
+    "mission_id": "biryani_preparation",
+    "required_products": 92,
+    "important_products": 46,
+    "optional_products": 110,
+    "relationship_count": 0,
+    "valid": false
+  },
+  {
+    "mission_id": "weight_loss_journey",
+    "required_products": 61,
+    "important_products": 91,
+    "optional_products": 66,
+    "relationship_count": 185,
+    "valid": true
+  },
+  {
+    "mission_id": "birthday_party",
+    "required_products": 30,
+    "important_products": 142,
+    "optional_products": 135,
+    "relationship_count": 190,
+    "valid": true
+  },
+  {
+    "mission_id": "train_journey_essentials",
+    "required_products": 128,
+    "important_products": 137,
+    "optional_products": 26,
+    "relationship_count": 180,
+    "valid": true
+  },
+  {
+    "mission_id": "new_semester_setup",
+    "required_products": 44,
+    "important_products": 17,
+    "optional_products": 123,
+    "relationship_count": 182,
+    "valid": true
+  },
+  {
+    "mission_id": "paneer_butter_masala_dinner",
+    "required_products": 226,
+    "important_products": 32,
+    "optional_products": 50,
+    "relationship_count": 293,
+    "valid": true
+  },
+  {
+    "mission_id": "diwali_celebration",
+    "required_products": 183,
+    "important_products": 37,
+    "optional_products": 0,
+    "relationship_count": 203,
+    "valid": false
+  },
+  {
+    "mission_id": "elderly_care_essentials",
+    "required_products": 34,
+    "important_products": 185,
+    "optional_products": 45,
+    "relationship_count": 256,
+    "valid": true
+  },
+  {
+    "mission_id": "exam_preparation_week",
+    "required_products": 223,
+    "important_products": 8,
+    "optional_products": 146,
+    "relationship_count": 277,
+    "valid": true
+  },
+  {
+    "mission_id": "family_breakfast_setup",
+    "required_products": 99,
+    "important_products": 155,
+    "optional_products": 19,
+    "relationship_count": 266,
+    "valid": true
+  },
+  {
+    "mission_id": "family_gathering",
+    "required_products": 38,
+    "important_products": 226,
+    "optional_products": 134,
+    "relationship_count": 280,
+    "valid": true
+  },
+  {
+    "mission_id": "ganesh_chaturthi",
+    "required_products": 44,
+    "important_products": 128,
+    "optional_products": 1,
+    "relationship_count": 172,
+    "valid": false
+  },
+  {
+    "mission_id": "healthy_lifestyle_start",
+    "required_products": 55,
+    "important_products": 93,
+    "optional_products": 62,
+    "relationship_count": 188,
+    "valid": true
+  },
+  {
+    "mission_id": "hostel_essentials_refill",
+    "required_products": 124,
+    "important_products": 116,
+    "optional_products": 121,
+    "relationship_count": 264,
+    "valid": true
+  },
+  {
+    "mission_id": "housewarming_ceremony",
+    "required_products": 152,
+    "important_products": 33,
+    "optional_products": 114,
+    "relationship_count": 282,
+    "valid": true
+  },
+  {
+    "mission_id": "road_trip_essentials",
+    "required_products": 116,
+    "important_products": 137,
+    "optional_products": 26,
+    "relationship_count": 170,
+    "valid": true
+  },
+  {
+    "mission_id": "sankranti_preparation",
+    "required_products": 62,
+    "important_products": 127,
+    "optional_products": 15,
+    "relationship_count": 192,
+    "valid": true
+  },
+  {
+    "mission_id": "weekend_cooking_session",
+    "required_products": 339,
+    "important_products": 174,
+    "optional_products": 6,
+    "relationship_count": 359,
+    "valid": true
+  }
+]

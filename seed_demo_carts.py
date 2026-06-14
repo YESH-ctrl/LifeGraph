@@ -3,8 +3,8 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join('d:/LifeGraph', 'src')))
 
-from shared.repositories.cart_repository import CartRepository
-from shared.models.cart_model import CartModel, CartItemModel
+from foundation.shared.repositories.cart_repository import CartRepository
+from foundation.shared.models.cart_model import CartModel, CartItemModel
 
 def seed():
     repo = CartRepository()

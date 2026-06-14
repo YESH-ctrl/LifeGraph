@@ -4,7 +4,7 @@ import sys
 # Add src to python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
-from domains.memory.controller import MemoryController
+from foundation.domains.memory.controller import MemoryController
 from pydantic import BaseModel
 
 class MockRequest(BaseModel):

@@ -1,0 +1,11 @@
+{
+  "missions": 22,
+  "products": 954,
+  "requires_edges": 111,
+  "optional_edges": 66,
+  "depends_on_edges": 4,
+  "substitute_edges": 0,
+  "compatible_edges": 0,
+  "orphan_products": 914,
+  "orphan_missions": 0
+}

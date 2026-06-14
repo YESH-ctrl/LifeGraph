@@ -1,6 +1,6 @@
 import json
-from shared.services.user_service import UserService
-from shared.schemas.user_schemas import UserCreate, UserUpdate, UserResponse
+from foundation.shared.services.user_service import UserService
+from foundation.shared.schemas.user_schemas import UserCreate, UserUpdate, UserResponse
 
 class UserController:
     def __init__(self):

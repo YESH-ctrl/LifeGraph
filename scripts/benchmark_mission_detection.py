@@ -6,8 +6,8 @@ from collections import defaultdict
 # Add src to path to import domains
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from domains.mission_detection.service import MissionDetectionService
-from domains.mission_detection.schemas import MissionDetectionRequest
+from engines.domains.mission_detection.service import MissionDetectionService
+from engines.domains.mission_detection.schemas import MissionDetectionRequest
 
 test_suite = {
     "CHICKEN_BIRYANI": [
