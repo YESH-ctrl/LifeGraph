@@ -1,0 +1,44 @@
+{
+  "mission_id": "movie_night",
+  "name": "Movie Night",
+  "description": "Get all the snacks and beverages ready for a perfect movie night.",
+  "category": "ENTERTAINMENT",
+  "keywords": [
+    "movie",
+    "night",
+    "popcorn",
+    "snacks",
+    "chips",
+    "cola"
+  ],
+  "synonyms": [
+    "movie snacks",
+    "watching a movie",
+    "cinema at home"
+  ],
+  "intent_examples": [
+    "Having a movie night with friends.",
+    "Need snacks for a movie.",
+    "Movie time snacks"
+  ],
+  "rules": [],
+  "mapping_rules": {
+    "required": {
+      "product_ids": [
+        "snn_popcorn_maize_1kg_imported_raw_maize_popcorn_kernels_1kg_ready_to_cook_high_expansion_homemade_healthy_snack",
+        "4700bc_gourmet_popcorn_belgian_choco_caramel_tin_150g",
+        "too_yumm_multigrain_chips_dahi_papdi_chaat_54g",
+        "0180ce1d-8a7f-4733-ab43-ca0ba645a07b",
+        "toblerone_swiss_dark_tiny_chocolate_272_gm_34_pieces"
+      ]
+    },
+    "optional": {
+      "product_ids": []
+    }
+  },
+  "product_relationships": {
+    "dependencies": [],
+    "compatibility": [],
+    "substitutions": []
+  }
+}

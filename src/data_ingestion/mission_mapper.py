@@ -17,11 +17,13 @@ def map_products_to_mission(products: List[Dict[str, Any]], mission_template: Di
     req_subcategories = [s.lower() for s in req_rules.get("subcategories", [])]
     req_tags = [t.lower() for t in req_rules.get("semantic_tags", [])]
     req_hints = [h.lower() for h in req_rules.get("mission_hints", [])]
+    req_product_ids = [p for p in req_rules.get("product_ids", [])]
 
     opt_categories = [c.lower() for c in opt_rules.get("categories", [])]
     opt_subcategories = [s.lower() for s in opt_rules.get("subcategories", [])]
     opt_tags = [t.lower() for t in opt_rules.get("semantic_tags", [])]
     opt_hints = [h.lower() for h in opt_rules.get("mission_hints", [])]
+    opt_product_ids = [p for p in opt_rules.get("product_ids", [])]
 
     required_product_ids = []
     optional_product_ids = []
@@ -31,7 +33,12 @@ def map_products_to_mission(products: List[Dict[str, Any]], mission_template: Di
         cat = product["category"].lower()
         subcat = product["subcategory"].lower()
         tags = [t.lower() for t in product.get("semanticTags", [])]
-        hints = [h.lower() for h in product.get("missionHints", [])]
+        hints = []
+        for h in product.get("missionHints", []):
+            if isinstance(h, dict):
+                hints.append(h.get("mission", "").lower())
+            else:
+                hints.append(h.lower())
 
         # Check required rules
         is_required = False
@@ -42,6 +49,8 @@ def map_products_to_mission(products: List[Dict[str, Any]], mission_template: Di
         elif any(t in req_tags for t in tags):
             is_required = True
         elif any(h in req_hints for h in hints):
+            is_required = True
+        elif p_id in req_product_ids:
             is_required = True
 
         if is_required:
@@ -57,6 +66,8 @@ def map_products_to_mission(products: List[Dict[str, Any]], mission_template: Di
         elif any(t in opt_tags for t in tags):
             is_optional = True
         elif any(h in opt_hints for h in hints):
+            is_optional = True
+        elif p_id in opt_product_ids:
             is_optional = True
 
         if is_optional:

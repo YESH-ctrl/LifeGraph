@@ -138,7 +138,7 @@ class AdaptiveAgent(BaseAgent):
             "shopper_type": persona,
             "recommended_intervention": intervention,
             "adapted_rules": {
-                "strict_mode": urgency and urgency.upper() == "HIGH",
+                "strict_mode": bool(urgency and urgency.upper() == "HIGH"),
                 "allow_substitution": True,
                 "persona": persona,
             }

@@ -1,0 +1,43 @@
+{
+  "mission_id": "chicken_biryani",
+  "name": "Chicken Biryani",
+  "description": "Cook delicious aromatic chicken biryani with premium basmati rice, saffron, and spices.",
+  "category": "COOKING",
+  "keywords": [
+    "biryani",
+    "chicken",
+    "rice",
+    "masala",
+    "spices",
+    "cooking"
+  ],
+  "synonyms": [
+    "cook biryani",
+    "chicken biryani making"
+  ],
+  "intent_examples": [
+    "Preparing chicken biryani for my family.",
+    "Cook biryani for dinner.",
+    "Ingredients for chicken biryani"
+  ],
+  "rules": [],
+  "mapping_rules": {
+    "required": {
+      "product_ids": [
+        "tilda_premium_basmati_rice_5_kg",
+        "dc10fe0a-3b8c-42be-9f10-cb14867358b0",
+        "house_of_saffron_1_gram_pure_kashmir_mogra_kesar_premium_original_saffron_for_pregnant_women_milk_biryani_cooking_sk",
+        "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+        "4aae71db-b1ab-4f74-bcf1-8fc027d78886"
+      ]
+    },
+    "optional": {
+      "product_ids": []
+    }
+  },
+  "product_relationships": {
+    "dependencies": [],
+    "compatibility": [],
+    "substitutions": []
+  }
+}

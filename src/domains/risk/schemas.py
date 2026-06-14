@@ -6,8 +6,8 @@ class RiskRequest(BaseModel):
     missing_items: List[str]
 
 class RiskResponseData(BaseModel):
-    compatibility_risk: str
-    budget_risk: str
-    quantity_risk: str
-    timing_risk: str
+    compatibility_risk: int
+    budget_risk: int
+    quantity_risk: int
+    timing_risk: int
     risk_score: int

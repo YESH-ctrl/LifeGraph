@@ -14,10 +14,10 @@ class RiskService:
         * Return LOW/MEDIUM/HIGH internally or as components.
         """
         risk_score = 0
-        compatibility_risk = "LOW"
-        budget_risk = "LOW"
-        quantity_risk = "LOW"
-        timing_risk = "LOW"
+        compatibility_risk = 10
+        budget_risk = 10
+        quantity_risk = 10
+        timing_risk = 10
         
         # Base logic on verification results
         if data.verification_score < 50:
@@ -26,7 +26,7 @@ class RiskService:
             risk_score += 20
             
         if len(data.missing_items) > 2:
-            quantity_risk = "HIGH"
+            quantity_risk = 90
             risk_score += 15
             
         # Use graph data to infer compatibility and deep dependency risk
@@ -40,9 +40,9 @@ class RiskService:
                 risk_score += (10 * len(dependencies))
                 
         if has_deep_dependencies:
-            compatibility_risk = "HIGH"
+            compatibility_risk = 90
         elif risk_score >= 50:
-            compatibility_risk = "MEDIUM"
+            compatibility_risk = 50
             
         # Ensure risk_score is capped at 100
         risk_score = min(100, risk_score)

@@ -16,7 +16,18 @@ class OrchestratorController:
         # Execute orchestrator pipeline
         result = self.service.execute_mission(request)
         
+        # Flatten response for frontend
+        frontend_response = {
+            "mission": result.mission.name,
+            "confidence": 1.0,  # We can hardcode or get from mission detection
+            "readiness_score": result.verification.score,
+            "risk_score": int(result.risk.overallRisk) if str(result.risk.overallRisk).isdigit() else 50,
+            "missing_items": result.verification.missingItems,
+            "recommendations": [r.model_dump() for r in result.recommendations],
+            "explanation": result.checkout.reason or result.adaptiveDecision.recommendedIntervention
+        }
+        
         return {
             "statusCode": 200,
-            "body": json.dumps({"success": True, "data": result.model_dump()})
+            "body": json.dumps({"success": True, "data": frontend_response})
         }

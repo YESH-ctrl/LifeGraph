@@ -167,23 +167,7 @@ def test_mission_mapping_and_relationship_generation():
     assert dep_exists is False
 
 def test_admin_endpoints_mock():
-    # Clear the database first to ensure a clean test state
-    from infrastructure.dynamodb.client import get_table
-    table = get_table()
-    
-    items = []
-    scan_kwargs = {"ProjectionExpression": "PK,SK"}
-    while True:
-        response = table.scan(**scan_kwargs)
-        items.extend(response.get("Items", []))
-        start_key = response.get("LastEvaluatedKey")
-        if not start_key:
-            break
-        scan_kwargs["ExclusiveStartKey"] = start_key
-        
-    with table.batch_writer() as batch:
-        for item in items:
-            batch.delete_item(Key={"PK": item["PK"], "SK": item["SK"]})
+    # Removed dangerous table purge to protect production data
 
     # 1. Test Data Quality Report initially
     response = client.get("/admin/data-quality-report")

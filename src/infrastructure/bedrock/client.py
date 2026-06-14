@@ -76,7 +76,7 @@ class BedrockClient:
             return False
             
         try:
-            model_id = "amazon.nova-lite-v1:0"
+            model_id = "us.amazon.nova-lite-v1:0"
             body = json.dumps({
                 "messages": [{"role": "user", "content": [{"text": "Hi"}]}],
                 "inferenceConfig": {"maxTokens": 1}
@@ -146,7 +146,7 @@ class BedrockClient:
         model_id = kwargs.get("model_id") or self.config.model_id
         # Use Nova Lite if Claude default is fallback
         if model_id == "anthropic.claude-v2":
-            model_id = "amazon.nova-lite-v1:0"
+            model_id = "us.amazon.nova-lite-v1:0"
 
         if not self.use_mock and self.client:
             try:
