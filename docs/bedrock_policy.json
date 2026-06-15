@@ -1,0 +1,26 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowBedrockClaudeInference",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock:InvokeModel",
+        "bedrock:InvokeModelWithResponseStream"
+      ],
+      "Resource": [
+        "arn:aws:bedrock:*::foundation-model/anthropic.claude-3-sonnet",
+        "arn:aws:bedrock:*::foundation-model/anthropic.claude-3-haiku"
+      ]
+    },
+    {
+      "Sid": "AllowSecretsAccessForRotatingKeys",
+      "Effect": "Allow",
+      "Action": [
+        "secretsmanager:GetSecretValue",
+        "secretsmanager:DescribeSecret"
+      ],
+      "Resource": "arn:aws:secretsmanager:*:*:secret:LifeGraphBackend/BedrockAPIKeys-*"
+    }
+  ]
+}

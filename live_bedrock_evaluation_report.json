@@ -1,0 +1,105 @@
+{
+  "quality_scores": {
+    "simulation": {
+      "avg_evaluation_score": 93.64,
+      "avg_grounding_score": 100.0,
+      "avg_trust_score": 100.0
+    },
+    "live_llama": {
+      "avg_evaluation_score": 96.0,
+      "avg_grounding_score": 100.0,
+      "avg_trust_score": 100.0
+    },
+    "improvements": {
+      "evaluation_score_delta": 2.36,
+      "grounding_score_delta": 0.0,
+      "trust_score_delta": 0.0
+    }
+  },
+  "cost_analysis": {
+    "simulation_total_cost_usd": 0.0,
+    "live_llama_total_cost_usd": 0.106518,
+    "live_llama_avg_cost_usd": 0.010652,
+    "cost_increase_usd": 0.106518
+  },
+  "latency_analysis": {
+    "simulation": {
+      "p50_ms": 1860.22,
+      "p95_ms": 2806.56,
+      "p99_ms": 4221.41,
+      "avg_ms": 2031.2
+    },
+    "live_llama": {
+      "p50_ms": 8241.62,
+      "p95_ms": 34856.59,
+      "p99_ms": 38394.5,
+      "avg_ms": 13481.87
+    },
+    "latency_increase_avg_ms": 11450.67
+  },
+  "agent_scorecards": {
+    "mission": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 95.0
+    },
+    "cart": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 95.0
+    },
+    "verification": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 100.0
+    },
+    "risk": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 100.0
+    },
+    "regret": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 100.0
+    },
+    "simulation": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 100.0
+    },
+    "auditor": {
+      "avg_accuracy": 100.0,
+      "avg_override_effectiveness": 100.0,
+      "avg_grounding_compliance": 100.0,
+      "total_policy_violations": 0,
+      "total_repairs": 0,
+      "avg_confidence_calibration": 98.0
+    }
+  },
+  "failure_analysis": {
+    "simulation_repair_rate_pct": 0.0,
+    "live_llama_repair_rate_pct": 0.0,
+    "repair_reduction_pct": 0.0,
+    "live_failures_count": 0,
+    "live_fallback_count": 150
+  }
+}

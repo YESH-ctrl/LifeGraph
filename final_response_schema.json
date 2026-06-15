@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OutcomeIntelligenceResponse",
+  "type": "object",
+  "required": [
+    "customer_response",
+    "system_diagnostics"
+  ],
+  "properties": {
+    "customer_response": {
+      "type": "object",
+      "required": [
+        "executive_summary",
+        "mission",
+        "cart",
+        "verification",
+        "risk",
+        "simulation",
+        "final_recommendation"
+      ],
+      "properties": {
+        "executive_summary": {
+          "type": "object",
+          "required": [
+            "mission",
+            "capabilities",
+            "products_selected",
+            "why_selected",
+            "current_status",
+            "key_gaps",
+            "next_actions"
+          ],
+          "properties": {
+            "mission": { "type": "string" },
+            "capabilities": { "type": "string" },
+            "products_selected": { "type": "string" },
+            "why_selected": { "type": "string" },
+            "current_status": { "type": "string" },
+            "key_gaps": { "type": "string" },
+            "next_actions": { "type": "string" }
+          }
+        },
+        "mission": {
+          "type": "object",
+          "required": [
+            "detected_mission",
+            "parameters",
+            "confidence"
+          ],
+          "properties": {
+            "detected_mission": { "type": "string" },
+            "parameters": { "type": "object" },
+            "confidence": { "type": "number" }
+          }
+        },
+        "cart": {
+          "type": "object",
+          "required": [
+            "estimated_total_cost",
+            "estimated_serving_capacity",
+            "items_count",
+            "mission_coherence_score"
+          ],
+          "properties": {
+            "estimated_total_cost": { "type": "number" },
+            "estimated_serving_capacity": { "type": "integer" },
+            "items_count": { "type": "integer" },
+            "mission_coherence_score": { "type": "number" }
+          }
+        },
+        "verification": {
+          "type": "object",
+          "required": [
+            "readiness_score",
+            "critical_missing",
+            "important_missing",
+            "recommended_products"
+          ],
+          "properties": {
+            "readiness_score": { "type": "integer" },
+            "critical_missing": { "type": "array", "items": { "type": "string" } },
+            "important_missing": { "type": "array", "items": { "type": "string" } },
+            "recommended_products": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "risk": {
+          "type": "object",
+          "required": [
+            "risk_score",
+            "risk_level",
+            "risks"
+          ],
+          "properties": {
+            "risk_score": { "type": "integer" },
+            "risk_level": { "type": "string" },
+            "risks": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "simulation": {
+          "type": "object",
+          "required": [
+            "current_success",
+            "optimized_success",
+            "improvement",
+            "recommended_additions"
+          ],
+          "properties": {
+            "current_success": { "type": "integer" },
+            "optimized_success": { "type": "integer" },
+            "improvement": { "type": "integer" },
+            "recommended_additions": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "final_recommendation": {
+          "type": "object",
+          "required": [
+            "action",
+            "message"
+          ],
+          "properties": {
+            "action": { "type": "string" },
+            "message": { "type": "string" }
+          }
+        }
+      }
+    },
+    "system_diagnostics": {
+      "type": "object",
+      "required": [
+        "ai_runtime",
+        "runtime_truth",
+        "evaluation",
+        "metrics",
+        "certification",
+        "execution_trace"
+      ],
+      "properties": {
+        "ai_runtime": {
+          "type": "object",
+          "required": [
+            "provider",
+            "model",
+            "mode",
+            "latency_ms"
+          ],
+          "properties": {
+            "provider": { "type": "string" },
+            "model": { "type": "string" },
+            "mode": { "type": "string" },
+            "latency_ms": { "type": "integer" }
+          }
+        },
+        "runtime_truth": {
+          "type": "object",
+          "required": [
+            "bedrock_invocation_confirmed",
+            "provider_matches_runtime",
+            "fallback_used",
+            "verified_at"
+          ],
+          "properties": {
+            "bedrock_invocation_confirmed": { "type": "boolean" },
+            "provider_matches_runtime": { "type": "boolean" },
+            "fallback_used": { "type": "boolean" },
+            "verified_at": { "type": "string" }
+          }
+        },
+        "evaluation": {
+          "type": "object"
+        },
+        "metrics": {
+          "type": "object",
+          "required": [
+            "decision_override_rate",
+            "grounding_score",
+            "reality_score",
+            "capability_coverage"
+          ],
+          "properties": {
+            "decision_override_rate": { "type": "number" },
+            "grounding_score": { "type": "number" },
+            "reality_score": { "type": "number" },
+            "capability_coverage": { "type": "number" }
+          }
+        },
+        "certification": {
+          "type": "object"
+        },
+        "execution_trace": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["component"],
+            "properties": {
+              "component": { "type": "string" },
+              "mode": { "type": "string" },
+              "provider": { "type": "string" },
+              "model": { "type": "string" },
+              "agent": { "type": "string" },
+              "invoked": { "type": "boolean" }
+            }
+          }
+        },
+        "ai_metadata": {
+          "type": "object",
+          "description": "Debug-only object. Appears only when debug=true."
+        },
+        "auditor_report": {
+          "type": "object",
+          "description": "Debug-only object. Appears only when debug=true."
+        },
+        "ai_decision_log": {
+          "type": "object",
+          "description": "Debug-only object. Appears only when debug=true."
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

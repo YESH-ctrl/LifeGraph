@@ -1,0 +1,790 @@
+{
+  "total_frozen_missions": 23,
+  "missions_with_zero_requires": [],
+  "missions_with_zero_coverage": [],
+  "coverage_by_mission": [
+    {
+      "mission_id": "housewarming_ceremony",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 3,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "paneer_butter_masala_dinner",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 7,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "healthy_lifestyle_start",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 6,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "monthly_grocery_refill",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 13,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "weekly_grocery_shopping",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 8,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "family_breakfast_setup",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 12,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "birthday_party",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 8,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "exam_preparation_week",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 12,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "weight_loss_journey",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 6,
+      "graph_coverage": 66.7,
+      "blueprint_expected": 12
+    },
+    {
+      "mission_id": "chicken_biryani",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 5,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "hostel_essentials_refill",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 10,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "weekend_cooking_session",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 12,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "ganesh_chaturthi",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 6,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "house_party",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 10,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "diwali_celebration",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 3,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "family_gathering",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 14,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "office_lunch_prep",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 13,
+      "graph_coverage": 72.7,
+      "blueprint_expected": 11
+    },
+    {
+      "mission_id": "new_semester_setup",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 8,
+      "graph_coverage": 80.0,
+      "blueprint_expected": 10
+    },
+    {
+      "mission_id": "train_journey_essentials",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 10,
+      "graph_coverage": 80.0,
+      "blueprint_expected": 10
+    },
+    {
+      "mission_id": "sankranti_preparation",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 3,
+      "graph_coverage": 80.0,
+      "blueprint_expected": 10
+    },
+    {
+      "mission_id": "road_trip_essentials",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 12,
+      "graph_coverage": 80.0,
+      "blueprint_expected": 10
+    },
+    {
+      "mission_id": "elderly_care_essentials",
+      "requires_count": 5,
+      "optional_count": 3,
+      "depends_on_count": 7,
+      "graph_coverage": 80.0,
+      "blueprint_expected": 10
+    },
+    {
+      "mission_id": "movie_night",
+      "requires_count": 5,
+      "optional_count": 76,
+      "depends_on_count": 7,
+      "graph_coverage": 900.0,
+      "blueprint_expected": 9
+    }
+  ],
+  "gap_analysis": {
+    "weekend_cooking_session": {
+      "requires_count": 5,
+      "optional_count": 3,
+      "graph_coverage": 72.7,
+      "missing_blueprint_keywords": [
+        "flour",
+        "paneer",
+        "spices",
+        "noodles",
+        "dessert",
+        "ice cream"
+      ],
+      "missing_keyword_tiers": {
+        "flour": "critical",
+        "paneer": "critical",
+        "spices": "important",
+        "noodles": "important",
+        "dessert": "optional",
+        "ice cream": "optional"
+      },
+      "top_20_suggested_products": [
+        {
+          "product_id": "mr_hung_kruanthip_tempura_flour_1_kg",
+          "title": "mr. hung kruanthip tempura flour (1 kg)",
+          "blueprint_keyword": "flour",
+          "tier": "critical"
+        },
+        {
+          "product_id": "organic_tattva_organic_multigrain_flour_5_kg",
+          "title": "organic tattva organic multigrain flour, 5 kg",
+          "blueprint_keyword": "flour",
+          "tier": "critical"
+        },
+        {
+          "product_id": "jiwa_healthy_by_nature_gluten_free_atta_flour_1kg",
+          "title": "jiwa healthy by nature gluten free atta/flour, 1kg",
+          "blueprint_keyword": "flour",
+          "tier": "critical"
+        },
+        {
+          "product_id": "shree_gulab_roasted_gram_flour_sattu_1kg_500gms_2",
+          "title": "shree gulab roasted gram flour sattu 1kg (500gms*2)",
+          "blueprint_keyword": "flour",
+          "tier": "critical"
+        },
+        {
+          "product_id": "soyfit_soya_paneer_garlic_pepper_200_g",
+          "title": "soyfit soya paneer garlic/pepper, 200 g",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "sds_shahi_paneer_masala_40gm_pack_of_6",
+          "title": "sds shahi paneer masala 40gm - pack of 6",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "chetran_s_fresh_tofu_250_g_dairy_paneer_alternative_high_protein",
+          "title": "chetran's fresh tofu, 250 g | dairy paneer alternative | high protein",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "chetran_s_herbal_tofu_200g_masala_flavor_fresh_paneer_alternative_high_protein",
+          "title": "chetran\u2019s herbal tofu 200g | masala flavor | fresh paneer alternative | high protein",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "pure_tree_organic_fennel_seeds_250_gm_sabut_saunf_variyali_whole_indian_spices_cooking_great_mouth_freshener",
+          "title": "pure tree organic fennel seeds 250 gm | sabut saunf | variyali | whole indian spices | cooking & great mouth freshener",
+          "blueprint_keyword": "spices",
+          "tier": "important"
+        },
+        {
+          "product_id": "auric_kadak_moringa_masala_tea_black_tea_from_assam_darjeeling_tea_masala_powder_blended_with_real_spices_cardamom",
+          "title": "auric kadak moringa masala tea - black tea from assam & darjeeling | tea masala powder blended with real spices (cardamom,...",
+          "blueprint_keyword": "spices",
+          "tier": "important"
+        },
+        {
+          "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+          "title": "the tea heaven | tea gift - kashmiri kahwa| 100 grams | tea gift pack-blended with saffron, almonds, spices -100% natural ...",
+          "blueprint_keyword": "spices",
+          "tier": "important"
+        },
+        {
+          "product_id": "top_ramen_cup_noodles_italiano_70g",
+          "title": "top ramen cup noodles italiano, 70g",
+          "blueprint_keyword": "noodles",
+          "tier": "important"
+        },
+        {
+          "product_id": "indomie_instant_noodles_chicken_flavour_pack_of_20",
+          "title": "indomie instant noodles chicken flavour-pack of 20",
+          "blueprint_keyword": "noodles",
+          "tier": "important"
+        },
+        {
+          "product_id": "samyang_hot_chicken_buldak_carbonara_noodles_130_grams",
+          "title": "samyang hot chicken buldak carbonara noodles, 130 grams",
+          "blueprint_keyword": "noodles",
+          "tier": "important"
+        },
+        {
+          "product_id": "samyang_carbo_hot_chicken_flavour_raman_cup_noodles_70mg_4_pack_pack_of_4_imported",
+          "title": "samyang carbo hot chicken flavour raman cup noodles, 70mg*4 pack (pack of 4) (imported)",
+          "blueprint_keyword": "noodles",
+          "tier": "important"
+        },
+        {
+          "product_id": "gits_instant_rabdi_dessert_mix_100g",
+          "title": "gits instant rabdi dessert mix, 100g",
+          "blueprint_keyword": "dessert",
+          "tier": "optional"
+        },
+        {
+          "product_id": "bake_king_agar_agar_jelly_powder_50gm_vegetarian_gelatin_alternative_plant_based_product_perfect_for_desserts_jelly",
+          "title": "bake king agar agar jelly powder 50gm, vegetarian gelatin alternative, plant based product, perfect for desserts & jelly",
+          "blueprint_keyword": "dessert",
+          "tier": "optional"
+        },
+        {
+          "product_id": "gladful_assorted_pack_of_date_nut_square_a_healthy_sugar_free_dates_and_dry_fruits_based_dessert_bites_barfi_chakki_f",
+          "title": "gladful assorted pack of date nut square - a healthy, sugar-free, dates and dry fruits based dessert bites/ barfi/chakki f...",
+          "blueprint_keyword": "dessert",
+          "tier": "optional"
+        }
+      ]
+    },
+    "family_breakfast_setup": {
+      "requires_count": 5,
+      "optional_count": 3,
+      "graph_coverage": 66.7,
+      "missing_blueprint_keywords": [
+        "butter",
+        "oats",
+        "syrup",
+        "pancake"
+      ],
+      "missing_keyword_tiers": {
+        "butter": "critical",
+        "oats": "critical",
+        "syrup": "optional",
+        "pancake": "optional"
+      },
+      "top_20_suggested_products": [
+        {
+          "product_id": "myfitness_natural_peanut_butter_smooth_1250g",
+          "title": "myfitness natural peanut butter smooth 1250g",
+          "blueprint_keyword": "butter",
+          "tier": "critical"
+        },
+        {
+          "product_id": "pintola_organic_peanut_butter_crunchy_1kg",
+          "title": "pintola organic peanut butter (crunchy) (1kg)",
+          "blueprint_keyword": "butter",
+          "tier": "critical"
+        },
+        {
+          "product_id": "ossoro_butterscotch_flavour_30_ml_glass_bottle",
+          "title": "ossoro butterscotch flavour, 30 ml/ glass bottle",
+          "blueprint_keyword": "butter",
+          "tier": "critical"
+        },
+        {
+          "product_id": "nutralite_doodhshakti_probiotic_butter_spread_salted_500_g",
+          "title": "nutralite doodhshakti probiotic butter spread salted, 500 g",
+          "blueprint_keyword": "butter",
+          "tier": "critical"
+        },
+        {
+          "product_id": "saffola_masala_oats_classic_masala_39g",
+          "title": "saffola masala oats, classic masala, 39g",
+          "blueprint_keyword": "oats",
+          "tier": "critical"
+        },
+        {
+          "product_id": "jiwa_healthy_by_nature_steel_cut_oats_1_kg_gluten_free",
+          "title": "jiwa healthy by nature steel cut oats, 1 kg (gluten free)",
+          "blueprint_keyword": "oats",
+          "tier": "critical"
+        },
+        {
+          "product_id": "tata_soulfull_masala_oats_tasty_snack_with_millets_tomato_twist_500g",
+          "title": "tata soulfull masala oats+, tasty snack with millets, tomato twist, 500g",
+          "blueprint_keyword": "oats",
+          "tier": "critical"
+        },
+        {
+          "product_id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+          "title": "wiggles everydawg dry adult dog food, 1.2kg (chicken, oats & vegetables)",
+          "blueprint_keyword": "oats",
+          "tier": "critical"
+        },
+        {
+          "product_id": "hershey_s_chocolate_syrup_200g",
+          "title": "hershey's chocolate syrup, 200g",
+          "blueprint_keyword": "syrup",
+          "tier": "optional"
+        },
+        {
+          "product_id": "hershey_s_strawberry_syrup_623g",
+          "title": "hershey's strawberry syrup, 623g",
+          "blueprint_keyword": "syrup",
+          "tier": "optional"
+        },
+        {
+          "product_id": "betty_crocker_complete_classic_pancake_mix_pancake_mix_for_kids_no_preservatives_pack_of_250_x_2_500_g",
+          "title": "betty crocker complete classic pancake mix | pancake mix for kids| no-preservatives| pack of 250 x 2| 500 g",
+          "blueprint_keyword": "pancake",
+          "tier": "optional"
+        },
+        {
+          "product_id": "slurrp_farm_healthy_breakfast_and_snacks_trial_pack_combo_millet_pancake_and_dosa_mix_300g_pack_of_6_50g_each",
+          "title": "slurrp farm healthy breakfast and snacks trial pack combo, millet pancake and dosa mix, 300g (pack of 6, 50g each)",
+          "blueprint_keyword": "pancake",
+          "tier": "optional"
+        },
+        {
+          "product_id": "slurrp_farm_healthy_pancake_lovers_combo_blueberry_classic_chocolate_banana_no_maida_wheat_preservative_made",
+          "title": "slurrp farm healthy pancake lovers combo | blueberry, classic, chocolate & banana | no maida, wheat & preservative | made ...",
+          "blueprint_keyword": "pancake",
+          "tier": "optional"
+        }
+      ]
+    },
+    "monthly_grocery_refill": {
+      "requires_count": 5,
+      "optional_count": 3,
+      "graph_coverage": 66.7,
+      "missing_blueprint_keywords": [
+        "atta",
+        "sugar",
+        "chocolates",
+        "dry fruits",
+        "biscuits"
+      ],
+      "missing_keyword_tiers": {
+        "atta": "critical",
+        "sugar": "critical",
+        "chocolates": "optional",
+        "dry fruits": "optional",
+        "biscuits": "optional"
+      },
+      "top_20_suggested_products": [
+        {
+          "product_id": "haldiram_s_delhi_khatta_meetha_400g_40g_extra",
+          "title": "haldiram's delhi khatta meetha, 400g+40g extra",
+          "blueprint_keyword": "atta",
+          "tier": "critical"
+        },
+        {
+          "product_id": "24_mantra_organic_7_grain_multigrain_atta_1000_g",
+          "title": "24 mantra organic 7 grain multigrain atta, 1000 g",
+          "blueprint_keyword": "atta",
+          "tier": "critical"
+        },
+        {
+          "product_id": "jiwa_healthy_by_nature_gluten_free_atta_flour_1kg",
+          "title": "jiwa healthy by nature gluten free atta/flour, 1kg",
+          "blueprint_keyword": "atta",
+          "tier": "critical"
+        },
+        {
+          "product_id": "nature_fresh_sampoorna_atta_superior_mp_atta_10kg",
+          "title": "nature fresh sampoorna atta, superior mp atta , 10kg",
+          "blueprint_keyword": "atta",
+          "tier": "critical"
+        },
+        {
+          "product_id": "unibic_sugar_free_cashew_75g",
+          "title": "unibic sugar free cashew , 75g",
+          "blueprint_keyword": "sugar",
+          "tier": "critical"
+        },
+        {
+          "product_id": "sugar_free_natura_diet_sugar_80_g",
+          "title": "sugar free natura diet sugar - 80 g",
+          "blueprint_keyword": "sugar",
+          "tier": "critical"
+        },
+        {
+          "product_id": "sugar_free_green_natural_stevia_jar_200_g",
+          "title": "sugar free green natural stevia jar(200 g)",
+          "blueprint_keyword": "sugar",
+          "tier": "critical"
+        },
+        {
+          "product_id": "virgo_white_sugar_sachet_5g_x_200nos_sugar",
+          "title": "virgo white sugar sachet 5g x 200nos | sugar",
+          "blueprint_keyword": "sugar",
+          "tier": "critical"
+        },
+        {
+          "product_id": "sorich_organics_dark_cocoa_powder_400gm_dark_cocoa_powder_for_cake_chocolates_cookies_brownies_hot_cold_milk_shakes",
+          "title": "sorich organics dark cocoa powder 400gm | dark cocoa powder for cake, chocolates, cookies, brownies, hot/cold milk shakes,...",
+          "blueprint_keyword": "chocolates",
+          "tier": "optional"
+        },
+        {
+          "product_id": "luvit_goodies_chocolates_assorted_gift_pack_diwali_chocolate_gift_set_best_gift_box_for_diwali_celebration_multipack",
+          "title": "luvit goodies chocolates assorted gift pack | diwali chocolate gift set | best gift box for diwali celebration | multipack...",
+          "blueprint_keyword": "chocolates",
+          "tier": "optional"
+        },
+        {
+          "product_id": "ritter_sport_minis_mini_assorted_chocolates_ritter_sport_chocolates_mini_variety_product_of_germany_mini_chocolates_fo",
+          "title": "ritter sport minis, mini assorted chocolates, ritter sport chocolates mini variety, product of germany, mini chocolates fo...",
+          "blueprint_keyword": "chocolates",
+          "tier": "optional"
+        },
+        {
+          "product_id": "nature_purify_dry_fruits_festival_gift_pack_1_kg_almond_cashew_raisins_apricot_250g_each",
+          "title": "nature purify dry fruits festival gift pack - 1 kg (almond, cashew, raisins, apricot - 250g each)",
+          "blueprint_keyword": "dry fruits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "ritrue_whole_dried_blueberry_300_gm_organic_blueberries_without_sugar_unsweetened_dry_fruits",
+          "title": "ritrue - whole dried blueberry - 300 gm - organic blueberries without sugar (unsweetened dry fruits)",
+          "blueprint_keyword": "dry fruits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "pure_nuts_dry_fruits_combo_pack_250g_4_1kg_almonds_cashews_pistachios_raisins_all_premium",
+          "title": "pure nuts dry fruits combo pack - (250g * 4) 1kg (almonds, cashews, pistachios, raisins) - all premium.",
+          "blueprint_keyword": "dry fruits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "namo_organics_jumbo_chironji_seeds_150_gm_almondette_kernels_charoli_dry_fruits_raw_sweets_making",
+          "title": "namo organics - jumbo chironji seeds - 150 gm - almondette kernels / charoli dry fruits | raw | sweets making",
+          "blueprint_keyword": "dry fruits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "britannia_vita_marie_gold_biscuits_978g",
+          "title": "britannia vita marie gold biscuits, 978g",
+          "blueprint_keyword": "biscuits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "britannia_vita_marie_gold_biscuits_150g",
+          "title": "britannia vita marie gold biscuits, 150g",
+          "blueprint_keyword": "biscuits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "britannia_nutrichoice_digestive_high_fibre_biscuits_200g",
+          "title": "britannia nutrichoice digestive high fibre biscuits, 200g",
+          "blueprint_keyword": "biscuits",
+          "tier": "optional"
+        },
+        {
+          "product_id": "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+          "title": "britannia milk bikis milk biscuits pouch, 280g/300g (weight may vary)",
+          "blueprint_keyword": "biscuits",
+          "tier": "optional"
+        }
+      ]
+    },
+    "weekly_grocery_shopping": {
+      "requires_count": 5,
+      "optional_count": 3,
+      "graph_coverage": 66.7,
+      "missing_blueprint_keywords": [
+        "paneer",
+        "eggs",
+        "desserts",
+        "ice cream",
+        "sweets"
+      ],
+      "missing_keyword_tiers": {
+        "paneer": "critical",
+        "eggs": "critical",
+        "desserts": "optional",
+        "ice cream": "optional",
+        "sweets": "optional"
+      },
+      "top_20_suggested_products": [
+        {
+          "product_id": "soyfit_soya_paneer_garlic_pepper_200_g",
+          "title": "soyfit soya paneer garlic/pepper, 200 g",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "sds_shahi_paneer_masala_40gm_pack_of_6",
+          "title": "sds shahi paneer masala 40gm - pack of 6",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "chetran_s_fresh_tofu_250_g_dairy_paneer_alternative_high_protein",
+          "title": "chetran's fresh tofu, 250 g | dairy paneer alternative | high protein",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "chetran_s_herbal_tofu_200g_masala_flavor_fresh_paneer_alternative_high_protein",
+          "title": "chetran\u2019s herbal tofu 200g | masala flavor | fresh paneer alternative | high protein",
+          "blueprint_keyword": "paneer",
+          "tier": "critical"
+        },
+        {
+          "product_id": "henfruit_protein_max_eggs_pack_of_30",
+          "title": "henfruit protein max eggs, pack of 30",
+          "blueprint_keyword": "eggs",
+          "tier": "critical"
+        },
+        {
+          "product_id": "upf_healthy_brown_eggs_6_pieces_veg_fed_non_fertile_eggs",
+          "title": "upf healthy brown eggs, 6 pieces| veg fed| non-fertile eggs",
+          "blueprint_keyword": "eggs",
+          "tier": "critical"
+        },
+        {
+          "product_id": "premium_pack_of_free_range_organic_pure_kadaknath_eggs_fresh_table_eggs_high_protein_eggs_rich_in_iron_content_low_in",
+          "title": "premium pack of free range organic pure kadaknath eggs, fresh table eggs, high protein eggs. rich in iron content, low in ...",
+          "blueprint_keyword": "eggs",
+          "tier": "critical"
+        },
+        {
+          "product_id": "bake_king_agar_agar_jelly_powder_50gm_vegetarian_gelatin_alternative_plant_based_product_perfect_for_desserts_jelly",
+          "title": "bake king agar agar jelly powder 50gm, vegetarian gelatin alternative, plant based product, perfect for desserts & jelly",
+          "blueprint_keyword": "desserts",
+          "tier": "optional"
+        },
+        {
+          "product_id": "haldiram_chana_dry_fruit_burfi_400g_indian_sweets_diwali_gift_pack",
+          "title": "haldiram chana dry fruit burfi, 400g, indian sweets diwali gift pack",
+          "blueprint_keyword": "sweets",
+          "tier": "optional"
+        },
+        {
+          "product_id": "delight_foods_original_agra_petha_350g_indian_sweets_agra_famous_petha_mithai_kesar_angoori_petha",
+          "title": "delight foods original agra petha 350g | indian sweets | agra famous petha | mithai (kesar angoori petha)",
+          "blueprint_keyword": "sweets",
+          "tier": "optional"
+        },
+        {
+          "product_id": "namo_organics_jumbo_chironji_seeds_150_gm_almondette_kernels_charoli_dry_fruits_raw_sweets_making",
+          "title": "namo organics - jumbo chironji seeds - 150 gm - almondette kernels / charoli dry fruits | raw | sweets making",
+          "blueprint_keyword": "sweets",
+          "tier": "optional"
+        },
+        {
+          "product_id": "farmley_premium_dates_bite_dry_fruits_healthy_and_delicious_sweets_gift_pack_200_gram_made_with_dates_pistachios_cas",
+          "title": "farmley premium dates bite dry fruits healthy and delicious sweets gift pack 200 gram | made with dates , pistachios , cas...",
+          "blueprint_keyword": "sweets",
+          "tier": "optional"
+        }
+      ]
+    },
+    "healthy_lifestyle_start": {
+      "requires_count": 5,
+      "optional_count": 3,
+      "graph_coverage": 66.7,
+      "missing_blueprint_keywords": [
+        "chia",
+        "muesli",
+        "almonds",
+        "protein",
+        "dark chocolate"
+      ],
+      "missing_keyword_tiers": {
+        "chia": "critical",
+        "muesli": "important",
+        "almonds": "important",
+        "protein": "optional",
+        "dark chocolate": "optional"
+      },
+      "top_20_suggested_products": [
+        {
+          "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+          "title": "rustic nature raw chia seeds rich in omega 3 for weight loss 1kg",
+          "blueprint_keyword": "chia",
+          "tier": "critical"
+        },
+        {
+          "product_id": "nutri_desire_immunity_booster_high_rich_protein_chia_seeds_pack_of_2_150_gram_2",
+          "title": "nutri desire immunity booster high rich protein chia seeds (pack of 2) (150 gram * 2)",
+          "blueprint_keyword": "chia",
+          "tier": "critical"
+        },
+        {
+          "product_id": "naturevit_premium_chia_seeds_200g_raw_chia_seeds_for_eating_with_omega_3_fibre_for_weight_loss_management",
+          "title": "naturevit premium chia seeds 200g | raw chia seeds for eating with omega 3 & fibre for weight loss management.",
+          "blueprint_keyword": "chia",
+          "tier": "critical"
+        },
+        {
+          "product_id": "true_elements_raw_seeds_combo_chia_seeds_250g_and_flax_seeds_250g_seeds_for_eating_mix_seeds_high_fibre",
+          "title": "true elements raw seeds combo (chia seeds 250g and flax seeds 250g) - seeds for eating | mix seeds | high fibre",
+          "blueprint_keyword": "chia",
+          "tier": "critical"
+        },
+        {
+          "product_id": "yogabar_wholegrain_breakfast_muesli_dark_chocolate_cranberry_400g_pack_of_2",
+          "title": "yogabar wholegrain breakfast muesli - dark chocolate + cranberry, 400g (pack of 2)",
+          "blueprint_keyword": "muesli",
+          "tier": "important"
+        },
+        {
+          "product_id": "true_elements_muesli_1kg_with_seeds_berries_raisins_almonds_100_wholegrain_cereal_for_breakfast",
+          "title": "true elements muesli 1kg - with seeds, berries, raisins & almonds | 100% wholegrain cereal for breakfast",
+          "blueprint_keyword": "muesli",
+          "tier": "important"
+        },
+        {
+          "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+          "title": "the whole truth - breakfast muesli | quinoa choco crunch muesli | 320grams | vegan | dairy-free | no artificial sweeteners...",
+          "blueprint_keyword": "muesli",
+          "tier": "important"
+        },
+        {
+          "product_id": "ritebite_max_protein_muesli_munchies_choco_crunchy_pack_of_1_240g_10g_protein_5g_fiber_21_fruits_nuts_seeds_7_g",
+          "title": "ritebite max protein muesli munchies choco crunchy (pack of 1), 240g (10g protein, 5g fiber, 21% fruits, nuts & seeds, 7 g...",
+          "blueprint_keyword": "muesli",
+          "tier": "important"
+        },
+        {
+          "product_id": "pro_nature_100_organic_almonds_100g",
+          "title": "pro nature 100% organic almonds, 100g",
+          "blueprint_keyword": "almonds",
+          "tier": "important"
+        },
+        {
+          "product_id": "tulsi_rozana_california_almonds_1000gm",
+          "title": "tulsi rozana california almonds, 1000gm",
+          "blueprint_keyword": "almonds",
+          "tier": "important"
+        },
+        {
+          "product_id": "hard_shell_mamra_almonds_in_shell_1kg",
+          "title": "hard shell mamra almonds(in shell) (1kg)",
+          "blueprint_keyword": "almonds",
+          "tier": "important"
+        },
+        {
+          "product_id": "exotes_popular_almonds_vacuum_pouch_250_g",
+          "title": "exotes popular almonds vacuum pouch, 250 g",
+          "blueprint_keyword": "almonds",
+          "tier": "important"
+        },
+        {
+          "product_id": "henfruit_protein_max_eggs_pack_of_30",
+          "title": "henfruit protein max eggs, pack of 30",
+          "blueprint_keyword": "protein",
+          "tier": "optional"
+        },
+        {
+          "product_id": "herbalife_nutrition_f_1_mango_f_3_protein_powder_and_afresh_ginger",
+          "title": "herbalife nutrition f 1 mango f 3 protein powder and afresh ginger",
+          "blueprint_keyword": "protein",
+          "tier": "optional"
+        },
+        {
+          "product_id": "chetran_s_fresh_tofu_250_g_dairy_paneer_alternative_high_protein",
+          "title": "chetran's fresh tofu, 250 g | dairy paneer alternative | high protein",
+          "blueprint_keyword": "protein",
+          "tier": "optional"
+        },
+        {
+          "product_id": "ritebite_max_protein_7_grain_breakfast_cookies_assorted_pack_of_6_330g",
+          "title": "ritebite max protein 7 grain breakfast cookies - assorted, pack of 6 (330g)",
+          "blueprint_keyword": "protein",
+          "tier": "optional"
+        },
+        {
+          "product_id": "ritebite_max_protein_choco_delite_energy_snack_bar_with_oats_almonds_dark_chocolate_480g_pack_of_12",
+          "title": "ritebite max protein choco delite energy snack bar with oats, almonds & dark chocolate 480g - pack of 12",
+          "blueprint_keyword": "dark chocolate",
+          "tier": "optional"
+        },
+        {
+          "product_id": "the_whole_truth_no_added_sugar_dark_chocolate_protein_peanut_butter_325g_with_9g_protein_per_serve_crunchy",
+          "title": "the whole truth - no added sugar dark chocolate protein peanut butter - 325g with 9g protein per serve - crunchy",
+          "blueprint_keyword": "dark chocolate",
+          "tier": "optional"
+        },
+        {
+          "product_id": "the_whole_truth_dark_chocolate_hazelnut_pack_of_2_x80g_no_added_sugar_sweetened_only_with_dates_47_cocoa_38_d",
+          "title": "the whole truth dark chocolate - hazelnut | pack of 2 x80g | no added sugar | sweetened only with dates | 47% cocoa, 38% d...",
+          "blueprint_keyword": "dark chocolate",
+          "tier": "optional"
+        },
+        {
+          "product_id": "happy_jars_chocolate_hazelnut_spread_265g_real_dark_chocolate_pure_hazelnuts_40_less_sugar_no_added_palm_oil_n",
+          "title": "happy jars chocolate hazelnut spread, 265g | real dark chocolate | pure hazelnuts | 40% less sugar | no added palm oil | n...",
+          "blueprint_keyword": "dark chocolate",
+          "tier": "optional"
+        }
+      ]
+    }
+  }
+}

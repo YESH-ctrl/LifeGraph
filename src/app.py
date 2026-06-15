@@ -237,7 +237,8 @@ def handler(event, context):
             body = event.get('body', '{}')
             if isinstance(body, str):
                 body = json.loads(body) if body else {}
-            res = orch.run_outcome_intelligence(body.get("query", ""))
+            debug_flag = body.get("debug", False)
+            res = orch.run_outcome_intelligence(body.get("query", ""), debug=debug_flag)
             return {
                 "statusCode": 200,
                 "headers": {"Content-Type": "application/json"},

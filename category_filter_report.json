@@ -1,0 +1,21 @@
+{
+  "total_mismatches_found": 2,
+  "mismatches": [
+    {
+      "mission_id": "weekly_grocery_shopping",
+      "product_id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+      "product_title": "Wiggles EveryDawg Dry Adult Dog Food, 1.2kg (Chicken, Oats & Vegetables)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta",
+      "reason": "PET_FOOD in restricted mission"
+    },
+    {
+      "mission_id": "office_lunch_prep",
+      "product_id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+      "product_title": "Wiggles EveryDawg Dry Adult Dog Food, 1.2kg (Chicken, Oats & Vegetables)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta",
+      "reason": "PET_FOOD in restricted mission"
+    }
+  ]
+}

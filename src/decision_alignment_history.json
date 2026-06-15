@@ -1,0 +1,74 @@
+[
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 50,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 83,
+    "final_prediction": 59,
+    "delta": 24,
+    "reason": "AI success score (83%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 50,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 83,
+    "final_prediction": 59,
+    "delta": 24,
+    "reason": "AI success score (83%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  }
+]

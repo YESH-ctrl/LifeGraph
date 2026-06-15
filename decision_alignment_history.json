@@ -1,0 +1,5522 @@
+[
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week with organic products only",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need groceries for my family of 4 this week with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy with low sugar options",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy with low sugar options",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy with low sugar options",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy with gluten-free alternatives",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy with gluten-free alternatives",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy with gluten-free alternatives",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy on a strict budget",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy on a strict budget",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy on a strict budget",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy for healthy eating goals",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy for healthy eating goals",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy for healthy eating goals",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy avoiding high fat items",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy avoiding high fat items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy avoiding high fat items",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy focusing on high protein food",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy focusing on high protein food",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy focusing on high protein food",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy minimizing carb intake",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy minimizing carb intake",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy minimizing carb intake",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy for a fitness lifestyle",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy for a fitness lifestyle",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy for a fitness lifestyle",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy with organic products only",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy with organic products only",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy with organic products only",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to start eating healthy with quick prep items",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to start eating healthy with quick prep items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to start eating healthy with quick prep items",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet with low sugar options",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet with low sugar options",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet with low sugar options",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet with gluten-free alternatives",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet with gluten-free alternatives",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet with gluten-free alternatives",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet on a strict budget",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet on a strict budget",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet on a strict budget",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet for healthy eating goals",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet for healthy eating goals",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet for healthy eating goals",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet avoiding high fat items",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet avoiding high fat items",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet avoiding high fat items",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet focusing on high protein food",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet focusing on high protein food",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet focusing on high protein food",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet minimizing carb intake",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet minimizing carb intake",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet minimizing carb intake",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet for a fitness lifestyle",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet for a fitness lifestyle",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet for a fitness lifestyle",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet with organic products only",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet with organic products only",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet with organic products only",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet with quick prep items",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet with quick prep items",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet with quick prep items",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family with organic products only",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Planning a weekend cooking session for my family with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries with organic products only",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Low carb diabetic meal prep groceries with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with low sugar options",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with gluten-free alternatives",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea on a strict budget",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea for healthy eating goals",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea avoiding high fat items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea focusing on high protein food",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea minimizing carb intake",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea for a fitness lifestyle",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with organic products only",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with organic products only",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with quick prep items",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need monthly pantry refill of sugar, flour, and tea with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder with organic products only",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Weekly shopping list for vegan bodybuilder with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight for healthy eating goals",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight for a fitness lifestyle",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight with organic products only",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Groceries for cooking chicken biryani tonight with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (32%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with low sugar options",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with gluten-free alternatives",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes on a strict budget",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for healthy eating goals",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for healthy eating goals",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for healthy eating goals",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes avoiding high fat items",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes focusing on high protein food",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes minimizing carb intake",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for a fitness lifestyle",
+    "ai_prediction": 75,
+    "final_value": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for a fitness lifestyle",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for a fitness lifestyle",
+    "ai_prediction": 95,
+    "final_value": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with organic products only",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "simulation",
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with quick prep items",
+    "ai_prediction": 90,
+    "final_value": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 85,
+    "final_value": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 15,
+    "final_value": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "ai_prediction": 85,
+    "final_value": 77,
+    "delta": 8,
+    "reason": "AI success score (85%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "risk",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 35,
+    "final_value": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "agent": "simulation",
+    "query": "Need rice, atta and oil for the month",
+    "ai_prediction": 90,
+    "final_value": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I want to lose weight and improve my diet",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "agent": "verification",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 55,
+    "final_value": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "agent": "risk",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 15,
+    "final_value": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "agent": "simulation",
+    "query": "I am diabetic and want to lose weight",
+    "ai_prediction": 95,
+    "final_value": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "verification",
+    "original_prediction": 90,
+    "final_prediction": 50,
+    "delta": 40,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "risk",
+    "original_prediction": 10,
+    "final_prediction": 65,
+    "delta": 55,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 59,
+    "delta": 31,
+    "reason": "AI success score (90%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "verification",
+    "original_prediction": 90,
+    "final_prediction": 50,
+    "delta": 40,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "risk",
+    "original_prediction": 10,
+    "final_prediction": 65,
+    "delta": 55,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 59,
+    "delta": 31,
+    "reason": "AI success score (90%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "verification",
+    "original_prediction": 90,
+    "final_prediction": 50,
+    "delta": 40,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "risk",
+    "original_prediction": 10,
+    "final_prediction": 65,
+    "delta": 55,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 59,
+    "delta": 31,
+    "reason": "AI success score (90%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "verification",
+    "original_prediction": 90,
+    "final_prediction": 50,
+    "delta": 40,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "risk",
+    "original_prediction": 10,
+    "final_prediction": 65,
+    "delta": 55,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 59,
+    "delta": 31,
+    "reason": "AI success score (90%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy with low sugar options",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy with low sugar options",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy with gluten-free alternatives",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy with gluten-free alternatives",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy on a strict budget",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy on a strict budget",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy for healthy eating goals",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy for healthy eating goals",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy avoiding high fat items",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy avoiding high fat items",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy focusing on high protein food",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy focusing on high protein food",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy minimizing carb intake",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy minimizing carb intake",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy for a fitness lifestyle",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy for a fitness lifestyle",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy with organic products only",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy with organic products only",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy with organic products only",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy with quick prep items",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "I want to start eating healthy with quick prep items",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "I want to start eating healthy with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet with low sugar options",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with low sugar options",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet with gluten-free alternatives",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with gluten-free alternatives",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet on a strict budget",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet on a strict budget",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet for healthy eating goals",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet for healthy eating goals",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet avoiding high fat items",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet avoiding high fat items",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet focusing on high protein food",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet focusing on high protein food",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet minimizing carb intake",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet minimizing carb intake",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet for a fitness lifestyle",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet for a fitness lifestyle",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet with organic products only",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with organic products only",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with organic products only",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet with quick prep items",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 50,
+    "delta": 5,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with quick prep items",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=5"
+  },
+  {
+    "query": "I want to lose weight and improve my diet with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 59,
+    "delta": 36,
+    "reason": "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Planning a weekend cooking session for my family with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Low carb diabetic meal prep groceries with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with low sugar options",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with gluten-free alternatives",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea on a strict budget",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea for healthy eating goals",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea avoiding high fat items",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea focusing on high protein food",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea minimizing carb intake",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea for a fitness lifestyle",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with organic products only",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with quick prep items",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need monthly pantry refill of sugar, flour, and tea with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 82,
+    "delta": 8,
+    "reason": "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Weekly shopping list for vegan bodybuilder with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Groceries for cooking chicken biryani tonight with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 63,
+    "delta": 27,
+    "reason": "AI success score (90%) exceeded reality constraint cap (63%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for healthy eating goals",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for healthy eating goals",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for a fitness lifestyle",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 60,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 52)"
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for a fitness lifestyle",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 40,
+    "delta": 5,
+    "reason": "critical_missing>=4"
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 68,
+    "delta": 27,
+    "reason": "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with organic products only",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need breakfast items: oats, milk, honey, cornflakes with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 89,
+    "delta": 1,
+    "reason": "AI success score (90%) exceeded reality constraint cap (89%) based on readiness (78%) and risk (35%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with low sugar options",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with gluten-free alternatives",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month on a strict budget",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month for healthy eating goals",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month avoiding high fat items",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month focusing on high protein food",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month minimizing carb intake",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month for a fitness lifestyle",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with organic products only",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 70,
+    "delta": 15,
+    "reason": "readiness_cap_constraint (det: 78)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 40,
+    "delta": 25,
+    "reason": "critical_missing>=3"
+  },
+  {
+    "query": "Need rice, atta and oil for the month with quick prep items",
+    "agent": "simulation",
+    "original_prediction": 88,
+    "final_prediction": 77,
+    "delta": 11,
+    "reason": "AI success score (88%) exceeded reality constraint cap (77%) based on readiness (70%) and risk (40%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 9)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 9)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 9)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 9)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "verification",
+    "original_prediction": 90,
+    "final_prediction": 20,
+    "delta": 70,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "risk",
+    "original_prediction": 10,
+    "final_prediction": 65,
+    "delta": 55,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and need cadbury dairy milk silk",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I am diabetic and want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "verification",
+    "original_prediction": 90,
+    "final_prediction": 20,
+    "delta": 70,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "risk",
+    "original_prediction": 10,
+    "final_prediction": 65,
+    "delta": 55,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 39,
+    "delta": 51,
+    "reason": "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy with organic options",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 20,
+    "delta": 55,
+    "reason": "readiness_cap_constraint (det: 41)"
+  },
+  {
+    "query": "I want to start eating healthy with organic options",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to start eating healthy with organic options",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 40,
+    "delta": 50,
+    "reason": "AI success score (90%) exceeded reality constraint cap (40%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 55,
+    "final_prediction": 20,
+    "delta": 35,
+    "reason": "readiness_cap_constraint (det: 27)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to start eating healthy with organic options",
+    "agent": "verification",
+    "original_prediction": 75,
+    "final_prediction": 20,
+    "delta": 55,
+    "reason": "readiness_cap_constraint (det: 41)"
+  },
+  {
+    "query": "I want to start eating healthy with organic options",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to start eating healthy with organic options",
+    "agent": "simulation",
+    "original_prediction": 95,
+    "final_prediction": 39,
+    "delta": 56,
+    "reason": "AI success score (95%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "Need groceries for my family of 4 this week",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 40,
+    "delta": 50,
+    "reason": "AI success score (90%) exceeded reality constraint cap (40%) based on readiness (36%) and risk (100%). Calibrated down."
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "verification",
+    "original_prediction": 78,
+    "final_prediction": 30,
+    "delta": 48,
+    "reason": "readiness_cap_constraint (det: 39)"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "risk",
+    "original_prediction": 35,
+    "final_prediction": 65,
+    "delta": 30,
+    "reason": "critical_missing>=7"
+  },
+  {
+    "query": "Need rice, atta and oil for the month",
+    "agent": "simulation",
+    "original_prediction": 90,
+    "final_prediction": 46,
+    "delta": 44,
+    "reason": "AI success score (90%) exceeded reality constraint cap (46%) based on readiness (30%) and risk (65%). Calibrated down."
+  }
+]

@@ -93,9 +93,9 @@
         }
       ],
       "recommendations": [
+        "grb_ghee_pillow_pouch_500ml",
         "keya_chai_masala_90_gm",
         "jiwa_gluten_free_maida_900g",
-        "grb_ghee_pillow_pouch_500ml",
         "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
         "kalfree_detox_tea",
         "nescafe_gold_decaf_coffee_200g"
@@ -109,12 +109,14 @@
         "'JIWA healthy by nature Gluten Free Atta/Flour, 1Kg' selected because mission requires staple flour/atta",
         "'TEACURRY Stinging Nettle Tea (1 Month Pack, 30 Tea Bags) - Helps with Kidney Detox, Blood Sugar, Blood Purify - Stinging N...' selected because it is a required beverage/energizer",
         "Readiness score is 78% because some critical and important requirements are missing.",
-        "Readiness reduced due to missing critical items: Keya Chai Masala 90 Gm, Jiwa Gluten Free Maida 900G, Grb Ghee Pillow Pouch 500Ml",
-        "Risk level assessed as CRITICAL (score: 76).",
+        "Readiness reduced due to missing critical items: Grb Ghee Pillow Pouch 500Ml, Keya Chai Masala 90 Gm, Jiwa Gluten Free Maida 900G",
+        "Risk level assessed as MEDIUM (score: 40).",
         "Risk factor: Missing 3 critical items required for the mission.",
         "Risk factor: 1 missing critical items have no known substitutes in the graph.",
         "Risk factor: 7 dependent accessory items are missing from the cart.",
-        "Projected success probability can be improved from 78% to 90% (+12%) by adding recommended optimizations."
+        "Projected success probability can be improved from 78% to 82% (+4%) by adding recommended optimizations.",
+        "Estimated success increases due to protein and fiber compliance",
+        "AI success score (90%) exceeded reality constraint cap (82%) based on readiness (78%) and risk (40%). Calibrated down."
       ]
     },
     {
@@ -210,9 +212,9 @@
         }
       ],
       "recommendations": [
+        "amul_cheese_sauce_mexican_200_g",
         "keya_chai_masala_90_gm",
         "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
-        "amul_cheese_sauce_mexican_200_g",
         "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
         "kalfree_detox_tea",
         "nutrifruits_roasted_cashew_black_pepper_flavour"
@@ -225,12 +227,14 @@
         "'More Pulav Rice Loose 1Kg' selected because mission requires staple grains",
         "'JIWA healthy by nature Gluten Free Atta/Flour, 1Kg' selected because mission requires staple flour/atta",
         "Readiness score is 36% because some critical and important requirements are missing.",
-        "Readiness reduced due to missing critical items: Keya Chai Masala 90 Gm, Bob S Red Mill Artisan Bread Flour Unbleached 2 27 Kg, Amul Cheese Sauce Mexican 200 G",
+        "Readiness reduced due to missing critical items: Amul Cheese Sauce Mexican 200 G, Keya Chai Masala 90 Gm, Bob S Red Mill Artisan Bread Flour Unbleached 2 27 Kg",
         "Risk level assessed as CRITICAL (score: 100).",
         "Risk factor: Missing 3 critical items required for the mission.",
         "Risk factor: Cart readiness is low (36%), indicating insufficient mission coverage.",
         "Risk factor: 2 missing critical items have no known substitutes in the graph.",
-        "Projected success probability can be improved from 36% to 76% (+40%) by adding recommended optimizations."
+        "Projected success probability can be improved from 36% to 39% (+3%) by adding recommended optimizations.",
+        "Estimated success increases due to protein and fiber compliance",
+        "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
       ]
     },
     {
@@ -334,13 +338,15 @@
         "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
         "'Figaro Olive Oil - 100ml Bottle' selected because it is a critical cooking medium/ingredient",
         "'SFT Sunflower Seeds 1 Kg' selected because it is a critical requirement for healthy lifestyle start",
-        "Readiness score is 52% because some critical and important requirements are missing.",
+        "Readiness score is 60% because some critical and important requirements are missing.",
         "Readiness reduced due to missing critical items: Mindful Eat Anytime Mindful Millet Energy Bars Variety Box Ragi Bajra Quinoa And Jowar 25 G X 12 Bars, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary, Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives",
-        "Risk level assessed as CRITICAL (score: 89).",
+        "Risk level assessed as MEDIUM (score: 40).",
         "Risk factor: Missing 4 critical items required for the mission.",
-        "Risk factor: Cart readiness is low (52%), indicating insufficient mission coverage.",
         "Risk factor: 4 missing critical items have no known substitutes in the graph.",
-        "Projected success probability can be improved from 52% to 84% (+32%) by adding recommended optimizations."
+        "Risk factor: 5 dependent accessory items are missing from the cart.",
+        "Projected success probability can be improved from 60% to 68% (+8%) by adding recommended optimizations.",
+        "Estimated success increases due to protein and fiber compliance",
+        "AI success score (95%) exceeded reality constraint cap (68%) based on readiness (60%) and risk (40%). Calibrated down."
       ]
     },
     {
@@ -414,8 +420,8 @@
       "recommendations": [
         "amazon_brand_solimo_cornflakes_1_2kg",
         "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
-        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
         "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
         "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
         "capilano_honey_500_g",
         "nutraj_chironji_nuts_100_g",
@@ -428,14 +434,16 @@
         "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
         "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
         "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
-        "Readiness score is 39% because some critical and important requirements are missing.",
-        "Readiness reduced due to missing critical items: Amazon Brand Solimo Cornflakes 1 2Kg, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary, Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg",
+        "Readiness score is 50% because some critical and important requirements are missing.",
+        "Readiness reduced due to missing critical items: Amazon Brand Solimo Cornflakes 1 2Kg, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary, Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives",
         "Readiness affected by missing important items: Capilano Honey 500 G",
-        "Risk level assessed as CRITICAL (score: 100).",
+        "Risk level assessed as MEDIUM (score: 50).",
         "Risk factor: Missing 5 critical items required for the mission.",
-        "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+        "Risk factor: Cart readiness is low (50%), indicating insufficient mission coverage.",
         "Risk factor: 5 missing critical items have no known substitutes in the graph.",
-        "Projected success probability can be improved from 39% to 79% (+40%) by adding recommended optimizations."
+        "Projected success probability can be improved from 50% to 63% (+13%) by adding recommended optimizations.",
+        "Estimated success increases due to protein and fiber compliance",
+        "AI success score (95%) exceeded reality constraint cap (63%) based on readiness (50%) and risk (50%). Calibrated down."
       ]
     },
     {
@@ -531,27 +539,29 @@
         }
       ],
       "recommendations": [
+        "amul_cheese_sauce_mexican_200_g",
         "keya_chai_masala_90_gm",
         "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
-        "amul_cheese_sauce_mexican_200_g",
         "go_desi_popz_with_bits_masala_jamun_50_pcs_fruit_snacks_400_gm",
         "kalfree_detox_tea",
         "nutrifruits_roasted_cashew_black_pepper_flavour"
       ],
       "reasoning": [
-        "Mission 'weekly_grocery_shopping' detected because the query matched relevant keywords: weekend, session, cooking.",
+        "Mission 'weekly_grocery_shopping' detected because the query matched relevant keywords: cooking, weekend, session.",
         "'Brij Gwala Desi Cow Ghee |Made Traditionally from Curd |Pure Cow Ghee for Better Digestion and Immunity | 1Ltr TetraPack' selected because it is a critical cooking medium/ingredient",
         "'Mother Dairy UHT Milk, 1 Ltr' selected because it is a key dairy/breakfast component",
         "'Haldiram's Moong Dal | Crispy Moong Dal coated with Salt | Not Spiced yet Flavorful | Favorite Teatime Snack of India | Ma...' selected because it is a key flavoring/masala ingredient",
         "'More Pulav Rice Loose 1Kg' selected because mission requires staple grains",
         "'JIWA healthy by nature Gluten Free Atta/Flour, 1Kg' selected because mission requires staple flour/atta",
         "Readiness score is 36% because some critical and important requirements are missing.",
-        "Readiness reduced due to missing critical items: Keya Chai Masala 90 Gm, Bob S Red Mill Artisan Bread Flour Unbleached 2 27 Kg, Amul Cheese Sauce Mexican 200 G",
+        "Readiness reduced due to missing critical items: Amul Cheese Sauce Mexican 200 G, Keya Chai Masala 90 Gm, Bob S Red Mill Artisan Bread Flour Unbleached 2 27 Kg",
         "Risk level assessed as CRITICAL (score: 100).",
         "Risk factor: Missing 3 critical items required for the mission.",
         "Risk factor: Cart readiness is low (36%), indicating insufficient mission coverage.",
         "Risk factor: 2 missing critical items have no known substitutes in the graph.",
-        "Projected success probability can be improved from 36% to 76% (+40%) by adding recommended optimizations."
+        "Projected success probability can be improved from 36% to 39% (+3%) by adding recommended optimizations.",
+        "Estimated success increases due to protein and fiber compliance",
+        "AI success score (90%) exceeded reality constraint cap (39%) based on readiness (36%) and risk (100%). Calibrated down."
       ]
     }
   ]

@@ -689,12 +689,13 @@ from orchestration.master_orchestrator import OutcomeOrchestrator
 
 class OutcomeIntelligenceRequest(BaseModel):
     query: str
+    debug: bool = False
 
 @app.post("/orchestrator/outcome-intelligence", tags=["Orchestrator"], summary="Outcome Intelligence Pipeline")
 async def run_outcome_intelligence(payload: OutcomeIntelligenceRequest, response: Response):
     try:
         orch = OutcomeOrchestrator()
-        res = orch.run_outcome_intelligence(payload.query)
+        res = orch.run_outcome_intelligence(payload.query, debug=payload.debug)
         return res
     except Exception as e:
         response.status_code = 500
@@ -961,4 +962,47 @@ def get_graph_quality():
             "average_relationship_quality": 0.92,
             "graph_quality_score": 95
         }
+    }
+
+@app.get("/ai/diagnostics", tags=["Diagnostics"], summary="Get AI Diagnostics")
+async def get_ai_diagnostics():
+    """Returns runtime model access list, active models, failure and fallback counts."""
+    import os
+    from shared.ai.providers.bedrock_provider import BedrockProvider
+    stats = BedrockProvider.get_diagnostics_stats()
+    
+    available_models = []
+    active_models = []
+    runtime_status = {"loaded": False}
+    
+    try:
+        if os.path.exists("available_models.json"):
+            with open("available_models.json", "r") as f:
+                available_models = json.load(f)
+                active_models = [m["Model ID"] for m in available_models if m.get("Access Status") == "ACTIVE"]
+    except Exception:
+        pass
+        
+    try:
+        if os.path.exists("bedrock_diagnostics_report.json"):
+            with open("bedrock_diagnostics_report.json", "r") as f:
+                report = json.load(f)
+                runtime_status = {
+                    "credentials_loaded": report.get("credentials", {}).get("loaded", False),
+                    "region": report.get("region", "ap-south-1"),
+                    "runtime_invocation": report.get("runtime_invocation", {}),
+                    "streaming_invocation": report.get("streaming_invocation", {})
+                }
+    except Exception:
+        pass
+        
+    return {
+        "success": True,
+        "mode": os.environ.get("MODE", "BEDROCK_LIVE"),
+        "active_models": active_models,
+        "available_models": available_models,
+        "runtime_status": runtime_status,
+        "failure_count": stats.get("failure_count", 0),
+        "fallback_count": stats.get("fallback_count", 0),
+        "invocation_count": stats.get("invocation_count", 0)
     }

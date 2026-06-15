@@ -1,0 +1,3477 @@
+[
+  {
+    "timestamp": 1781471785.8923874,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 1194.14,
+      "estimated_serving_capacity": 1,
+      "items_count": 5,
+      "mission_coherence_score": 97
+    },
+    "verification": {
+      "readiness_score": 50,
+      "readiness_breakdown": {
+        "critical_completion": 50,
+        "important_completion": 0,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "capilano_honey_500_g",
+        "saffola_masala_oats_classic_masala_39g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "nikunj_premium_green_tea_jar_250g"
+      ],
+      "missing_items": [
+        "capilano_honey_500_g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary"
+      ],
+      "critical_missing": [
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 50,
+      "risk_level": "MEDIUM",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 5 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "MEDIUM",
+          "reason": "Cart readiness is low (50%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "5 missing critical items have no known substitutes in the graph."
+        },
+        {
+          "type": "MISSION_DEPENDENCY_MISSING",
+          "severity": "HIGH",
+          "reason": "9 dependent accessory items are missing from the cart."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 50,
+      "optimized_success": 63,
+      "improvement": 13,
+      "recommended_additions": [
+        "capilano_honey_500_g",
+        "meal_prep_containers",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "nutraj_chironji_nuts_100_g",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "sft_sunflower_seeds_1_kg",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "kitchen_scale",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: diet, weight.",
+      "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+      "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+      "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+      "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+      "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 50% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Fortune Xpert Pro Sugar Conscious Edible Oil Pouch 1 L, Amazon Brand Solimo Cornflakes 1 2Kg, Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as MEDIUM (score: 50).",
+      "Risk factor: Missing 5 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (50%), indicating insufficient mission coverage.",
+      "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 50% to 63% (+13%) by adding recommended optimizations.",
+      "Estimated success increases due to protein and fiber compliance",
+      "AI success score (95%) exceeded reality constraint cap (63%) based on readiness (50%) and risk (50%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 6155,
+        "output_tokens": 954
+      },
+      "execution_cost_usd": 0.0128734,
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 75,
+          "grounding_score": 87,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "Audit confirms compliant outputs, 0 UUID leaks, and 0 safety conflicts"
+        ]
+      },
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "monthly_grocery_refill"
+        },
+        "ai_analysis": {
+          "detected_mission": "monthly_grocery_refill",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [
+            "diabetic"
+          ],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [
+          {
+            "type": "override_mission",
+            "original": "weight_loss_journey",
+            "override": "monthly_grocery_refill",
+            "reason": "AI detected more specific user intent"
+          }
+        ],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found matching intent, mapped sub-goals and lifestyle tags"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "estimated_cost": 14.14
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "estimated_cost": 169.0
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "estimated_cost": 425.0
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "estimated_cost": 348.0
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "estimated_cost": 238.0
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "estimated_cost": 590.0
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "estimated_cost": 195.0
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 367.0
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 204.0
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "estimated_cost": 550.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss",
+              "status": "REJECTED",
+              "feedback": "Reject high sugar snack"
+            }
+          ],
+          "mission_coherence_score": 90
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+            "reason": "Removed due to weight loss sugar restriction"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Removed due to weight loss sugar restriction"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.96,
+        "reasoning": [
+          "Analyzed cart for sugar/diet matches and safety filters"
+        ]
+      },
+      "ai_decision_log": {
+        "mission_agent": {
+          "confidence": 0.95,
+          "changes": [],
+          "mode": "SIMULATION"
+        },
+        "cart_agent": {
+          "rejected": [
+            "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)"
+          ],
+          "accepted": [],
+          "mode": "SIMULATION"
+        },
+        "verification_agent": {
+          "confidence": 0.94,
+          "changes": [
+            {
+              "change": {
+                "type": "override_readiness",
+                "score": 50,
+                "reason": "Honey is optional in weight loss journey, raising readiness score"
+              },
+              "evidence": {
+                "graph": [
+                  "Score override evaluated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "Valid score adjustment request: Honey is optional in weight loss journey, raising readiness score",
+                  "Capped override to 50 (det: 39, limit: +30, boundary: 50)"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "risk_agent": {
+          "confidence": 0.95,
+          "changes": [
+            {
+              "change": {
+                "type": "override_risk",
+                "level": "MEDIUM",
+                "score": 50,
+                "reason": "Missing items are optional ingredients, lowering risk"
+              },
+              "evidence": {
+                "graph": [
+                  "Score override evaluated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "Valid score adjustment request: Missing items are optional ingredients, lowering risk",
+                  "Capped override to MEDIUM (50) due to missing items constraint"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "regret_agent": {
+          "confidence": 0.92,
+          "changes": [
+            {
+              "change": {
+                "type": "add_accessory",
+                "name": "meal_prep_containers"
+              },
+              "evidence": {
+                "graph": [
+                  "Associated with lifestyle indicator matching MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "Identified auxiliary item recommendation: 'meal_prep_containers'"
+                ],
+                "business_rules": [
+                  "Recommended to prevent genuine user regret and improve compliance"
+                ]
+              }
+            },
+            {
+              "change": {
+                "type": "add_accessory",
+                "name": "kitchen_scale"
+              },
+              "evidence": {
+                "graph": [
+                  "Associated with lifestyle indicator matching MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "Identified auxiliary item recommendation: 'kitchen_scale'"
+                ],
+                "business_rules": [
+                  "Recommended to prevent genuine user regret and improve compliance"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "simulation_agent": {
+          "confidence": 0.95,
+          "changes": [
+            {
+              "change": {
+                "type": "calibrate_success",
+                "original": 95,
+                "calibrated": 63
+              },
+              "evidence": {
+                "graph": [
+                  "Simulation calibrated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [],
+                "business_rules": [
+                  "AI success score (95%) exceeded reality constraint cap (63%) based on readiness (50%) and risk (50%). Calibrated down."
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "auditor": {
+          "score": 75,
+          "grounding_score": 87,
+          "consistency_score": 100,
+          "mode": "SIMULATION"
+        }
+      },
+      "metrics": {
+        "decision_override_rate": 0.8333333333333334,
+        "product_rejection_rate": 0.1,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 87,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 80,
+        "graph_validity_score": 80,
+        "repair_rate": 1.0,
+        "policy_violation_rate": 1.0,
+        "certification_rate": 0.0,
+        "trust_score": 70,
+        "mean_repairs_per_request": 2.0
+      },
+      "latency_sec": 18.25259232521057,
+      "provider": "simulation",
+      "model": "local-simulation-model",
+      "mode": "SIMULATION",
+      "latency_ms": 18252,
+      "evaluation": {
+        "evaluation_score": 87,
+        "grounding_score": 87,
+        "decision_score": 88,
+        "reasoning_score": 100,
+        "outcome_score": 76,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 0,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 71
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 96
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 50,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 2,
+            "repair_frequency": 2,
+            "confidence_calibration": 83
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 87,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 97
+          }
+        }
+      }
+    },
+    "certification": {
+      "status": "AUTO_REPAIRED",
+      "policy_score": 70,
+      "repaired": true,
+      "trust_level": "REPAIRED",
+      "repair_log": [
+        {
+          "rule": "RULE_CATALOG_VIOLATION",
+          "field": "regret_prevention.forgotten_items",
+          "old_value": "meal_prep_containers",
+          "new_value": null
+        },
+        {
+          "rule": "RULE_CATALOG_VIOLATION",
+          "field": "regret_prevention.forgotten_items",
+          "old_value": "kitchen_scale",
+          "new_value": null
+        }
+      ]
+    },
+    "repair_log": [
+      {
+        "rule": "RULE_CATALOG_VIOLATION",
+        "field": "regret_prevention.forgotten_items",
+        "old_value": "meal_prep_containers",
+        "new_value": null
+      },
+      {
+        "rule": "RULE_CATALOG_VIOLATION",
+        "field": "regret_prevention.forgotten_items",
+        "old_value": "kitchen_scale",
+        "new_value": null
+      }
+    ],
+    "trust_level": "REPAIRED",
+    "evaluation": {
+      "evaluation_score": 87,
+      "grounding_score": 87,
+      "decision_score": 88,
+      "reasoning_score": 100,
+      "outcome_score": 76,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 0,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 71
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 96
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 50,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 2,
+          "repair_frequency": 2,
+          "confidence_calibration": 83
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 87,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 97
+        }
+      }
+    },
+    "policy_score": 70
+  },
+  {
+    "timestamp": 1781473090.7588797,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 1194.14,
+      "estimated_serving_capacity": 1,
+      "items_count": 5,
+      "mission_coherence_score": 97
+    },
+    "verification": {
+      "readiness_score": 50,
+      "readiness_breakdown": {
+        "critical_completion": 50,
+        "important_completion": 0,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "saffola_masala_oats_classic_masala_39g",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "capilano_honey_500_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nikunj_premium_green_tea_jar_250g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary"
+      ],
+      "missing_items": [
+        "capilano_honey_500_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary"
+      ],
+      "critical_missing": [
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 50,
+      "risk_level": "MEDIUM",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 5 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "HIGH",
+          "reason": "Cart readiness is low (39%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "5 missing critical items have no known substitutes in the graph."
+        },
+        {
+          "type": "MISSION_DEPENDENCY_MISSING",
+          "severity": "HIGH",
+          "reason": "9 dependent accessory items are missing from the cart."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 50,
+      "optimized_success": 63,
+      "improvement": 13,
+      "recommended_additions": [
+        "nutraj_chironji_nuts_100_g",
+        "capilano_honey_500_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "sft_sunflower_seeds_1_kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "kitchen_scale",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "meal_prep_containers"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: diet, weight.",
+      "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+      "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+      "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+      "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+      "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 50% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg, Amazon Brand Solimo Cornflakes 1 2Kg, Fortune Xpert Pro Sugar Conscious Edible Oil Pouch 1 L",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as MEDIUM (score: 50).",
+      "Risk factor: Missing 5 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+      "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 50% to 63% (+13%) by adding recommended optimizations.",
+      "Estimated success increases due to protein and fiber compliance",
+      "AI success score (95%) exceeded reality constraint cap (63%) based on readiness (50%) and risk (50%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 6194,
+        "output_tokens": 999
+      },
+      "execution_cost_usd": 0.013003750000000001,
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "Audit confirms compliant outputs, 0 UUID leaks, and 0 safety conflicts"
+        ]
+      },
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "monthly_grocery_refill"
+        },
+        "ai_analysis": {
+          "detected_mission": "weight_loss_journey",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ],
+          "health_conditions": [],
+          "evidence_validation": [
+            {
+              "constraint": "healthy_eating",
+              "evidence_source": "query"
+            }
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [
+          {
+            "type": "override_mission",
+            "original": "weight_loss_journey",
+            "override": "monthly_grocery_refill",
+            "reason": "AI detected more specific user intent"
+          }
+        ],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found matching intent, mapped sub-goals and lifestyle tags"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "estimated_cost": 14.14
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "estimated_cost": 169.0
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "estimated_cost": 425.0
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "estimated_cost": 348.0
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "estimated_cost": 238.0
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "estimated_cost": 590.0
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "estimated_cost": 195.0
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 367.0
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 204.0
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "estimated_cost": 550.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss",
+              "status": "REJECTED",
+              "feedback": "Reject high sugar snack"
+            }
+          ],
+          "mission_coherence_score": 90
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+            "reason": "Removed due to weight loss sugar restriction"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Removed due to weight loss sugar restriction"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.96,
+        "reasoning": [
+          "Analyzed cart for sugar/diet matches and safety filters"
+        ]
+      },
+      "ai_decision_log": {
+        "mission_agent": {
+          "confidence": 0.95,
+          "changes": [],
+          "mode": "SIMULATION"
+        },
+        "cart_agent": {
+          "rejected": [
+            "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)"
+          ],
+          "accepted": [],
+          "mode": "SIMULATION"
+        },
+        "verification_agent": {
+          "confidence": 0.94,
+          "changes": [
+            {
+              "change": {
+                "type": "override_readiness",
+                "score": 50,
+                "reason": "Honey is optional in weight loss journey, raising readiness score"
+              },
+              "evidence": {
+                "graph": [
+                  "Score override evaluated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "Valid score adjustment request: Honey is optional in weight loss journey, raising readiness score",
+                  "Capped override to 50 (det: 39, limit: +30, boundary: 50)"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "risk_agent": {
+          "confidence": 0.95,
+          "changes": [
+            {
+              "change": {
+                "type": "override_risk",
+                "level": "MEDIUM",
+                "score": 50,
+                "reason": "Missing items are optional ingredients, lowering risk"
+              },
+              "evidence": {
+                "graph": [
+                  "Score override evaluated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "Valid score adjustment request: Missing items are optional ingredients, lowering risk",
+                  "Capped override to MEDIUM (50) due to missing items constraint"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "regret_agent": {
+          "confidence": 0.92,
+          "changes": [
+            {
+              "change": {
+                "type": "add_accessory",
+                "name": "meal_prep_containers"
+              },
+              "evidence": {
+                "graph": [
+                  "Item not directly linked in graph but approved via catalog/ontology"
+                ],
+                "catalog": [
+                  "Item not in product catalog but approved via graph/ontology"
+                ],
+                "business_rules": [
+                  "Accessory 'meal_prep_containers' is approved in the accessory ontology"
+                ]
+              }
+            },
+            {
+              "change": {
+                "type": "add_accessory",
+                "name": "kitchen_scale"
+              },
+              "evidence": {
+                "graph": [
+                  "Item not directly linked in graph but approved via catalog/ontology"
+                ],
+                "catalog": [
+                  "Item not in product catalog but approved via graph/ontology"
+                ],
+                "business_rules": [
+                  "Accessory 'kitchen_scale' is approved in the accessory ontology"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "simulation_agent": {
+          "confidence": 0.95,
+          "changes": [
+            {
+              "change": {
+                "type": "calibrate_success",
+                "original": 95,
+                "calibrated": 63
+              },
+              "evidence": {
+                "graph": [
+                  "Simulation calibrated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "AI success score (95%) exceeded reality constraint cap (63%) based on readiness (50%) and risk (50%). Calibrated down."
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "auditor": {
+          "score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "mode": "SIMULATION"
+        }
+      },
+      "metrics": {
+        "decision_override_rate": 0.8333333333333334,
+        "product_rejection_rate": 0.1,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 100,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 80,
+        "graph_validity_score": 80,
+        "repair_rate": 0.0,
+        "policy_violation_rate": 0.0,
+        "certification_rate": 1.0,
+        "trust_score": 100,
+        "mean_repairs_per_request": 0.0
+      },
+      "latency_sec": 17.528361320495605,
+      "provider": "simulation",
+      "model": "local-simulation-model",
+      "mode": "SIMULATION",
+      "latency_ms": 17528,
+      "evaluation": {
+        "evaluation_score": 95,
+        "grounding_score": 100,
+        "decision_score": 100,
+        "reasoning_score": 100,
+        "outcome_score": 76,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 0,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 71
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 96
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 98
+          }
+        },
+        "quality_per_dollar": 7305.58,
+        "quality_per_second": 5.42
+      }
+    },
+    "certification": {
+      "status": "CERTIFIED",
+      "policy_score": 100,
+      "repaired": false,
+      "trust_level": "TRUSTED",
+      "repair_log": []
+    },
+    "repair_log": [],
+    "trust_level": "TRUSTED",
+    "evaluation": {
+      "evaluation_score": 95,
+      "grounding_score": 100,
+      "decision_score": 100,
+      "reasoning_score": 100,
+      "outcome_score": 76,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 0,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 71
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 96
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 98
+        }
+      },
+      "quality_per_dollar": 7305.58,
+      "quality_per_second": 5.42
+    },
+    "policy_score": 100
+  },
+  {
+    "timestamp": 1781473972.6703355,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 1194.14,
+      "estimated_serving_capacity": 1,
+      "items_count": 5,
+      "mission_coherence_score": 97
+    },
+    "verification": {
+      "readiness_score": 50,
+      "readiness_breakdown": {
+        "critical_completion": 50,
+        "important_completion": 0,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "saffola_masala_oats_classic_masala_39g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "capilano_honey_500_g",
+        "nikunj_premium_green_tea_jar_250g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "missing_items": [
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "capilano_honey_500_g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "critical_missing": [
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 5 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "HIGH",
+          "reason": "Cart readiness is low (39%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "5 missing critical items have no known substitutes in the graph."
+        },
+        {
+          "type": "MISSION_DEPENDENCY_MISSING",
+          "severity": "HIGH",
+          "reason": "9 dependent accessory items are missing from the cart."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 50,
+      "optimized_success": 59,
+      "improvement": 9,
+      "recommended_additions": [
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "nutraj_chironji_nuts_100_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "capilano_honey_500_g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "sft_sunflower_seeds_1_kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: weight, diet.",
+      "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+      "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+      "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+      "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+      "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 50% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary, Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg, Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as HIGH (score: 65).",
+      "Risk factor: Missing 5 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+      "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 50% to 59% (+9%) by adding recommended optimizations.",
+      "Estimated success increases due to protein and fiber compliance",
+      "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 6099,
+        "output_tokens": 999
+      },
+      "execution_cost_usd": 0.012752,
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "Audit confirms compliant outputs, 0 UUID leaks, and 0 safety conflicts"
+        ]
+      },
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "weight_loss_journey"
+        },
+        "ai_analysis": {
+          "detected_mission": "weight_loss_journey",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ],
+          "health_conditions": [],
+          "evidence_validation": [
+            {
+              "constraint": "healthy_eating",
+              "evidence_source": "query"
+            }
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [
+          {
+            "type": "override_mission",
+            "original": "weight_loss_journey",
+            "override": "monthly_grocery_refill",
+            "reason": "AI detected more specific user intent"
+          }
+        ],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found matching intent, mapped sub-goals and lifestyle tags"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "estimated_cost": 14.14
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "estimated_cost": 169.0
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "estimated_cost": 425.0
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "estimated_cost": 348.0
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "estimated_cost": 238.0
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "estimated_cost": 590.0
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "estimated_cost": 195.0
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 367.0
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 204.0
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "estimated_cost": 550.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss",
+              "status": "REJECTED",
+              "feedback": "Reject high sugar snack"
+            }
+          ],
+          "mission_coherence_score": 90
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+            "reason": "Removed due to weight loss sugar restriction"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Removed due to weight loss sugar restriction"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.96,
+        "reasoning": [
+          "Analyzed cart for sugar/diet matches and safety filters"
+        ]
+      },
+      "ai_decision_log": {
+        "mission_agent": {
+          "confidence": 0.95,
+          "changes": [],
+          "mode": "SIMULATION"
+        },
+        "cart_agent": {
+          "rejected": [
+            "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)"
+          ],
+          "accepted": [],
+          "mode": "SIMULATION"
+        },
+        "verification_agent": {
+          "confidence": 0.94,
+          "changes": [
+            {
+              "change": {
+                "type": "override_readiness",
+                "score": 50,
+                "reason": "Honey is optional in weight loss journey, raising readiness score"
+              },
+              "evidence": {
+                "graph": [
+                  "Score override evaluated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "Valid score adjustment request: Honey is optional in weight loss journey, raising readiness score",
+                  "Capped override to 50 (det: 39, limit: +30, boundary: 50)"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "risk_agent": {
+          "confidence": 0.95,
+          "changes": [
+            {
+              "change": {
+                "type": "override_risk",
+                "level": "HIGH",
+                "score": 65,
+                "reason": "Missing items are optional ingredients, lowering risk"
+              },
+              "evidence": {
+                "graph": [
+                  "Score override evaluated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "Valid score adjustment request: Missing items are optional ingredients, lowering risk",
+                  "Capped override to HIGH (65) due to missing items constraint"
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "regret_agent": {
+          "confidence": 0.92,
+          "changes": [],
+          "mode": "SIMULATION"
+        },
+        "simulation_agent": {
+          "confidence": 0.95,
+          "changes": [
+            {
+              "change": {
+                "type": "calibrate_success",
+                "original": 95,
+                "calibrated": 59
+              },
+              "evidence": {
+                "graph": [
+                  "Simulation calibrated for MISSION#weight_loss_journey"
+                ],
+                "catalog": [
+                  "No direct product catalog check required for score modifications"
+                ],
+                "business_rules": [
+                  "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+                ]
+              }
+            }
+          ],
+          "mode": "SIMULATION"
+        },
+        "auditor": {
+          "score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "mode": "SIMULATION"
+        }
+      },
+      "metrics": {
+        "decision_override_rate": 0.6666666666666666,
+        "product_rejection_rate": 0.1,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 100,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 100,
+        "graph_validity_score": 100,
+        "repair_rate": 0.0,
+        "policy_violation_rate": 0.0,
+        "certification_rate": 1.0,
+        "trust_score": 100,
+        "mean_repairs_per_request": 0.0
+      },
+      "latency_sec": 7.864069938659668,
+      "provider": "simulation",
+      "model": "local-simulation-model",
+      "mode": "SIMULATION",
+      "latency_ms": 7864,
+      "evaluation": {
+        "evaluation_score": 94,
+        "grounding_score": 100,
+        "decision_score": 100,
+        "reasoning_score": 100,
+        "outcome_score": 74,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 0,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 71
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 96
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 98
+          }
+        },
+        "quality_per_dollar": 7371.39,
+        "quality_per_second": 11.95
+      }
+    },
+    "certification": {
+      "status": "CERTIFIED",
+      "policy_score": 100,
+      "repaired": false,
+      "trust_level": "WARNING",
+      "repair_log": [],
+      "trust_conditions": {
+        "grounding_score": true,
+        "catalog_validity_score": true,
+        "graph_validity_score": true,
+        "reality_score": false,
+        "consistency_score": true
+      }
+    },
+    "repair_log": [],
+    "trust_level": "WARNING",
+    "evaluation": {
+      "evaluation_score": 94,
+      "grounding_score": 100,
+      "decision_score": 100,
+      "reasoning_score": 100,
+      "outcome_score": 74,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 0,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 71
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 96
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 98
+        }
+      },
+      "quality_per_dollar": 7371.39,
+      "quality_per_second": 11.95
+    },
+    "policy_score": 100
+  },
+  {
+    "timestamp": 1781498872.1051714,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 1194.14,
+      "estimated_serving_capacity": 1,
+      "items_count": 5,
+      "mission_coherence_score": 97
+    },
+    "verification": {
+      "readiness_score": 50,
+      "readiness_breakdown": {
+        "critical_completion": 50,
+        "important_completion": 0,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "capilano_honey_500_g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "nikunj_premium_green_tea_jar_250g",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "saffola_masala_oats_classic_masala_39g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg"
+      ],
+      "missing_items": [
+        "capilano_honey_500_g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg"
+      ],
+      "critical_missing": [
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 5 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "HIGH",
+          "reason": "Cart readiness is low (39%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "5 missing critical items have no known substitutes in the graph."
+        },
+        {
+          "type": "MISSION_DEPENDENCY_MISSING",
+          "severity": "HIGH",
+          "reason": "9 dependent accessory items are missing from the cart."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 50,
+      "optimized_success": 59,
+      "improvement": 9,
+      "recommended_additions": [
+        "capilano_honey_500_g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "sft_sunflower_seeds_1_kg",
+        "nutraj_chironji_nuts_100_g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: weight, diet.",
+      "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+      "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+      "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+      "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+      "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 50% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives, Amazon Brand Solimo Cornflakes 1 2Kg, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as HIGH (score: 65).",
+      "Risk factor: Missing 5 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+      "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 50% to 59% (+9%) by adding recommended optimizations.",
+      "Estimated success increases due to protein and fiber compliance",
+      "AI success score (95%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 6410,
+        "output_tokens": 999
+      },
+      "execution_cost_usd": 0.013038000000000001,
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "weight_loss_journey"
+        },
+        "ai_analysis": {
+          "detected_mission": "weight_loss_journey",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ],
+          "health_conditions": [],
+          "evidence_validation": [
+            {
+              "constraint": "healthy_eating",
+              "evidence_source": "query"
+            }
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [
+          {
+            "type": "override_mission",
+            "original": "weight_loss_journey",
+            "override": "monthly_grocery_refill",
+            "reason": "AI detected more specific user intent"
+          }
+        ],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found matching intent, mapped sub-goals and lifestyle tags"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "estimated_cost": 14.14
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "estimated_cost": 169.0
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "estimated_cost": 425.0
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "estimated_cost": 348.0
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "estimated_cost": 238.0
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "estimated_cost": 590.0
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "estimated_cost": 195.0
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 367.0
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 204.0
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "estimated_cost": 550.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss",
+              "status": "REJECTED",
+              "feedback": "Reject high sugar snack"
+            }
+          ],
+          "mission_coherence_score": 90
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+            "reason": "Removed due to weight loss sugar restriction"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Removed due to weight loss sugar restriction"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Chocolate has high sugar content and is not aligned with weight loss"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.96,
+        "reasoning": [
+          "Analyzed cart for sugar/diet matches and safety filters"
+        ]
+      },
+      "metrics": {
+        "decision_override_rate": 0.6666666666666666,
+        "product_rejection_rate": 0.1,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 100,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 100,
+        "graph_validity_score": 100
+      },
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "Audit confirms compliant outputs, 0 UUID leaks, and 0 safety conflicts"
+        ]
+      },
+      "latency_sec": 14.018977642059326,
+      "evaluation": {
+        "evaluation_score": 94,
+        "grounding_score": 100,
+        "decision_score": 100,
+        "reasoning_score": 100,
+        "outcome_score": 74,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 0,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 71
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 96
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 98
+          }
+        },
+        "quality_per_dollar": 7209.69,
+        "quality_per_second": 6.71
+      }
+    },
+    "certification": {
+      "status": "CERTIFIED",
+      "policy_score": 100,
+      "repaired": false,
+      "trust_level": "WARNING",
+      "repair_log": [],
+      "trust_conditions": {
+        "grounding_score": true,
+        "catalog_validity_score": true,
+        "graph_validity_score": true,
+        "reality_score": false,
+        "consistency_score": true,
+        "decision_override_rate": true,
+        "provider_matches_runtime": true,
+        "fallback_used": false
+      }
+    },
+    "repair_log": [],
+    "trust_level": "WARNING",
+    "evaluation": {
+      "evaluation_score": 94,
+      "grounding_score": 100,
+      "decision_score": 100,
+      "reasoning_score": 100,
+      "outcome_score": 74,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 0,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 71
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 96
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 98
+        }
+      },
+      "quality_per_dollar": 7209.69,
+      "quality_per_second": 6.71
+    },
+    "policy_score": 100
+  },
+  {
+    "timestamp": 1781499977.124213,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 1194.14,
+      "estimated_serving_capacity": 1,
+      "items_count": 5,
+      "mission_coherence_score": 97
+    },
+    "verification": {
+      "readiness_score": 50,
+      "readiness_breakdown": {
+        "critical_completion": 50,
+        "important_completion": 0,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "capilano_honey_500_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nikunj_premium_green_tea_jar_250g",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "saffola_masala_oats_classic_masala_39g",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "missing_items": [
+        "capilano_honey_500_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "critical_missing": [
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 5 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "HIGH",
+          "reason": "Cart readiness is low (39%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "5 missing critical items have no known substitutes in the graph."
+        },
+        {
+          "type": "MISSION_DEPENDENCY_MISSING",
+          "severity": "HIGH",
+          "reason": "9 dependent accessory items are missing from the cart."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 50,
+      "optimized_success": 59,
+      "improvement": 9,
+      "recommended_additions": [
+        "capilano_honey_500_g",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: weight, diet.",
+      "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+      "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+      "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+      "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+      "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 50% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg, Amazon Brand Solimo Cornflakes 1 2Kg, Nutribee 100 Multi Grain Millet Rusk Refined Sugar Free Healthy Diet Toast No Maida And Sugar No Preservatives",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as HIGH (score: 65).",
+      "Risk factor: Missing 5 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+      "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 50% to 59% (+9%) by adding recommended optimizations.",
+      "Diet success increases due to fiber and protein coverage, calorie reduction, and low risk of nutritional deficiencies",
+      "AI success score (83%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 9294,
+        "output_tokens": 2051
+      },
+      "execution_cost_usd": 0.023788950000000003,
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "weight_loss_journey"
+        },
+        "ai_analysis": {
+          "detected_mission": "weight_loss_journey",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ],
+          "health_conditions": [],
+          "evidence_validation": [
+            {
+              "constraint": "healthy_eating",
+              "evidence_source": "query"
+            }
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found low calorie / lose weight keywords"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "estimated_cost": 14.14
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "estimated_cost": 169.0
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "estimated_cost": 425.0
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "estimated_cost": 348.0
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "estimated_cost": 238.0
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "estimated_cost": 590.0
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "estimated_cost": 195.0
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 367.0
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 204.0
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "estimated_cost": 550.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "reason": "High sugar bar conflicts with diet",
+              "status": "REJECTED",
+              "feedback": "High sugar content is not suitable for weight loss journey"
+            }
+          ],
+          "mission_coherence_score": 80
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+            "reason": "High sugar bar conflicts with diet"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Removed from cart"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION WARNING: Product category matches mission, but AI requested override: Removed from cart"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "High sugar bar conflicts with diet"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.95,
+        "reasoning": [
+          "Detected chocolate bar contradiction in weight loss mission"
+        ]
+      },
+      "metrics": {
+        "decision_override_rate": 0.6666666666666666,
+        "product_rejection_rate": 0.1,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 100,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 100,
+        "graph_validity_score": 100
+      },
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "All agents comply. Zero UUID leaks found."
+        ]
+      },
+      "latency_sec": 43.481096267700195,
+      "evaluation": {
+        "evaluation_score": 94,
+        "grounding_score": 100,
+        "decision_score": 100,
+        "reasoning_score": 100,
+        "outcome_score": 74,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 95
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 95
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 98
+          }
+        },
+        "quality_per_dollar": 3951.41,
+        "quality_per_second": 2.16
+      }
+    },
+    "certification": {
+      "status": "CERTIFIED",
+      "policy_score": 100,
+      "repaired": false,
+      "trust_level": "WARNING",
+      "repair_log": [],
+      "trust_conditions": {
+        "grounding_score": true,
+        "catalog_validity_score": true,
+        "graph_validity_score": true,
+        "reality_score": false,
+        "consistency_score": true,
+        "decision_override_rate": true,
+        "provider_matches_runtime": true,
+        "fallback_used": true
+      }
+    },
+    "repair_log": [],
+    "trust_level": "WARNING",
+    "evaluation": {
+      "evaluation_score": 94,
+      "grounding_score": 100,
+      "decision_score": 100,
+      "reasoning_score": 100,
+      "outcome_score": 74,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 95
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 95
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 98
+        }
+      },
+      "quality_per_dollar": 3951.41,
+      "quality_per_second": 2.16
+    },
+    "policy_score": 100
+  },
+  {
+    "timestamp": 1781501277.6983173,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 1194.14,
+      "estimated_serving_capacity": 1,
+      "items_count": 5,
+      "mission_coherence_score": 97
+    },
+    "verification": {
+      "readiness_score": 50,
+      "readiness_breakdown": {
+        "critical_completion": 50,
+        "important_completion": 0,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "capilano_honey_500_g",
+        "nikunj_premium_green_tea_jar_250g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "saffola_masala_oats_classic_masala_39g"
+      ],
+      "missing_items": [
+        "capilano_honey_500_g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives"
+      ],
+      "critical_missing": [
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 5 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "HIGH",
+          "reason": "Cart readiness is low (39%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "5 missing critical items have no known substitutes in the graph."
+        },
+        {
+          "type": "MISSION_DEPENDENCY_MISSING",
+          "severity": "HIGH",
+          "reason": "9 dependent accessory items are missing from the cart."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 50,
+      "optimized_success": 59,
+      "improvement": 9,
+      "recommended_additions": [
+        "capilano_honey_500_g",
+        "sft_sunflower_seeds_1_kg",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutraj_chironji_nuts_100_g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: diet, weight.",
+      "'Saffola Masala Oats, Classic Masala, 39g' selected because it is a key flavoring/masala ingredient",
+      "'Nikunj Premium Green Tea Jar, 250g' selected because it is a required beverage/energizer",
+      "'Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars' selected because it is a critical requirement for weight loss journey",
+      "'Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...' selected because it is a critical requirement for weight loss journey",
+      "'Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 50% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg, Fortune Xpert Pro Sugar Conscious Edible Oil Pouch 1 L, Britannia Milk Bikis Milk Biscuits Pouch 280G 300G Weight May Vary",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as HIGH (score: 65).",
+      "Risk factor: Missing 5 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (39%), indicating insufficient mission coverage.",
+      "Risk factor: 5 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 50% to 59% (+9%) by adding recommended optimizations.",
+      "Diet success increases due to fiber and protein coverage, calorie reduction, and low risk factors",
+      "AI success score (83%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 9292,
+        "output_tokens": 2049
+      },
+      "execution_cost_usd": 0.023776650000000003,
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "weight_loss_journey"
+        },
+        "ai_analysis": {
+          "detected_mission": "weight_loss_journey",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ],
+          "health_conditions": [],
+          "evidence_validation": [
+            {
+              "constraint": "healthy_eating",
+              "evidence_source": "query"
+            }
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found low calorie / lose weight keywords"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "estimated_cost": 14.14
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "estimated_cost": 169.0
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "estimated_cost": 425.0
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "estimated_cost": 348.0
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "estimated_cost": 238.0
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "estimated_cost": 590.0
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "estimated_cost": 195.0
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 367.0
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 204.0
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "estimated_cost": 550.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "saffola_masala_oats_classic_masala_39g",
+              "title": "Saffola Masala Oats, Classic Masala, 39g",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "nikunj_premium_green_tea_jar_250g",
+              "title": "Nikunj Premium Green Tea Jar, 250g",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+              "title": "Mindful EAT Anytime Mindful Millet Energy Bars - Variety Box (Ragi, Bajra, Quinoa and Jowar) - 25 g x 12 Bars",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "ketofy_keto_nachos_250g_crispy_and_crunchy_diet_snacks_ultra_low_carb_and_gluten_free_mildly_spicy_protein_snack",
+              "title": "Ketofy - Keto Nachos (250g) | Crispy and Crunchy Diet Snacks | Ultra Low-Carb and Gluten-Free | Mildly Spicy Protein Snack...",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "sugar_free_gold_low_calorie_sweetener_pack_of_2_100_sachet_x_2_box",
+              "title": "Sugar Free Gold Low Calorie Sweetener - Pack of 2 (100 Sachet x 2), Box",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+              "title": "Rustic Nature Raw Chia Seeds Rich in Omega 3 for Weight Loss 1kg",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "nutraj_chironji_nuts_100_g",
+              "title": "Nutraj Chironji Nuts (100 g)",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+              "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "the_whole_truth_peanut_butter_with_dates_sweetened_325_g_creamy_no_added_sugar_high_protein_no_artificial_sw",
+              "title": "The Whole Truth - Peanut Butter With Dates (Sweetened) | 325 g | Creamy | No Added Sugar | High Protein | No Artificial Sw...",
+              "priority": "OPTIONAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "title": "Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)",
+              "priority": "OPTIONAL",
+              "reason": "High sugar bar conflicts with diet",
+              "status": "REJECTED",
+              "feedback": "High sugar content is not suitable for weight loss journey"
+            }
+          ],
+          "mission_coherence_score": 80
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+            "reason": "High sugar bar conflicts with diet"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "Removed from cart"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION WARNING: Product category matches mission, but AI requested override: Removed from cart"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g",
+              "reason": "High sugar bar conflicts with diet"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#cadbury_dairy_milk_silk_chocolate_bar_250g_pack_of_2_x_250g exists. Title: 'Cadbury Dairy Milk Silk Chocolate Bar, 250g (Pack of 2 x 250g)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.95,
+        "reasoning": [
+          "Detected chocolate bar contradiction in weight loss mission"
+        ]
+      },
+      "metrics": {
+        "decision_override_rate": 0.6666666666666666,
+        "product_rejection_rate": 0.1,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 100,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 100,
+        "graph_validity_score": 100
+      },
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "All agents comply. Zero UUID leaks found."
+        ]
+      },
+      "latency_sec": 48.77612113952637,
+      "evaluation": {
+        "evaluation_score": 94,
+        "grounding_score": 100,
+        "decision_score": 100,
+        "reasoning_score": 100,
+        "outcome_score": 74,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 95
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 95
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 98
+          }
+        },
+        "quality_per_dollar": 3953.46,
+        "quality_per_second": 1.93
+      }
+    },
+    "certification": {
+      "status": "WARNING",
+      "policy_score": 100,
+      "repaired": false,
+      "trust_level": "WARNING",
+      "repair_log": [],
+      "trust_conditions": {
+        "grounding_score": true,
+        "catalog_validity_score": true,
+        "graph_validity_score": true,
+        "reality_score": false,
+        "consistency_score": true,
+        "decision_override_rate": true,
+        "provider_matches_runtime": true,
+        "fallback_used": true
+      }
+    },
+    "repair_log": [],
+    "trust_level": "WARNING",
+    "evaluation": {
+      "evaluation_score": 94,
+      "grounding_score": 100,
+      "decision_score": 100,
+      "reasoning_score": 100,
+      "outcome_score": 74,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 95
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 95
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 98
+        }
+      },
+      "quality_per_dollar": 3953.46,
+      "quality_per_second": 1.93
+    },
+    "policy_score": 100
+  }
+]

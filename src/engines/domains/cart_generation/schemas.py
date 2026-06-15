@@ -27,3 +27,5 @@ class CartGenerationResponse(BaseModel):
     reasoning: List[str]
     substitutions: List[Substitution]
     mission_coherence_score: Optional[int] = None
+    capabilities: Optional[List[str]] = None
+    capability_coverage: Optional[int] = None

@@ -1,0 +1,36 @@
+{
+  "calibrations": [
+    {
+      "input_readiness": 10,
+      "recommended_additions_count": 1,
+      "forgotten_items_count": 1,
+      "current_success": 10,
+      "optimized_success": 50,
+      "improvement": 40
+    },
+    {
+      "input_readiness": 42,
+      "recommended_additions_count": 2,
+      "forgotten_items_count": 2,
+      "current_success": 42,
+      "optimized_success": 81,
+      "improvement": 39
+    },
+    {
+      "input_readiness": 75,
+      "recommended_additions_count": 1,
+      "forgotten_items_count": 0,
+      "current_success": 75,
+      "optimized_success": 90,
+      "improvement": 15
+    },
+    {
+      "input_readiness": 90,
+      "recommended_additions_count": 2,
+      "forgotten_items_count": 1,
+      "current_success": 90,
+      "optimized_success": 95,
+      "improvement": 5
+    }
+  ]
+}

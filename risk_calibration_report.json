@@ -1,0 +1,49 @@
+{
+  "calibrations": [
+    {
+      "input_readiness": 95,
+      "critical_missing_count": 0,
+      "total_cost": 500,
+      "budget": 1000,
+      "calculated_risk_score": 2,
+      "calculated_risk_level": "LOW",
+      "risks_triggered": []
+    },
+    {
+      "input_readiness": 75,
+      "critical_missing_count": 1,
+      "total_cost": 400,
+      "budget": 1000,
+      "calculated_risk_score": 20,
+      "calculated_risk_level": "LOW",
+      "risks_triggered": [
+        "MISSING_CRITICAL_ITEM",
+        "LOW_SUBSTITUTION_COVERAGE"
+      ]
+    },
+    {
+      "input_readiness": 45,
+      "critical_missing_count": 3,
+      "total_cost": 300,
+      "budget": 1000,
+      "calculated_risk_score": 52,
+      "calculated_risk_level": "HIGH",
+      "risks_triggered": [
+        "MISSING_CRITICAL_ITEM",
+        "INSUFFICIENT_QUANTITY",
+        "LOW_SUBSTITUTION_COVERAGE"
+      ]
+    },
+    {
+      "input_readiness": 90,
+      "critical_missing_count": 0,
+      "total_cost": 1200,
+      "budget": 1000,
+      "calculated_risk_score": 19,
+      "calculated_risk_level": "LOW",
+      "risks_triggered": [
+        "BUDGET_OVERRUN"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "Model ID": "meta.llama3-8b-instruct-v1:0",
+    "Provider": "Meta",
+    "Region": "ap-south-1",
+    "Access Status": "ACTIVE"
+  },
+  {
+    "Model ID": "meta.llama3-70b-instruct-v1:0",
+    "Provider": "Meta",
+    "Region": "ap-south-1",
+    "Access Status": "ACTIVE"
+  },
+  {
+    "Model ID": "apac.anthropic.claude-3-5-sonnet-20241022-v2:0",
+    "Provider": "Anthropic",
+    "Region": "ap-south-1",
+    "Access Status": "PENDING_USE_CASE_FORM"
+  },
+  {
+    "Model ID": "apac.anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "Provider": "Anthropic",
+    "Region": "ap-south-1",
+    "Access Status": "PENDING_USE_CASE_FORM"
+  },
+  {
+    "Model ID": "us.anthropic.claude-3-haiku-20240307-v1:0",
+    "Provider": "Anthropic",
+    "Region": "ap-south-1",
+    "Access Status": "CLIENT_ERROR"
+  },
+  {
+    "Model ID": "anthropic.claude-3-haiku-20240307-v1:0",
+    "Provider": "Anthropic",
+    "Region": "ap-south-1",
+    "Access Status": "PENDING_USE_CASE_FORM"
+  }
+]

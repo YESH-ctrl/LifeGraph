@@ -1,0 +1,64 @@
+{
+  "credentials": {
+    "loaded": true,
+    "access_key_masked": "AKIA************AT7I",
+    "error": null
+  },
+  "region": "ap-south-1",
+  "model_access": [
+    {
+      "model_id": "meta.llama3-8b-instruct-v1:0",
+      "provider": "Meta",
+      "region": "ap-south-1",
+      "access_status": "ACTIVE",
+      "error": null
+    },
+    {
+      "model_id": "meta.llama3-70b-instruct-v1:0",
+      "provider": "Meta",
+      "region": "ap-south-1",
+      "access_status": "ACTIVE",
+      "error": null
+    },
+    {
+      "model_id": "apac.anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "provider": "Anthropic",
+      "region": "ap-south-1",
+      "access_status": "PENDING_USE_CASE_FORM",
+      "error": "Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes."
+    },
+    {
+      "model_id": "apac.anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "provider": "Anthropic",
+      "region": "ap-south-1",
+      "access_status": "PENDING_USE_CASE_FORM",
+      "error": "Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes."
+    },
+    {
+      "model_id": "us.anthropic.claude-3-haiku-20240307-v1:0",
+      "provider": "Anthropic",
+      "region": "ap-south-1",
+      "access_status": "CLIENT_ERROR",
+      "error": "The provided model identifier is invalid."
+    },
+    {
+      "model_id": "anthropic.claude-3-haiku-20240307-v1:0",
+      "provider": "Anthropic",
+      "region": "ap-south-1",
+      "access_status": "PENDING_USE_CASE_FORM",
+      "error": "Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes."
+    }
+  ],
+  "runtime_invocation": {
+    "success": true,
+    "model_used": "meta.llama3-8b-instruct-v1:0",
+    "latency_sec": 0.139,
+    "response": "READY",
+    "error": null
+  },
+  "streaming_invocation": {
+    "success": true,
+    "model_used": "meta.llama3-8b-instruct-v1:0",
+    "error": null
+  }
+}

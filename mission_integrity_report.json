@@ -1,0 +1,30 @@
+{
+  "frozen_missions": [
+    "monthly_grocery_refill",
+    "weekly_grocery_shopping",
+    "birthday_party",
+    "chicken_biryani",
+    "family_breakfast_setup",
+    "exam_preparation_week",
+    "weight_loss_journey",
+    "house_party",
+    "movie_night",
+    "healthy_lifestyle_start",
+    "office_lunch_prep",
+    "housewarming_ceremony",
+    "new_semester_setup",
+    "train_journey_essentials",
+    "paneer_butter_masala_dinner",
+    "hostel_essentials_refill",
+    "weekend_cooking_session",
+    "sankranti_preparation",
+    "ganesh_chaturthi",
+    "diwali_celebration",
+    "family_gathering",
+    "road_trip_essentials",
+    "elderly_care_essentials"
+  ],
+  "removed_legacy_missions": [
+    "biryani_preparation"
+  ]
+}

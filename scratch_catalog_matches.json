@@ -1,0 +1,1233 @@
+{
+  "cake": [
+    {
+      "id": "bogatchi_whipped_cream_whipping_cream_powder_whipping_cream_for_cake_premium_whipping_cream_powder_free_one_extra_w",
+      "title": "BOGATCHI Whipped Cream | Whipping Cream Powder, Whipping Cream for Cake, Premium Whipping Cream Powder, | Free One Extra W...",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "sorich_organics_dark_cocoa_powder_400gm_dark_cocoa_powder_for_cake_chocolates_cookies_brownies_hot_cold_milk_shakes",
+      "title": "Sorich Organics Dark Cocoa Powder 400gm | Dark Cocoa Powder for Cake, Chocolates, Cookies, Brownies, Hot/Cold Milk Shakes,...",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "dry_fruit_hub_sprinkles_choco_chips_combo_450gms_sprinkles_for_cake_decoration_125gm_tutty_fruity_100gm_dark_choco_chip",
+      "title": "Dry Fruit Hub Sprinkles Choco Chips Combo 450gms, Sprinkles for Cake Decoration 125gm, Tutty Fruity 100gm, Dark Choco Chip...",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    },
+    {
+      "id": "slurrp_farm_healthy_pancake_lovers_combo_blueberry_classic_chocolate_banana_no_maida_wheat_preservative_made",
+      "title": "Slurrp Farm Healthy Pancake Lovers Combo | Blueberry, Classic, Chocolate & Banana | No Maida, Wheat & Preservative | Made ...",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    },
+    {
+      "id": "bake_king_cake_gel_300gm_cake_sponge_improver_useful_when_making_eggless_cakes_emulsifier_and_stabilizer_mix",
+      "title": "BAKE KING Cake Gel 300gm, Cake Sponge Improver, Useful When Making Eggless Cakes, Emulsifier and Stabilizer Mix",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    },
+    {
+      "id": "slurrp_farm_healthy_breakfast_and_snacks_trial_pack_combo_millet_pancake_and_dosa_mix_300g_pack_of_6_50g_each",
+      "title": "Slurrp Farm Healthy Breakfast and Snacks Trial Pack Combo, Millet Pancake and Dosa Mix, 300g (Pack of 6, 50g each)",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    },
+    {
+      "id": "slurrp_farm_chocolate_cake_mix_eggless_wheat_and_maida_free_400g",
+      "title": "Slurrp Farm Chocolate Cake Mix | Eggless, Wheat and Maida Free, 400g",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    },
+    {
+      "id": "edible_sparkle_colourshine_food_colouring_set_of_10_vibrant_liquid_food_colours_food_colour_for_cake_decor_food_colour",
+      "title": "Edible Sparkle Colourshine Food Colouring Set of 10 Vibrant Liquid Food Colours | Food Colour for Cake Decor | Food Colour...",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    },
+    {
+      "id": "harveys_flavouring_essence_biryani_kewra_saffron_cardamom_pack_of_4_for_biryani_kheer_cake_cookies_muffins_s",
+      "title": "Harveys Flavouring Essence | Biryani, Kewra, Saffron, Cardamom | Pack of 4 | For Biryani, Kheer, Cake, Cookies, Muffins, S...",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "betty_crocker_complete_classic_pancake_mix_pancake_mix_for_kids_no_preservatives_pack_of_250_x_2_500_g",
+      "title": "Betty Crocker Complete Classic Pancake Mix | Pancake Mix for Kids| No-Preservatives| Pack of 250 x 2| 500 g",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    }
+  ],
+  "candle": [],
+  "balloon": [],
+  "hat": [
+    {
+      "id": "haldiram_s_delhi_khatta_meetha_400g_40g_extra",
+      "title": "Haldiram's Delhi Khatta Meetha, 400g+40g extra",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "catch_chat_masala_sprinkler_100_gms_pack_of_2_200_gms",
+      "title": "CATCH Chat Masala Sprinkler 100 GMS - Pack of 2(200 GMS)",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "prabhat_regular_home_taste_cup_dahi_400_g",
+      "title": "Prabhat Regular Home Taste Cup Dahi, 400 g",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "ganesh_chaturthi",
+      "title": "Ganesh Chaturthi Preparation",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": "go_desi_desi_twistz_imli_twist_candy_from_the_makers_of_imli_pop_imli_candy_khatti_meethi_imli_250gm",
+      "title": "GO DESi - DESi Twistz - Imli Twist Candy from the makers of Imli Pop | Imli Candy | Khatti Meethi Imli | 250gm",
+      "category": "GROCERY",
+      "subcategory": "Snacks & Confectionery"
+    },
+    {
+      "id": "maanki_chaat_papdi_bhel_puri_chat_puri_chat_papdi_sev_puri_papdi_200_grams",
+      "title": "Maanki Chaat Papdi Bhel Puri/ Chat Puri/Chat Papdi/Sev Puri(Papdi) 200 Grams",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "krishna_s_pathar_juice_chatadi_1000_ml_dissolve_or_break_the_stone_goodness_of_pashanbhed_adulsa_kutki_amla_bl",
+      "title": "Krishna's Pathar Juice Chatadi - 1000 ml | Dissolve or Break The Stone | Goodness of Pashanbhed, Adulsa, Kutki & Amla | Bl...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "himalaya_wellness_pure_herbs_shatavari_women_s_wellness_promotes_lactation_60_tablets",
+      "title": "Himalaya Wellness Pure Herbs Shatavari Women's Wellness | Promotes lactation | - 60 Tablets",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "hathmic_raw_extra_virgin_coconut_oil_cold_pressed_1000ml",
+      "title": "HATHMIC Raw Extra Virgin Coconut Oil (Cold Pressed)1000ml",
+      "category": "FESTIVALS",
+      "subcategory": "Pooja & Festival Supplies"
+    },
+    {
+      "id": "gits_instant_khatta_dhokla_mix_makes_100_per_pack_pure_veg_instant_indian_snack_mix_500g",
+      "title": "Gits Instant Khatta Dhokla Mix, Makes 100 Per Pack, Pure Veg, Instant Indian Snack Mix, 500g",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    }
+  ],
+  "decoration": [
+    {
+      "id": "dry_fruit_hub_sprinkles_choco_chips_combo_450gms_sprinkles_for_cake_decoration_125gm_tutty_fruity_100gm_dark_choco_chip",
+      "title": "Dry Fruit Hub Sprinkles Choco Chips Combo 450gms, Sprinkles for Cake Decoration 125gm, Tutty Fruity 100gm, Dark Choco Chip...",
+      "category": "GROCERY",
+      "subcategory": "bakery"
+    }
+  ],
+  "toy": [
+    {
+      "id": "amazon_brand_jam_honey_yellow_unicorn_soft_toy_35_cm",
+      "title": "Amazon Brand - Jam & Honey Yellow Unicorn Soft Toy, 35 cm",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "game": [],
+  "rice": [
+    {
+      "id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+      "title": "Veganic Rice Kachari - 400GM | Salted Rice Wafer Fryum | Rice Finger Papad | Sun Dried Rice Kurdai | Chaval Charauri, Tilo...",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "more_brown_rice_loose_1_kg",
+      "title": "More Brown Rice Loose 1 Kg",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "devaaya_daawat_devaaya_rice_1_kg",
+      "title": "Devaaya Daawat Devaaya Rice, 1 Kg",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "organic_tattva_organic_sonamasuri_white_gluten_free_and_unpolished_rice_5kg",
+      "title": "Organic Tattva, Organic Sonamasuri White Gluten Free and Unpolished Rice, 5KG",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "kalanamak_rice_organic_buddha_rice_originally_from_sidhart_nagar_pack_of_1_kg",
+      "title": "Kalanamak Rice | Organic Buddha Rice | Originally from Sidhart nagar | Pack Of 1 Kg",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+      "title": "Saffola Active Refined Oil|Blend of Rice Bran Oil & Soyabean Oil|Cooking Oil|Pro Weight Watchers Edible Oil 5 litre Jar",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "thanjai_organics_karuppu_kavuni_rice_black_rice_low_gi_traditional_kavuni_arisi_weight_1kg",
+      "title": "Thanjai Organics Karuppu Kavuni Rice | Black Rice | Low GI |Traditional Kavuni Arisi (Weight: 1kg)",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "organic_tattva_organic_gluten_free_sonamasuri_brown_unpolished_rice_1kg_all_natural_quality_health_food_enriched_w",
+      "title": "Organic Tattva, Organic Gluten Free Sonamasuri Brown Unpolished Rice - 1Kg | All Natural, Quality Health Food , Enriched w...",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "karkkuvel_ayyanar_vamshi_krishna_premium_ponni_boiled_rice_10_kg",
+      "title": "karkkuvel ayyanar Vamshi Krishna Premium ponni Boiled Rice (10 kg)",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "jiwa_healthy_by_nature_organic_black_rice_1kg",
+      "title": "JIWA healthy by nature Organic Black Rice 1Kg",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    }
+  ],
+  "atta": [
+    {
+      "id": "haldiram_s_delhi_khatta_meetha_400g_40g_extra",
+      "title": "Haldiram's Delhi Khatta Meetha, 400g+40g extra",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "nature_fresh_sampoorna_atta_superior_mp_atta_10kg",
+      "title": "Nature Fresh Sampoorna Atta, superior MP Atta , 10kg",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "aashirvaad_sugar_release_control_atta_1kg_pack_low_gi_glycemic_index_atta_for_diabetics_a_blend_of_whole_wheat_pulse",
+      "title": "Aashirvaad Sugar Release Control Atta, 1kg Pack, Low GI (Glycemic Index) Atta for Diabetics, A Blend of Whole Wheat, Pulse...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "attar_ayurveda_sabja_basil_seeds_500_gm_reduces_body_heat",
+      "title": "Attar Ayurveda Sabja Basil Seeds - 500 gm (Reduces Body Heat)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "pillsbury_gold_madhya_pradesh_sharbati_whole_wheat_atta_upto_6_hours_of_softness_5kg",
+      "title": "Pillsbury Gold Madhya Pradesh Sharbati Whole Wheat Atta | Upto 6 hours of Softness| 5kg",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "24_mantra_organic_7_grain_multigrain_atta_1000_g",
+      "title": "24 Mantra Organic 7 Grain Multigrain Atta, 1000 g",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "curry_leaves_powder_100g_karuveppilai_powder_kadi_patta_powder_karibevu_powder_for_hair_eating",
+      "title": "Curry leaves Powder 100g | Karuveppilai Powder | Kadi Patta Powder | Karibevu Powder for Hair & Eating",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "nutroactive_keto_atta_1g_net_carb_per_roti_extremely_low_carb_flour_500_gm",
+      "title": "NutroActive Keto Atta (1g Net Carb Per Roti ) Extremely Low Carb Flour - 500 gm",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "ketofy_coconut_flour_1kg_2_1g_net_carbs_per_serving_gluten_free_atta_fiber_and_protein_rich_easy_to_use_keto",
+      "title": "Ketofy - Coconut Flour (1kg) | 2.1g Net Carbs Per Serving | Gluten Free Atta | Fiber and Protein Rich | Easy to Use | Keto...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "vishvanetre_pure_natural_chestnut_oak_flour_shaahabaloot_ka_atta_singhra_atta_500_gm",
+      "title": "Vishvanetre Pure & Natural Chestnut Oak Flour Shaahabaloot Ka Atta ,Singhra Atta....... (500 GM)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    }
+  ],
+  "oil": [
+    {
+      "id": "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+      "title": "Fortune Xpert Pro Sugar Conscious Edible Oil, Pouch, 1 L",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "lb_ray_cooking_spray_sunflower_oil_low_calorie_100_oil_spray_no_gases_emulsifiers_and_water_200_ml_pack_of_1",
+      "title": "LB RAY Cooking Spray Sunflower Oil - Low-Calorie, 100% Oil Spray, No Gases, Emulsifiers, and Water (200 ml, Pack of 1)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "tata_sampann_chaat_masala_with_natural_oils_crafted_by_chef_sanjeev_kapoor_100g",
+      "title": "Tata Sampann Chaat Masala with Natural Oils, Crafted by Chef Sanjeev Kapoor, 100g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "freedom_refined_sunflower_oil_1l",
+      "title": "Freedom Refined Sunflower Oil, 1L",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "sage_apothecary_100_pure_natural_jasmine_essential_oil_undiluted_10_ml_therapeutic_grade_for_healthy_skin_face_hair",
+      "title": "Sage Apothecary 100% Pure & Natural Jasmine Essential Oil Undiluted - 10 ML Therapeutic Grade for Healthy Skin, Face, Hair...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "solasz_100_spanish_baby_massage_pure_olive_oil_500ml",
+      "title": "Solasz 100% Spanish Baby Massage Pure Olive Oil 500ml",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "the_pure_story_jojoba_oil_100_pure_virgin_cold_pressed_moisturizer_for_face_skin_hair_nails_for_sensitive_dry_skin",
+      "title": "The Pure Story Jojoba oil-100% Pure Virgin Cold Pressed Moisturizer for Face, Skin, Hair & Nails for Sensitive & Dry Skin ...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "healthvit_mct_oil_from_coconut_oil_unsweetened_keto_diet_sports_for_healthy_and_instant_energy_unflavoured_odourless",
+      "title": "Healthvit MCT Oil From Coconut Oil Unsweetened Keto Diet Sports | For Healthy And Instant Energy | Unflavoured & Odourless...",
+      "category": "FESTIVALS",
+      "subcategory": "Pooja & Festival Supplies"
+    },
+    {
+      "id": "patanjali_kesh_kanti_oil_120_ml",
+      "title": "Patanjali Kesh Kanti Oil (120 ml)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "sundrop_oil_super_lite_advanced_1l_pouch",
+      "title": "Sundrop Oil - Super Lite Advanced, 1L Pouch",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "dal": [
+    {
+      "id": "patanjali_pushtahar_dalia_500g",
+      "title": "Patanjali Pushtahar Dalia, 500g",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "marwar_papad_moong_dal_special_handmade_medium_spicy_rajasthani_flavor_special_400gm_zipper_pack_of_1",
+      "title": "Marwar Papad Moong Dal Special (Handmade, Medium Spicy & Rajasthani Flavor) Special 400gm Zipper Pack of 1",
+      "category": "GROCERY",
+      "subcategory": "Snacks & Confectionery"
+    },
+    {
+      "id": "ruchi_daliya_500grm_pack_of_2",
+      "title": "Ruchi Daliya 500grm (Pack of 2)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "more_bengal_gram_dal_roasted_500g_loose",
+      "title": "More Bengal Gram Dal - Roasted, 500g (Loose)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "sorich_organics_ceylon_cinnamon_powder_100gm_cinnamon_powder_for_weight_loss_face_dalchini_powder_100g_organic_sril",
+      "title": "Sorich Organics Ceylon Cinnamon Powder 100gm | Cinnamon Powder For Weight Loss, Face | Dalchini Powder 100g | Organic SriL...",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "tur_dal_loose_selecta_1kg",
+      "title": "Tur Dal Loose Selecta 1kg",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "tots_and_moms_introductory_foods_trial_combo_healthy_porridge_cereals_and_moongdal_mix_4_packs",
+      "title": "TOTS AND MOMS Introductory Foods Trial Combo| Healthy Porridge, Cereals and Moongdal Mix | 4 Packs",
+      "category": "GROCERY",
+      "subcategory": "Cereals"
+    },
+    {
+      "id": "24_mantra_organic_unpolished_bengalgram_kandi_pappu_chana_dal_500gms_pack_of_1_100_organic_chemical_free_pestic",
+      "title": "24 Mantra Organic Unpolished Bengalgram/Kandi pappu/Chana Dal - 500gms | Pack of 1 | 100% Organic | Chemical Free & Pestic...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "pro_nature_channa_dal_500g",
+      "title": "Pro Nature Channa Dal, 500g",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "tata_sampann_multi_dal_chilla_mix_180g",
+      "title": "Tata Sampann Multi Dal Chilla Mix, 180g",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "salt": [
+    {
+      "id": "veganic_rice_kachari_400gm_salted_rice_wafer_fryum_rice_finger_papad_sun_dried_rice_kurdai_chaval_charauri_tilo",
+      "title": "Veganic Rice Kachari - 400GM | Salted Rice Wafer Fryum | Rice Finger Papad | Sun Dried Rice Kurdai | Chaval Charauri, Tilo...",
+      "category": "GROCERY",
+      "subcategory": "Rice"
+    },
+    {
+      "id": "raghbat_premium_california_roasted_salted_jumbo_size_pistachios_nut_1kg_family_value_pack_pista_dry_fruit_super_crun",
+      "title": "Raghbat Premium California Roasted & Salted Jumbo Size Pistachios Nut 1kg Family Value Pack | Pista Dry Fruit | Super Crun...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "colgate_active_salt_toothpaste_germ_fighting_toothpaste_for_healthy_gums_and_teeth_500gm_200g_x_2_and_100g_x_1",
+      "title": "Colgate Active Salt Toothpaste, Germ Fighting Toothpaste for Healthy Gums and Teeth, 500gm (200g X 2 and 100g X 1)",
+      "category": "HEALTH_AND_PERSONAL_CARE",
+      "subcategory": "Oral Care"
+    },
+    {
+      "id": "happilo_premium_international_salted_partymix_200g_healthy_dry_fruits_snack_contains_kaju_kishmish_badam_pista_o",
+      "title": "Happilo Premium International Salted Partymix 200g | Healthy Dry Fruits Snack | Contains Kaju, Kishmish, Badam & Pista | O...",
+      "category": "GROCERY",
+      "subcategory": "Snacks & Confectionery"
+    },
+    {
+      "id": "happilo_premium_californian_roasted_salted_pistachios_200_g_pack_of_2_pista_dry_fruit_shelled_nuts_super_crunchy",
+      "title": "Happilo Premium Californian Roasted & Salted Pistachios 200 g (Pack of 2) | Pista Dry Fruit, Shelled Nuts Super Crunchy & ...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "lagom_gourmet_roasted_salted_california_almonds_badam_500g_lightly_salted_dry_roasted_roasted_to_perfection_n",
+      "title": "Lagom Gourmet Roasted & Salted California Almonds (Badam), 500g | Lightly Salted | Dry Roasted | Roasted To Perfection | N...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "urban_platter_pink_himalayan_rock_salt_powder_jar_1_5kg_additive_free_gourmet_grade_signature_quality",
+      "title": "Urban Platter Pink Himalayan Rock Salt Powder Jar, 1.5kg ( Additive-Free, Gourmet Grade, Signature Quality)",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "by_nature_himalayan_pink_salt_400g_salt_in_fresh_mineral_rich_low_sodium_pink_salt_flavorful_vegan_food",
+      "title": "By Nature - Himalayan Pink Salt 400g | Salt in Fresh | Mineral Rich | Low Sodium Pink Salt | Flavorful | Vegan Food",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "nutraj_special_walnut_kernels_250g_vacuum_pack_without_shell_walnut_kernels_dry_fruits_akhroth_giri_unsalted_for",
+      "title": "Nutraj Special Walnut Kernels 250g - Vacuum Pack Without Shell Walnut Kernels | Dry Fruits | Akhroth Giri | Unsalted | for...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "nutralite_doodhshakti_probiotic_butter_spread_salted_500_g",
+      "title": "Nutralite Doodhshakti Probiotic Butter Spread Salted, 500 g",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    }
+  ],
+  "sugar": [
+    {
+      "id": "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+      "title": "Fortune Xpert Pro Sugar Conscious Edible Oil, Pouch, 1 L",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "storck_werther_s_original_cream_candies_sugar_free_70g",
+      "title": "Storck Werther's Original Cream Candies Sugar Free, 70g",
+      "category": "HEALTH_AND_PERSONAL_CARE",
+      "subcategory": "Personal Care & Wellness"
+    },
+    {
+      "id": "aashirvaad_sugar_release_control_atta_1kg_pack_low_gi_glycemic_index_atta_for_diabetics_a_blend_of_whole_wheat_pulse",
+      "title": "Aashirvaad Sugar Release Control Atta, 1kg Pack, Low GI (Glycemic Index) Atta for Diabetics, A Blend of Whole Wheat, Pulse...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+      "title": "Nutribee 100% Multi-Grain Millet Rusk | Refined Sugar Free | Healthy Diet Toast | No Maida and Sugar | No Preservatives | ...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "alt_co_oats_milk_1_liter_lactose_free_preservatives_free_no_added_sugar_soya_free_no_trans_fat_low_calorie",
+      "title": "Alt Co. Oats Milk (1 liter) | Lactose-Free | Preservatives Free | No Added Sugar | Soya Free | No Trans- Fat | Low Calorie...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "shunya_fizz_lime_lemon_classic_cola_combo_sugar_free_soft_drink_0_calories_no_aspartame_supercharged_with_gree",
+      "title": "Shunya Fizz Lime & Lemon & Classic Cola Combo | Sugar Free Soft Drink | 0 Calories & No Aspartame | Supercharged with Gree...",
+      "category": "HEALTH_AND_PERSONAL_CARE",
+      "subcategory": "Personal Care & Wellness"
+    },
+    {
+      "id": "organic_entree_dry_stevia_leaves_natural_sugar_substitute_zero_calorie_sweetener_100_sugar_free_40_gm",
+      "title": "Organic Entree-Dry Stevia Leaves, Natural Sugar Substitute, Zero Calorie Sweetener, 100% Sugar Free (40 gm)",
+      "category": "HEALTH_AND_PERSONAL_CARE",
+      "subcategory": "Personal Care & Wellness"
+    },
+    {
+      "id": "frugease_super_smoothies_mix_combo_healthy_shakes_with_100_natural_fruit_veggies_seeds_grain_0_added_sugarand_prese",
+      "title": "frugease Super Smoothies Mix Combo - Healthy Shakes with 100% Natural Fruit, Veggies, Seeds, Grain, 0 Added Sugarand Prese...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "paper_boat_sparkling_coffee_600ml_dark_roast_coffee_i_caffeinated_drink_zero_sugar_zero_calories_i_sugar_free",
+      "title": "Paper Boat Sparkling Coffee, 600ml | Dark Roast Coffee I Caffeinated Drink | Zero Sugar, Zero Calories I Sugar Free",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "ritrue_whole_dried_blueberry_300_gm_organic_blueberries_without_sugar_unsweetened_dry_fruits",
+      "title": "RiTrue - Whole Dried Blueberry - 300 Gm - Organic Blueberries without sugar (unsweetened Dry Fruits)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "tea": [
+    {
+      "id": "tata_tea_gold_darjeeling_fine_long_leaf_authentic_darjeeling_tea_black_tea_75g",
+      "title": "Tata Tea Gold Darjeeling | Fine Long Leaf Authentic Darjeeling Tea | Black Tea | 75g",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "chai_point_instant_tea_incredibly_authentic_elaichi_flavor_10_sachets_elaichi_tea_instant_tea_premix_tea_assam",
+      "title": "CHAI POINT Instant Tea | Incredibly Authentic | Elaichi Flavor | 10 Sachets | Elaichi Tea | Instant Tea Premix Tea| Assam ...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "wagh_bakri_premium_leaf_tea_poly_pack_500g",
+      "title": "Wagh Bakri Premium Leaf Tea, Poly Pack, 500g",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "mcaffeine_green_tea_skin_care_gift_set_with_goodness_of_vitamin_c_for_all_ocassions_gender_neutral_100_natural_prod",
+      "title": "mCaffeine Green Tea Skin Care Gift Set With Goodness of Vitamin C | For All Ocassions | Gender Neutral | 100% Natural Prod...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "auric_men_s_energy_tea_with_pure_shilajit_resin_for_stamina_endurance_performance_natural_ayurvedic_herbs_taste_of",
+      "title": "Auric Men's Energy Tea with Pure Shilajit Resin for Stamina, Endurance & Performance | Natural Ayurvedic Herbs | Taste of ...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "the_tea_trove_organic_dandelion_root_tea_kidney_and_liver_cleanse_tea_dandelion_tea_helps_improve_digestion_and_immune",
+      "title": "The Tea Trove Organic Dandelion Root Tea - Kidney and Liver Cleanse Tea - Dandelion Tea Helps Improve Digestion and Immune...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "blue_tea_chamomile_flower_tea_pure_whole_flower_buds_of_chamomile_sleep_tea_stress_relief_herbal_tea_caffein",
+      "title": "BLUE TEA - Chamomile Flower Tea | Pure Whole Flower Buds of Chamomile || SLEEP TEA & STRESS RELIEF || Herbal Tea - Caffein...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "nestea_instant_iced_tea_green_tea_mint_flavour_400g",
+      "title": "NESTEA Instant Iced Tea, Green Tea Mint Flavour \u2013 400g",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "tgl_co_the_good_life_company_kashmiri_kahwa_green_tea_16_tea_bags_15_tea_bags_with_1_exotic_sample",
+      "title": "TGL Co. The Good Life Company Kashmiri Kahwa Green Tea, 16 Tea Bags (15 Tea Bags with 1 Exotic Sample)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "typhoo_cleansing_organic_root_remedy_tea_bag_20_tea_bags",
+      "title": "Typhoo Cleansing Organic Root Remedy Tea Bag (20 Tea Bags)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    }
+  ],
+  "coffee": [
+    {
+      "id": "fresh_honest_awake_filter_coffee_powder_70_30_blend_200g",
+      "title": "FRESH & HONEST Awake Filter Coffee Powder 70: 30 Blend, 200g",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "bevzilla_premium_gift_box_of_4_coffee_powder_jars_25_gms_each_coffee_travel_mug_electric_frother_strong_coffee_100",
+      "title": "Bevzilla Premium Gift box of 4 Coffee Powder Jars (25 gms each), Coffee Travel Mug & Electric Frother | Strong Coffee| 100...",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "nescafe_gold_origins_indonesian_sumatra_coffee_bottle_100g",
+      "title": "Nescafe Gold Origins Indonesian Sumatra Coffee Bottle, 100g",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "colombian_brew_3_in_1_cappuccino_caf_latte_instant_coffee_powder_premix_10_sachets_box_pack_of_2",
+      "title": "Colombian Brew 3 in 1 Cappuccino Caf\u00e9 Latte, Instant Coffee Powder Premix, 10 Sachets Box pack of 2",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "tata_coffee_gold_100_pure_coffee_original_50g",
+      "title": "Tata Coffee Gold, 100% Pure Coffee, Original, 50g",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "bru_instant_with_great_aroma_of_freshly_roasted_coffee_beans_authentic_taste_of_coffee_from_south_indian_plantations_1",
+      "title": "Bru Instant with Great Aroma of Freshly Roasted Coffee Beans | Authentic Taste of Coffee from South Indian Plantations | 1...",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "sunbean_beaten_caffe_instant_coffee_paste_250g_jar_rich_creamy_and_frothy_beaten_coffee_make_hot_coffee_cappuccino",
+      "title": "Sunbean Beaten Caffe, Instant Coffee Paste 250g Jar | Rich, Creamy and Frothy Beaten Coffee | Make Hot Coffee, Cappuccino ...",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "black_reaper_shoreditch_blend_dark_roast_250g_freshly_ground_coffee_beans_powder_strong",
+      "title": "Black Reaper - Shoreditch Blend - (Dark Roast) - 250g Freshly Ground Coffee Beans Powder Strong",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "lavazza_il_mattino_vivace_100_pure_filter_ground_coffee_powder_200g_bag",
+      "title": "LAVAZZA IL Mattino Vivace 100% Pure Filter Ground Coffee Powder, 200g, Bag",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "starbucks_single_origin_sumatra_coffee_dark_roast_coffee_capsule_by_nespresso_intensity_10_55g",
+      "title": "Starbucks Single Origin Sumatra Coffee Dark Roast Coffee Capsule by Nespresso Intensity 10, 55g",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    }
+  ],
+  "milk": [
+    {
+      "id": "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+      "title": "Britannia Milk Bikis Milk Biscuits Pouch, 280g/300g (Weight May Vary)",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "muscleblaze_whey_gold_100_whey_protein_isolate_labdoor_usa_certified_25_g_pure_isolate_whey_per_scoop_rich_milk_choco",
+      "title": "MuscleBlaze Whey Gold, 100% Whey Protein Isolate, Labdoor USA Certified, 25 g Pure Isolate Whey Per Scoop (Rich Milk Choco...",
+      "category": "HEALTH_AND_PERSONAL_CARE",
+      "subcategory": "Protein Supplements"
+    },
+    {
+      "id": "sorich_organics_dark_cocoa_powder_400gm_dark_cocoa_powder_for_cake_chocolates_cookies_brownies_hot_cold_milk_shakes",
+      "title": "Sorich Organics Dark Cocoa Powder 400gm | Dark Cocoa Powder for Cake, Chocolates, Cookies, Brownies, Hot/Cold Milk Shakes,...",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "ferrero_rocher_premium_milk_chocolate_300g_24_pieces",
+      "title": "Ferrero Rocher Premium Milk Chocolate (300g) - 24 Pieces",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "cadbury_dairy_milk_chocolate_home_treats_pack_126g",
+      "title": "Cadbury Dairy Milk Chocolate Home Treats Pack, 126g",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "alt_co_oats_milk_1_liter_lactose_free_preservatives_free_no_added_sugar_soya_free_no_trans_fat_low_calorie",
+      "title": "Alt Co. Oats Milk (1 liter) | Lactose-Free | Preservatives Free | No Added Sugar | Soya Free | No Trans- Fat | Low Calorie...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "luvit_cocoa_crush_dark_milk_compound_bars_frosting_chocolate_making_perfect_for_baking_no_preservatives_pack_o",
+      "title": "LuvIt Cocoa Crush - Dark & Milk Compound Bars | Frosting, Chocolate Making, Perfect for Baking | No Preservatives | Pack o...",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "tosca_muso_gold_chocolate_gold_chocolate_truffles_center_filled_milk_chocolate_60_pcs_in_a_box",
+      "title": "Tosca Muso Gold Chocolate- Gold Chocolate Truffles- Center Filled Milk Chocolate (60 pcs in a Box)",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "cadbury_dairy_milk_bites_hazelnut_40_g",
+      "title": "Cadbury Dairy Milk Bites Hazelnut, 40 g",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "cadbury_dairy_milk_silk_bubbly_chocolate_bar_pack_of_6_x_50g",
+      "title": "Cadbury Dairy Milk Silk Bubbly Chocolate Bar, Pack of 6 x 50g",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    }
+  ],
+  "bread": [
+    {
+      "id": "raw_himalayas_100_whole_wheat_bread_flour_1_kg_unbleached_ideal_for_brown_malted_breads_sourdoughs_pizza_base_gra",
+      "title": "Raw Himalayas 100% Whole Wheat Bread Flour (1 Kg), Unbleached | Ideal for Brown/Malted Breads, Sourdoughs, Pizza Base, Gra...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "bob_s_red_mill_artisan_bread_flour_unbleached_2_27_kg",
+      "title": "Bob's Red Mill Artisan Bread Flour (Unbleached), 2.27 kg",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    }
+  ],
+  "vegetables": [
+    {
+      "id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+      "title": "Wiggles EveryDawg Dry Adult Dog Food, 1.2kg (Chicken, Oats & Vegetables)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    }
+  ],
+  "curd": [
+    {
+      "id": "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+      "title": "Barosi Premium Cow Ghee 500ml | Cultured Danedar Desi Ghee | Churned from Curd with Bilona Method | Pure and Aromatic | Fa...",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "auric_a2_desi_cow_ghee_vedic_bilona_method_traditional_curd_churned_lab_tested_organically_made_danedar_ghee_gra",
+      "title": "Auric A2 Desi Cow Ghee | Vedic Bilona Method | Traditional Curd Churned | Lab Tested | Organically Made Danedar Ghee | Gra...",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "himalayan_natives_100_natural_gir_cow_bilona_ghee_a2_cow_desi_ghee_a2_ghee_bilona_method_curd_churned_pure_ghee_p",
+      "title": "Himalayan Natives 100% Natural Gir Cow Bilona Ghee | A2 Cow Desi Ghee | A2 Ghee | Bilona Method Curd Churned Pure Ghee | P...",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "brij_gwala_desi_cow_ghee_made_traditionally_from_curd_pure_cow_ghee_for_better_digestion_and_immunity_1ltr_tetrapack",
+      "title": "Brij Gwala Desi Cow Ghee |Made Traditionally from Curd |Pure Cow Ghee for Better Digestion and Immunity | 1Ltr TetraPack",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    }
+  ],
+  "paneer": [
+    {
+      "id": "chetran_s_fresh_tofu_250_g_dairy_paneer_alternative_high_protein",
+      "title": "Chetran's Fresh Tofu, 250 g | Dairy Paneer Alternative | High Protein",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "paneer_butter_masala_dinner",
+      "title": "Paneer Butter Masala Dinner",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": "tata_sampann_yumside_delhi_style_paneer_makhani_ready_to_eat_meal_heat_in_60_secs_i_serves_4_pax_pack_of_2_285g_x_2",
+      "title": "Tata Sampann Yumside Delhi Style Paneer Makhani | Ready to Eat Meal | Heat in 60 secs I Serves 4 Pax | Pack of 2 | 285g x 2",
+      "category": "GROCERY",
+      "subcategory": "Dairy & Alternatives"
+    },
+    {
+      "id": "soyfit_soya_paneer_garlic_pepper_200_g",
+      "title": "Soyfit SOYA Paneer Garlic/Pepper, 200 g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "chetran_s_herbal_tofu_200g_masala_flavor_fresh_paneer_alternative_high_protein",
+      "title": "Chetran\u2019s Herbal Tofu 200G | Masala Flavor | Fresh Paneer Alternative | High Protein",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "sds_shahi_paneer_masala_40gm_pack_of_6",
+      "title": "SDS Shahi Paneer Masala 40gm - Pack of 6",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    }
+  ],
+  "eggs": [
+    {
+      "id": "premium_pack_of_free_range_organic_pure_kadaknath_eggs_fresh_table_eggs_high_protein_eggs_rich_in_iron_content_low_in",
+      "title": "Premium Pack of Free Range Organic Pure Kadaknath Eggs, Fresh Table Eggs, High Protein Eggs. Rich in Iron Content, Low in ...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "henfruit_protein_max_eggs_pack_of_30",
+      "title": "Henfruit Protein Max Eggs, Pack of 30",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "upf_healthy_brown_eggs_6_pieces_veg_fed_non_fertile_eggs",
+      "title": "UPF Healthy Brown Eggs, 6 Pieces| Veg Fed| Non-Fertile Eggs",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "oats": [
+    {
+      "id": "ritebite_max_protein_choco_delite_energy_snack_bar_with_oats_almonds_dark_chocolate_480g_pack_of_12",
+      "title": "RiteBite Max Protein Choco Delite Energy Snack Bar with Oats, Almonds & Dark Chocolate 480g - Pack of 12",
+      "category": "HEALTH_AND_PERSONAL_CARE",
+      "subcategory": "Nutrition Bars"
+    },
+    {
+      "id": "alt_co_oats_milk_1_liter_lactose_free_preservatives_free_no_added_sugar_soya_free_no_trans_fat_low_calorie",
+      "title": "Alt Co. Oats Milk (1 liter) | Lactose-Free | Preservatives Free | No Added Sugar | Soya Free | No Trans- Fat | Low Calorie...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "kellogg_s_crunchy_granola_chocolate_almonds_450g_15_almonds_baked_multigrain_golden_wheat_nutritious_oats_crispy",
+      "title": "Kellogg's Crunchy Granola Chocolate & Almonds 450g | 15% Almonds, Baked Multigrain | Golden Wheat, Nutritious Oats, Crispy...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "tata_soulfull_masala_oats_tasty_snack_with_millets_tomato_twist_500g",
+      "title": "Tata Soulfull Masala Oats+, Tasty Snack with Millets, Tomato Twist, 500g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+      "title": "Wiggles EveryDawg Dry Adult Dog Food, 1.2kg (Chicken, Oats & Vegetables)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "nestle_gold_crunchy_oats_corn_flakes_crunchy_oats_and_corn_flakes_breakfast_cereal_with_immuno_nutrients_made_with_wh",
+      "title": "NESTLE GOLD Crunchy Oats & Corn Flakes, Crunchy Oats and Corn Flakes Breakfast Cereal with Immuno-Nutrients | Made with Wh...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "jiwa_healthy_by_nature_steel_cut_oats_1_kg_gluten_free",
+      "title": "JIWA healthy by nature Steel Cut Oats, 1 Kg (Gluten Free)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "namo_organics_rolled_oats_1_kg_gluten_free_oats_100_whole_grain_breakfast_cereal_diet_food",
+      "title": "Namo Organics - Rolled Oats 1 Kg - Gluten Free Oats | 100% Whole Grain | Breakfast Cereal | Diet Food",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "midbreak_sugar_free_oats_almonds_cookies_sugar_free_oats_almonds_biscuits_sugar_free_almond_cookies_premium_handma",
+      "title": "Midbreak - Sugar Free Oats Almonds Cookies | Sugar Free Oats Almonds Biscuits | Sugar Free Almond Cookies | Premium Handma...",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "saffola_masala_oats_classic_masala_39g",
+      "title": "Saffola Masala Oats, Classic Masala, 39g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    }
+  ],
+  "green tea": [
+    {
+      "id": "mcaffeine_green_tea_skin_care_gift_set_with_goodness_of_vitamin_c_for_all_ocassions_gender_neutral_100_natural_prod",
+      "title": "mCaffeine Green Tea Skin Care Gift Set With Goodness of Vitamin C | For All Ocassions | Gender Neutral | 100% Natural Prod...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "nestea_instant_iced_tea_green_tea_mint_flavour_400g",
+      "title": "NESTEA Instant Iced Tea, Green Tea Mint Flavour \u2013 400g",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "tgl_co_the_good_life_company_kashmiri_kahwa_green_tea_16_tea_bags_15_tea_bags_with_1_exotic_sample",
+      "title": "TGL Co. The Good Life Company Kashmiri Kahwa Green Tea, 16 Tea Bags (15 Tea Bags with 1 Exotic Sample)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "typhoo_uplifting_lemon_grass_green_tea_bags_25_tea_bags",
+      "title": "Typhoo Uplifting Lemon Grass Green Tea Bags (25 Tea Bags)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "nikunj_premium_green_tea_jar_250g",
+      "title": "Nikunj Premium Green Tea Jar, 250g",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "fearless_green_tea_original_pure_200g_natural_loose_leaves_non_bitter_assam_tea_silver_tips_exported_worldwid",
+      "title": "Fearless Green Tea Original & Pure | 200g | Natural Loose Leaves | Non Bitter Assam Tea | Silver Tips | Exported Worldwid...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "te_a_me_purify_green_tea_100_tea_bags_green_tea_bags_100_pcs_green_tea_green_tea_100_tea_bag_pack",
+      "title": "TE-A-ME Purify Green Tea, 100 Tea Bags | Green tea bags 100 pcs | Green Tea | Green Tea 100 Tea Bag Pack",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "teabox_organic_rose_green_tea_25_teabags_relieves_stress_and_enhances_mood_made_with_100_whole_leaf_natural_rose_pe",
+      "title": "Teabox Organic Rose Green Tea 25 Teabags | Relieves Stress and Enhances Mood | Made with 100% Whole Leaf & Natural Rose Pe...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "shapen_you_28_days_slim_blend_for_improved_digestion_and_weight_management_2_pack_of_green_tea_and_green_coffee_100g_each",
+      "title": "Shapen You 28 Days Slim Blend for Improved Digestion and Weight Management: 2 Pack of Green Tea and Green Coffee (100g each)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "teabox_organic_turmeric_ginger_tulsi_green_tea_25_teabags_for_immunity_boosting_digestion_and_sore_throat_100_whole",
+      "title": "Teabox Organic Turmeric Ginger Tulsi Green Tea 25 Teabags | For Immunity Boosting, Digestion and Sore Throat | 100% Whole ...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    }
+  ],
+  "seeds": [
+    {
+      "id": "true_elements_antioxidant_seeds_mix_250g_seeds_for_eating_diet_snacks_roasted_mix_seeds",
+      "title": "True Elements Antioxidant Seeds Mix 250g - Seeds for Eating | Diet Snacks | Roasted Mix Seeds",
+      "category": "GROCERY",
+      "subcategory": "Snacks & Confectionery"
+    },
+    {
+      "id": "sft_fennel_seeds_big_saunf_200_gm",
+      "title": "SFT Fennel Seeds Big (Saunf) 200 Gm",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "birju_mahavir_khubkala_seeds_100_gr_khoobkala_sisymbrium_irio_hedge_mustard_seeds",
+      "title": "Birju Mahavir Khubkala Seeds 100 GR - Khoobkala - Sisymbrium Irio - Hedge Mustard Seeds",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "prizex_natural_organic_poppy_seeds_khus_khus_posta_dana_250gm",
+      "title": "Prizex Natural Organic Poppy Seeds / Khus Khus / Posta Dana, 250gm\u2026",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "r_r_agro_foods_chia_seeds_1_kg_premium_organic_chia_seed_healthy_snacks_chia_seeds_for_weight_loss_pack_of_1",
+      "title": "R R AGRO FOODS Chia Seeds 1 KG - Premium Organic Chia Seed | Healthy Snacks | Chia Seeds for Weight Loss Pack of 1",
+      "category": "GROCERY",
+      "subcategory": "Snacks & Confectionery"
+    },
+    {
+      "id": "nutmart_premium_sunflower_seeds_1_kg_rs_375",
+      "title": "NUTMART Premium Sunflower Seeds || 1 KG || RS 375",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "attar_ayurveda_sabja_basil_seeds_500_gm_reduces_body_heat",
+      "title": "Attar Ayurveda Sabja Basil Seeds - 500 gm (Reduces Body Heat)",
+      "category": "GROCERY",
+      "subcategory": "Flour & Atta"
+    },
+    {
+      "id": "nutri_organics_halim_seeds_1kg_aliv_seeds_haleem_seeds_seeds_for_eating_immunity_booster_superfood_asaliya_gard",
+      "title": "Nutri Organics Halim Seeds 1kg - Aliv Seeds | Haleem Seeds | Seeds for Eating | Immunity Booster Superfood | Asaliya, Gard...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "true_elements_raw_seeds_combo_chia_seeds_250g_and_flax_seeds_250g_seeds_for_eating_mix_seeds_high_fibre",
+      "title": "True Elements Raw Seeds Combo (Chia Seeds 250g and Flax Seeds 250g) - Seeds for Eating | Mix Seeds | High Fibre",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "nutri_desire_immunity_booster_high_rich_protein_chia_seeds_pack_of_2_150_gram_2",
+      "title": "Nutri Desire Immunity Booster High Rich Protein Chia Seeds (Pack of 2) (150 gram * 2)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "honey": [
+    {
+      "id": "sri_sri_ayurveda_natural_pure_tattva_honey_250g_pack_of_2",
+      "title": "Sri Sri Ayurveda Natural & Pure Tattva Honey (250g) Pack of 2",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "the_best_india_company_tbic_the_murmu_eastern_himalayan_forest_honey_raw_glass_jar_from_wild_indian_bees_350_grams",
+      "title": "THE BEST INDIA COMPANY | TBIC The Murmu Eastern Himalayan Forest Honey, Raw, Glass Jar, From wild Indian Bees, 350 Grams (...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "amazon_brand_jam_honey_yellow_unicorn_soft_toy_35_cm",
+      "title": "Amazon Brand - Jam & Honey Yellow Unicorn Soft Toy, 35 cm",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "kapiva_pure_wild_honey_maximum_health_and_nutrition_100_naturally_sourced_no_added_sugar_or_jaggery_250g",
+      "title": "Kapiva Pure Wild Honey | Maximum Health and Nutrition | 100% Naturally Sourced | No Added Sugar or Jaggery (250g)",
+      "category": "FESTIVALS",
+      "subcategory": "Pooja & Festival Supplies"
+    },
+    {
+      "id": "saffola_honey_active_made_with_sundarban_forest_honey_100_pure_honey_no_sugar_adulteration_natural_immunity_booster",
+      "title": "Saffola Honey Active, Made with Sundarban Forest Honey, 100% Pure Honey, No sugar adulteration, Natural Immunity booster, ...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "farm_honey_wild_unprocessed_honey_pure_organic_raw_honey_100_natural_no_preservatives_no_artificial_color_no_added_suga",
+      "title": "Farm Honey Wild Unprocessed Honey|Pure Organic Raw Honey|100% Natural|no preservatives| No Artificial Color|no Added Suga...",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "lipton_honey_lemon_green_tea_bags_25_pieces",
+      "title": "Lipton Honey Lemon Green Tea Bags, 25 Pieces",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "capilano_honey_500_g",
+      "title": "CAPILANO Honey, 500 g",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "saffola_honey_gold_100_pure_nmr_tested_honey_made_with_kashmir_honey_1kg",
+      "title": "Saffola Honey Gold, 100% Pure NMR Tested Honey, Made with Kashmir Honey, 1Kg",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    },
+    {
+      "id": "saapattu_raman_500_grams_natural_pure_organic_honey_no_preservatives_no_art_color_no_flavor",
+      "title": "Saapattu Raman 500 Grams Natural & Pure Organic Honey (No Preservatives, No Art Color, No Flavor)",
+      "category": "GROCERY",
+      "subcategory": "General Grocery"
+    }
+  ],
+  "spices": [
+    {
+      "id": "auric_kadak_moringa_masala_tea_black_tea_from_assam_darjeeling_tea_masala_powder_blended_with_real_spices_cardamom",
+      "title": "Auric Kadak Moringa Masala Tea - Black Tea from Assam & Darjeeling | Tea Masala Powder Blended with Real Spices (Cardamom,...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "the_tea_heaven_tea_gift_kashmiri_kahwa_100_grams_tea_gift_pack_blended_with_saffron_almonds_spices_100_natural",
+      "title": "The Tea Heaven | Tea Gift - Kashmiri Kahwa| 100 Grams | Tea Gift Pack-Blended with Saffron, Almonds, Spices -100% Natural ...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "pure_tree_organic_fennel_seeds_250_gm_sabut_saunf_variyali_whole_indian_spices_cooking_great_mouth_freshener",
+      "title": "Pure Tree Organic Fennel Seeds 250 gm | Sabut Saunf | Variyali | Whole Indian Spices | Cooking & Great mouth freshener",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    }
+  ],
+  "masala": [
+    {
+      "id": "top_ramen_masala_480g_560g_weight_may_vary",
+      "title": "Top Ramen Masala 480g / 560g (Weight May Vary)",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "tata_sampann_chaat_masala_with_natural_oils_crafted_by_chef_sanjeev_kapoor_100g",
+      "title": "Tata Sampann Chaat Masala with Natural Oils, Crafted by Chef Sanjeev Kapoor, 100g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "mother_s_recipe_chana_masala_papad_7_pouch_180_g",
+      "title": "Mother's Recipe Chana Masala Papad (7\") Pouch, 180 g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "omas_fresh_jain_indian_magic_masala_68gms_no_onion_no_garlic_masala_noodles_masala_jain",
+      "title": "Omas Fresh Jain Indian Magic Masala 68gms No Onion No Garlic Masala | Noodles Masala Jain",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "paneer_butter_masala_dinner",
+      "title": "Paneer Butter Masala Dinner",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": "ceres_foods_bengali_mustard_fish_instant_liquid_masala_shipped_fresh_fish_cooking_paste_curry_paste_curry_mix_ceres_f",
+      "title": "Ceres Foods Bengali Mustard Fish Instant Liquid Masala |Shipped Fresh |Fish cooking paste|Curry Paste| Curry Mix | Ceres F...",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "catch_chat_masala_sprinkler_100_gms_pack_of_2_200_gms",
+      "title": "CATCH Chat Masala Sprinkler 100 GMS - Pack of 2(200 GMS)",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "mtr_3_mins_breakfast_magic_masala_upma_pouch_60g",
+      "title": "MTR 3 Mins Breakfast Magic Masala Upma Pouch 60g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "tata_soulfull_masala_oats_tasty_snack_with_millets_tomato_twist_500g",
+      "title": "Tata Soulfull Masala Oats+, Tasty Snack with Millets, Tomato Twist, 500g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    },
+    {
+      "id": "eastern_biriyani_masala_powder_100_g",
+      "title": "Eastern Biriyani Masala Powder, 100 g",
+      "category": "GROCERY",
+      "subcategory": "Spices"
+    }
+  ],
+  "notebook": [],
+  "pen": [
+    {
+      "id": "alpenliebe_pop_64g",
+      "title": "Alpenliebe Pop, 64g",
+      "category": "STUDENT",
+      "subcategory": "study"
+    },
+    {
+      "id": "shapen_you_28_days_slim_blend_for_improved_digestion_and_weight_management_2_pack_of_green_tea_and_green_coffee_100g_each",
+      "title": "Shapen You 28 Days Slim Blend for Improved Digestion and Weight Management: 2 Pack of Green Tea and Green Coffee (100g each)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "gits_open_eat_rasgulla_tin_16_pieces_per_can_mouth_watering_indian_mithai_1kg",
+      "title": "Gits Open & Eat Rasgulla Tin, 16 Pieces per Can, Mouth-Watering Indian Mithai, 1Kg",
+      "category": "STUDENT",
+      "subcategory": "study"
+    }
+  ],
+  "pencil": [],
+  "bag": [
+    {
+      "id": "lavazza_il_mattino_vivace_100_pure_filter_ground_coffee_powder_200g_bag",
+      "title": "LAVAZZA IL Mattino Vivace 100% Pure Filter Ground Coffee Powder, 200g, Bag",
+      "category": "GROCERY",
+      "subcategory": "Coffee"
+    },
+    {
+      "id": "tgl_co_the_good_life_company_kashmiri_kahwa_green_tea_16_tea_bags_15_tea_bags_with_1_exotic_sample",
+      "title": "TGL Co. The Good Life Company Kashmiri Kahwa Green Tea, 16 Tea Bags (15 Tea Bags with 1 Exotic Sample)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "typhoo_cleansing_organic_root_remedy_tea_bag_20_tea_bags",
+      "title": "Typhoo Cleansing Organic Root Remedy Tea Bag (20 Tea Bags)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "typhoo_uplifting_lemon_grass_green_tea_bags_25_tea_bags",
+      "title": "Typhoo Uplifting Lemon Grass Green Tea Bags (25 Tea Bags)",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "te_a_me_cranberry_apple_infusion_tea_25_tea_bags_100_caffeine_free_fruit_infusion_tea",
+      "title": "TE-A-ME Cranberry Apple Infusion Tea, 25 Tea Bags | 100% Caffeine Free | Fruit Infusion Tea",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "teacurry_stinging_nettle_tea_1_month_pack_30_tea_bags_helps_with_kidney_detox_blood_sugar_blood_purify_stinging_n",
+      "title": "TEACURRY Stinging Nettle Tea (1 Month Pack, 30 Tea Bags) - Helps with Kidney Detox, Blood Sugar, Blood Purify - Stinging N...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "tea_treasure_spearmint_herbal_infusion_antioxidants_rich_refreshing_tea_18_pyramid_bags",
+      "title": "Tea Treasure Spearmint Herbal Infusion, Antioxidants Rich Refreshing Tea, 18 Pyramid Bags",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "teacurry_thyroid_support_tea_bags_30_tea_bags_1_month_pack_spearmint_flavoured_helps_with_thyroid_support_tsh_t3_t",
+      "title": "TEACURRY Thyroid Support Tea Bags - 30 Tea Bags, 1 Month Pack (Spearmint Flavoured) - Helps with Thyroid Support (TSH T3 T...",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "organic_india_tulsi_original_tea_25_infusion_tea_bags_1_bag_x_1_74g_each",
+      "title": "Organic India Tulsi Original Tea, 25 Infusion Tea Bags ( 1 Bag x 1.74g Each )",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    },
+    {
+      "id": "te_a_me_purify_green_tea_100_tea_bags_green_tea_bags_100_pcs_green_tea_green_tea_100_tea_bag_pack",
+      "title": "TE-A-ME Purify Green Tea, 100 Tea Bags | Green tea bags 100 pcs | Green Tea | Green Tea 100 Tea Bag Pack",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    }
+  ],
+  "stationery": [],
+  "medicine": [],
+  "pooja": [
+    {
+      "id": "lion_brand_saffron_original_kashmiri_lacha_keshar_kesar_for_biryani_tea_pooja_and_milk_value_pack_of_1_1_x_1gm_1gram",
+      "title": "Lion Brand Saffron, Original Kashmiri Lacha Keshar/Kesar For Biryani, Tea, Pooja and Milk (Value Pack of 1 (1 X 1gm = 1gram))",
+      "category": "GROCERY",
+      "subcategory": "Tea"
+    }
+  ]
+}

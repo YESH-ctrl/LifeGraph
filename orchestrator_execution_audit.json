@@ -1,0 +1,168 @@
+{
+  "1_mission_detection": {
+    "input": {
+      "query": "I am planning biryani for 20 guests"
+    },
+    "output": {
+      "detected_mission": "chicken_biryani",
+      "confidence": 0.9147061099971596,
+      "parameters": {
+        "guest_count": 20,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      }
+    }
+  },
+  "2_cart_generation": {
+    "input": {
+      "mission_id": "chicken_biryani",
+      "parameters": {
+        "guest_count": 20,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      }
+    },
+    "graph_REQUIRES_edges_count": 4,
+    "graph_REQUIRES_edges": [
+      "REQUIRES#PRODUCT#barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+      "REQUIRES#PRODUCT#keya_combo_of_garlic_powder_55gm_onion_powder_50gm_pack_2",
+      "REQUIRES#PRODUCT#saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+      "REQUIRES#PRODUCT#wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables"
+    ],
+    "graph_OPTIONAL_edges_count": 0,
+    "all_required_products": [
+      {
+        "id": "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+        "priority": "IMPORTANT",
+        "cost": 14980.0
+      },
+      {
+        "id": "keya_combo_of_garlic_powder_55gm_onion_powder_50gm_pack_2",
+        "priority": "IMPORTANT",
+        "cost": 3700.0
+      },
+      {
+        "id": "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+        "priority": "IMPORTANT",
+        "cost": 16040.0
+      },
+      {
+        "id": "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables",
+        "priority": "CRITICAL",
+        "cost": 5780.0
+      }
+    ],
+    "all_optional_products": [],
+    "CRITICAL_only_filter": [
+      "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables"
+    ],
+    "CRITICAL_only_count": 1,
+    "total_required_before_filter": 4,
+    "cart_cost": 5780.0
+  },
+  "3_verification": {
+    "input": {
+      "mission_id": "chicken_biryani",
+      "cart_products": [
+        "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables"
+      ],
+      "cart_count": 1
+    },
+    "output": {
+      "readiness_score": 10,
+      "required_items": [
+        "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+        "keya_combo_of_garlic_powder_55gm_onion_powder_50gm_pack_2",
+        "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa",
+        "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables"
+      ],
+      "missing_items": [
+        "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+        "keya_combo_of_garlic_powder_55gm_onion_powder_50gm_pack_2",
+        "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa"
+      ],
+      "critical_missing": [
+        "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+        "keya_combo_of_garlic_powder_55gm_onion_powder_50gm_pack_2",
+        "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa"
+      ],
+      "important_missing": [],
+      "optional_missing": [],
+      "recommended_products": [
+        "cowgold_desi_cow_a2_ghee_sahiwal_rathi_cow_bilona_method_1_litre",
+        "saffola_tasty_refined_oil_blend_of_corn_oil_rice_bran_oil_cooking_oil_pro_fitness_conscious_edible_oil_1_litre_pouch",
+        "keya_onion_powder_50_gm_pack_of_2",
+        "himalayan_natives_100_natural_gir_cow_bilona_ghee_a2_cow_desi_ghee_a2_ghee_bilona_method_curd_churned_pure_ghee_p",
+        "mamie_yova_french_yogurt_strawberry_90_g"
+      ]
+    }
+  },
+  "4_risk": {
+    "input": {
+      "cart_products": [
+        "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables"
+      ],
+      "readiness_score": 10,
+      "critical_missing": [
+        "saffola_active_refined_oil_blend_of_rice_bran_oil_soyabean_oil_cooking_oil_pro_weight_watchers_edible_oil_5_litre_jar",
+        "keya_combo_of_garlic_powder_55gm_onion_powder_50gm_pack_2",
+        "barosi_premium_cow_ghee_500ml_cultured_danedar_desi_ghee_churned_from_curd_with_bilona_method_pure_and_aromatic_fa"
+      ],
+      "budget": null,
+      "total_cost": 5780.0
+    },
+    "output": {
+      "risk_score": 60,
+      "risk_level": "HIGH",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 3 critical items."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "MEDIUM",
+          "reason": "Overall readiness is very low, likely lacking sufficient quantity of required supplies."
+        }
+      ]
+    }
+  },
+  "5_regret_prevention": {
+    "input": {
+      "mission_id": "chicken_biryani",
+      "cart_products": [
+        "wiggles_everydawg_dry_adult_dog_food_1_2kg_chicken_oats_vegetables"
+      ]
+    },
+    "output": {
+      "forgotten_items": [],
+      "impact_score": 0
+    }
+  },
+  "6_simulation": {
+    "input": {
+      "readiness_score": 10,
+      "risk_score": 60,
+      "recommended_additions": [
+        "cowgold_desi_cow_a2_ghee_sahiwal_rathi_cow_bilona_method_1_litre",
+        "saffola_tasty_refined_oil_blend_of_corn_oil_rice_bran_oil_cooking_oil_pro_fitness_conscious_edible_oil_1_litre_pouch",
+        "keya_onion_powder_50_gm_pack_of_2",
+        "himalayan_natives_100_natural_gir_cow_bilona_ghee_a2_cow_desi_ghee_a2_ghee_bilona_method_curd_churned_pure_ghee_p",
+        "mamie_yova_french_yogurt_strawberry_90_g"
+      ],
+      "forgotten_items": []
+    },
+    "output": {
+      "current_success": 0,
+      "optimized_success": 100,
+      "improvement": 100
+    }
+  }
+}

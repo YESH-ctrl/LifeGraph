@@ -1,0 +1,163 @@
+[
+  {
+    "mission_id": "monthly_grocery_refill",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "weekly_grocery_shopping",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "birthday_party",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 0,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "chicken_biryani",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 4,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "family_breakfast_setup",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 2,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "exam_preparation_week",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 0,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "weight_loss_journey",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "house_party",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 4,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "movie_night",
+    "requires_count": 5,
+    "optional_count": 76,
+    "depends_on_count": 0,
+    "graph_coverage": 900.0
+  },
+  {
+    "mission_id": "healthy_lifestyle_start",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "office_lunch_prep",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "housewarming_ceremony",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 3,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "new_semester_setup",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 0,
+    "graph_coverage": 80.0
+  },
+  {
+    "mission_id": "train_journey_essentials",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 80.0
+  },
+  {
+    "mission_id": "paneer_butter_masala_dinner",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 2,
+    "graph_coverage": 66.7
+  },
+  {
+    "mission_id": "hostel_essentials_refill",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 0,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "weekend_cooking_session",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 3,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "sankranti_preparation",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 80.0
+  },
+  {
+    "mission_id": "ganesh_chaturthi",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 6,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "diwali_celebration",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 1,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "family_gathering",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 2,
+    "graph_coverage": 72.7
+  },
+  {
+    "mission_id": "road_trip_essentials",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 3,
+    "graph_coverage": 80.0
+  },
+  {
+    "mission_id": "elderly_care_essentials",
+    "requires_count": 5,
+    "optional_count": 3,
+    "depends_on_count": 0,
+    "graph_coverage": 80.0
+  }
+]
