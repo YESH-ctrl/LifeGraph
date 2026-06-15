@@ -70,5 +70,29 @@
     "final_prediction": 59,
     "delta": 24,
     "reason": "AI success score (83%) exceeded reality constraint cap (59%) based on readiness (50%) and risk (65%). Calibrated down."
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "verification",
+    "original_prediction": 85,
+    "final_prediction": 20,
+    "delta": 65,
+    "reason": "readiness_cap_constraint (det: 21)"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "risk",
+    "original_prediction": 15,
+    "final_prediction": 65,
+    "delta": 50,
+    "reason": "critical_missing>=8"
+  },
+  {
+    "query": "I want to lose weight and improve my diet",
+    "agent": "simulation",
+    "original_prediction": 85,
+    "final_prediction": 39,
+    "delta": 46,
+    "reason": "AI success score (85%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
   }
 ]

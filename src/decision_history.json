@@ -3473,5 +3473,546 @@
       "quality_per_second": 1.93
     },
     "policy_score": 100
+  },
+  {
+    "timestamp": 1781502718.2969983,
+    "query": "I want to lose weight and improve my diet",
+    "mission": {
+      "detected_mission": "weight_loss_journey",
+      "parameters": {
+        "guest_count": null,
+        "budget": null,
+        "event_date": null,
+        "travel_date": null,
+        "age": null,
+        "family_size": null
+      },
+      "confidence": 0.6958260586292875
+    },
+    "cart": {
+      "estimated_total_cost": 953.0,
+      "estimated_serving_capacity": 1,
+      "items_count": 4,
+      "mission_coherence_score": 100
+    },
+    "verification": {
+      "readiness_score": 20,
+      "readiness_breakdown": {
+        "critical_completion": 16,
+        "important_completion": 33,
+        "optional_completion": 33
+      },
+      "required_items": [
+        "nikunj_premium_green_tea_jar_250g",
+        "saffola_masala_oats_classic_masala_39g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "capilano_honey_500_g",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "missing_items": [
+        "nikunj_premium_green_tea_jar_250g",
+        "saffola_masala_oats_classic_masala_39g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "capilano_honey_500_g",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "critical_missing": [
+        "nikunj_premium_green_tea_jar_250g",
+        "saffola_masala_oats_classic_masala_39g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ],
+      "important_missing": [
+        "capilano_honey_500_g"
+      ],
+      "optional_missing": [
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ],
+      "recommended_products": [
+        "nikunj_premium_green_tea_jar_250g",
+        "saffola_masala_oats_classic_masala_39g",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l",
+        "capilano_honey_500_g",
+        "nutraj_chironji_nuts_100_g",
+        "sft_sunflower_seeds_1_kg"
+      ]
+    },
+    "risk": {
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "risks": [
+        {
+          "type": "MISSING_CRITICAL_ITEM",
+          "severity": "HIGH",
+          "reason": "Missing 8 critical items required for the mission."
+        },
+        {
+          "type": "INSUFFICIENT_QUANTITY",
+          "severity": "HIGH",
+          "reason": "Cart readiness is low (21%), indicating insufficient mission coverage."
+        },
+        {
+          "type": "LOW_SUBSTITUTION_COVERAGE",
+          "severity": "MEDIUM",
+          "reason": "8 missing critical items have no known substitutes in the graph."
+        }
+      ]
+    },
+    "simulation": {
+      "current_success": 20,
+      "optimized_success": 39,
+      "improvement": 19,
+      "recommended_additions": [
+        "nikunj_premium_green_tea_jar_250g",
+        "saffola_masala_oats_classic_masala_39g",
+        "sft_sunflower_seeds_1_kg",
+        "rustic_nature_raw_chia_seeds_rich_in_omega_3_for_weight_loss_1kg",
+        "nutribee_100_multi_grain_millet_rusk_refined_sugar_free_healthy_diet_toast_no_maida_and_sugar_no_preservatives",
+        "amazon_brand_solimo_cornflakes_1_2kg",
+        "capilano_honey_500_g",
+        "britannia_milk_bikis_milk_biscuits_pouch_280g_300g_weight_may_vary",
+        "mindful_eat_anytime_mindful_millet_energy_bars_variety_box_ragi_bajra_quinoa_and_jowar_25_g_x_12_bars",
+        "nutraj_chironji_nuts_100_g",
+        "fortune_xpert_pro_sugar_conscious_edible_oil_pouch_1_l"
+      ]
+    },
+    "reasoning": [
+      "Mission 'weight_loss_journey' detected because the query matched relevant keywords: diet, weight.",
+      "'Nutri Desire Immunity Booster High Rich Protein Combo of Pumpkin, Sunflower & Watermelon Seeds (Pack of 3) (150 gram each)' selected because it is a critical requirement for weight loss journey",
+      "'True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre' selected because it is a critical requirement for weight loss journey",
+      "'Midbreak - Sugar Free Oats Almonds Cookies | Sugar Free Oats Almonds Biscuits | Sugar Free Almond Cookies | Premium Handma...' selected because it is a critical requirement for weight loss journey",
+      "'True Elements Antioxidant Seeds Mix 250g - Seeds for Eating | Diet Snacks | Roasted Mix Seeds' selected because it is a critical requirement for weight loss journey",
+      "Readiness score is 20% because some critical and important requirements are missing.",
+      "Readiness reduced due to missing critical items: Nikunj Premium Green Tea Jar 250G, Saffola Masala Oats Classic Masala 39G, Rustic Nature Raw Chia Seeds Rich In Omega 3 For Weight Loss 1Kg",
+      "Readiness affected by missing important items: Capilano Honey 500 G",
+      "Risk level assessed as HIGH (score: 65).",
+      "Risk factor: Missing 8 critical items required for the mission.",
+      "Risk factor: Cart readiness is low (21%), indicating insufficient mission coverage.",
+      "Risk factor: 8 missing critical items have no known substitutes in the graph.",
+      "Projected success probability can be improved from 20% to 39% (+19%) by adding recommended optimizations.",
+      "Diet success increases due to protein coverage and calorie reduction",
+      "AI success score (85%) exceeded reality constraint cap (39%) based on readiness (20%) and risk (65%). Calibrated down."
+    ],
+    "ai_metadata": {
+      "token_usage": {
+        "input_tokens": 9475,
+        "output_tokens": 2061
+      },
+      "execution_cost_usd": 0.024406999999999998,
+      "mission_analysis": {
+        "original_output": {
+          "detected_mission": "weight_loss_journey"
+        },
+        "ai_analysis": {
+          "detected_mission": "weight_loss_journey",
+          "sub_goals": [
+            "reduce_sugar",
+            "fat_loss"
+          ],
+          "user_constraints": [],
+          "lifestyle_indicators": [
+            "healthy_eating"
+          ],
+          "health_conditions": [],
+          "evidence_validation": [
+            {
+              "constraint": "healthy_eating",
+              "evidence_source": "query"
+            }
+          ]
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.95,
+        "reasoning": [
+          "Found low calorie / lose weight keywords"
+        ]
+      },
+      "cart_analysis": {
+        "original_output": {
+          "items": [
+            {
+              "product_id": "nutri_desire_immunity_booster_high_rich_protein_combo_of_pumpkin_sunflower_watermelon_seeds_pack_of_3_150_gram_each",
+              "title": "Nutri Desire Immunity Booster High Rich Protein Combo of Pumpkin, Sunflower & Watermelon Seeds (Pack of 3) (150 gram each)",
+              "priority": "CRITICAL",
+              "estimated_cost": 335.0
+            },
+            {
+              "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+              "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+              "priority": "CRITICAL",
+              "estimated_cost": 130.0
+            },
+            {
+              "product_id": "midbreak_sugar_free_oats_almonds_cookies_sugar_free_oats_almonds_biscuits_sugar_free_almond_cookies_premium_handma",
+              "title": "Midbreak - Sugar Free Oats Almonds Cookies | Sugar Free Oats Almonds Biscuits | Sugar Free Almond Cookies | Premium Handma...",
+              "priority": "CRITICAL",
+              "estimated_cost": 219.0
+            },
+            {
+              "product_id": "true_elements_antioxidant_seeds_mix_250g_seeds_for_eating_diet_snacks_roasted_mix_seeds",
+              "title": "True Elements Antioxidant Seeds Mix 250g - Seeds for Eating | Diet Snacks | Roasted Mix Seeds",
+              "priority": "CRITICAL",
+              "estimated_cost": 269.0
+            },
+            {
+              "product_id": "more_2_nuts_chocolate_coated_almonds_milk_chocolate_covered_nuts_250g_jar_packing_milk",
+              "title": "more 2 nuts Chocolate Coated Almonds Milk Chocolate Covered Nuts 250g Jar Packing (Milk)",
+              "priority": "CRITICAL",
+              "estimated_cost": 340.0
+            },
+            {
+              "product_id": "alt_co_oats_milk_1_liter_lactose_free_preservatives_free_no_added_sugar_soya_free_no_trans_fat_low_calorie",
+              "title": "Alt Co. Oats Milk (1 liter) | Lactose-Free | Preservatives Free | No Added Sugar | Soya Free | No Trans- Fat | Low Calorie...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 249.0
+            },
+            {
+              "product_id": "sorich_organics_raw_pumpkin_seeds_200g_pumpkin_seeds_for_eating_unroasted_pumpkin_seed_200gm_healthy_snacks_diet_f",
+              "title": "Sorich Organics Raw Pumpkin Seeds 200g | Pumpkin Seeds for Eating | Unroasted Pumpkin Seed 200gm | Healthy Snacks | Diet F...",
+              "priority": "IMPORTANT",
+              "estimated_cost": 149.0
+            },
+            {
+              "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+              "title": "The Whole Truth - Breakfast Muesli | Quinoa Choco Crunch Muesli | 320grams | Vegan | Dairy-free | No Artificial Sweeteners...",
+              "priority": "OPTIONAL",
+              "estimated_cost": 315.0
+            }
+          ]
+        },
+        "ai_analysis": {
+          "items": [
+            {
+              "product_id": "nutri_desire_immunity_booster_high_rich_protein_combo_of_pumpkin_sunflower_watermelon_seeds_pack_of_3_150_gram_each",
+              "title": "Nutri Desire Immunity Booster High Rich Protein Combo of Pumpkin, Sunflower & Watermelon Seeds (Pack of 3) (150 gram each)",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "true_elements_roasted_flax_seeds_salted_crunch_250g_flax_seeds_for_eating_diet_snacks_high_in_fibre",
+              "title": "True Elements Roasted Flax Seeds Salted Crunch 250g - Flax Seeds for Eating | Diet Snacks | High in Fibre",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "midbreak_sugar_free_oats_almonds_cookies_sugar_free_oats_almonds_biscuits_sugar_free_almond_cookies_premium_handma",
+              "title": "Midbreak - Sugar Free Oats Almonds Cookies | Sugar Free Oats Almonds Biscuits | Sugar Free Almond Cookies | Premium Handma...",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "true_elements_antioxidant_seeds_mix_250g_seeds_for_eating_diet_snacks_roasted_mix_seeds",
+              "title": "True Elements Antioxidant Seeds Mix 250g - Seeds for Eating | Diet Snacks | Roasted Mix Seeds",
+              "priority": "CRITICAL",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "more_2_nuts_chocolate_coated_almonds_milk_chocolate_covered_nuts_250g_jar_packing_milk",
+              "title": "more 2 nuts Chocolate Coated Almonds Milk Chocolate Covered Nuts 250g Jar Packing (Milk)",
+              "priority": "CRITICAL",
+              "reason": "Chocolate conflicts with diet",
+              "status": "REJECTED",
+              "feedback": "Chocolate is not suitable for weight loss journey"
+            },
+            {
+              "product_id": "alt_co_oats_milk_1_liter_lactose_free_preservatives_free_no_added_sugar_soya_free_no_trans_fat_low_calorie",
+              "title": "Alt Co. Oats Milk (1 liter) | Lactose-Free | Preservatives Free | No Added Sugar | Soya Free | No Trans- Fat | Low Calorie...",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "sorich_organics_raw_pumpkin_seeds_200g_pumpkin_seeds_for_eating_unroasted_pumpkin_seed_200gm_healthy_snacks_diet_f",
+              "title": "Sorich Organics Raw Pumpkin Seeds 200g | Pumpkin Seeds for Eating | Unroasted Pumpkin Seed 200gm | Healthy Snacks | Diet F...",
+              "priority": "IMPORTANT",
+              "reason": "Correct alignment",
+              "status": "APPROVED",
+              "feedback": null
+            },
+            {
+              "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+              "title": "The Whole Truth - Breakfast Muesli | Quinoa Choco Crunch Muesli | 320grams | Vegan | Dairy-free | No Artificial Sweeteners...",
+              "priority": "OPTIONAL",
+              "reason": "Chocolate conflicts with diet",
+              "status": "REJECTED",
+              "feedback": "Chocolate is not suitable for weight loss journey"
+            }
+          ],
+          "mission_coherence_score": 85
+        },
+        "recommended_changes": [
+          {
+            "type": "reject_product",
+            "product_id": "more_2_nuts_chocolate_coated_almonds_milk_chocolate_covered_nuts_250g_jar_packing_milk",
+            "reason": "Chocolate conflicts with diet"
+          },
+          {
+            "type": "reject_product",
+            "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+            "reason": "Chocolate conflicts with diet"
+          }
+        ],
+        "accepted_changes": [
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "more_2_nuts_chocolate_coated_almonds_milk_chocolate_covered_nuts_250g_jar_packing_milk",
+              "reason": "Chocolate conflicts with diet"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#more_2_nuts_chocolate_coated_almonds_milk_chocolate_covered_nuts_250g_jar_packing_milk exists. Title: 'more 2 nuts Chocolate Coated Almonds Milk Chocolate Covered Nuts 250g Jar Packing (Milk)', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          },
+          {
+            "change": {
+              "type": "reject_product",
+              "product_id": "the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners",
+              "reason": "Chocolate conflicts with diet"
+            },
+            "evidence": {
+              "graph": [
+                "No direct or indirect relationship found in knowledge graph edges"
+              ],
+              "catalog": [
+                "PRODUCT#the_whole_truth_breakfast_muesli_quinoa_choco_crunch_muesli_320grams_vegan_dairy_free_no_artificial_sweeteners exists. Title: 'The Whole Truth - Breakfast Muesli | Quinoa Choco Crunch Muesli | 320grams | Vegan | Dairy-free | No Artificial Sweeteners...', Category: 'GROCERY', Subcategory: 'Dairy & Alternatives'"
+              ],
+              "business_rules": [
+                "REJECTION CONFIRMED: High sugar/carb content conflicts with weight loss constraints"
+              ]
+            }
+          }
+        ],
+        "rejected_changes": [],
+        "confidence": 0.95,
+        "reasoning": [
+          "Detected chocolate contradiction in weight loss mission"
+        ]
+      },
+      "metrics": {
+        "decision_override_rate": 0.6666666666666666,
+        "product_rejection_rate": 0.25,
+        "mission_correction_rate": 1.0,
+        "risk_correction_rate": 1.0,
+        "auditor_failure_rate": 0.0,
+        "grounding_score": 100,
+        "reality_score": 40,
+        "consistency_score": 100,
+        "catalog_validity_score": 100,
+        "graph_validity_score": 100,
+        "capability_coverage": 100
+      },
+      "auditor_report": {
+        "original_output": {},
+        "ai_analysis": {
+          "overall_confidence_score": 0.98,
+          "audit_score": 80,
+          "grounding_score": 100,
+          "consistency_score": 100,
+          "failures": [],
+          "warnings": [],
+          "improvement_suggestions": []
+        },
+        "recommended_changes": [],
+        "accepted_changes": [],
+        "rejected_changes": [],
+        "confidence": 0.98,
+        "reasoning": [
+          "All agents comply. Zero UUID leaks found."
+        ]
+      },
+      "latency_sec": 40.891032457351685,
+      "evaluation": {
+        "evaluation_score": 92,
+        "grounding_score": 100,
+        "decision_score": 100,
+        "reasoning_score": 100,
+        "outcome_score": 63,
+        "scorecards": {
+          "mission": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 95
+          },
+          "cart": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 95
+          },
+          "verification": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "risk": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "regret": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "simulation": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 100
+          },
+          "auditor": {
+            "accuracy": 100,
+            "override_effectiveness": 100,
+            "grounding_compliance": 100,
+            "policy_violations": 0,
+            "repair_frequency": 0,
+            "confidence_calibration": 98
+          }
+        },
+        "quality_per_dollar": 3769.41,
+        "quality_per_second": 2.25
+      }
+    },
+    "certification": {
+      "status": "WARNING",
+      "policy_score": 100,
+      "repaired": false,
+      "trust_level": "WARNING",
+      "repair_log": [],
+      "trust_conditions": {
+        "grounding_score": true,
+        "catalog_validity_score": true,
+        "graph_validity_score": true,
+        "reality_score": false,
+        "consistency_score": true,
+        "decision_override_rate": true,
+        "provider_matches_runtime": true,
+        "fallback_used": true
+      }
+    },
+    "repair_log": [],
+    "trust_level": "WARNING",
+    "evaluation": {
+      "evaluation_score": 92,
+      "grounding_score": 100,
+      "decision_score": 100,
+      "reasoning_score": 100,
+      "outcome_score": 63,
+      "scorecards": {
+        "mission": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 95
+        },
+        "cart": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 95
+        },
+        "verification": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "risk": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "regret": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "simulation": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 100
+        },
+        "auditor": {
+          "accuracy": 100,
+          "override_effectiveness": 100,
+          "grounding_compliance": 100,
+          "policy_violations": 0,
+          "repair_frequency": 0,
+          "confidence_calibration": 98
+        }
+      },
+      "quality_per_dollar": 3769.41,
+      "quality_per_second": 2.25
+    },
+    "policy_score": 100
   }
 ]
