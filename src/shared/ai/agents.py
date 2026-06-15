@@ -1,6 +1,7 @@
 import json
 import logging
-from typing import List, Dict, Any
+from typing import List, Dict, Any, TypeVar, Type
+from pydantic import BaseModel
 
 from .ai_gateway import AIGateway
 from .schemas import (
@@ -15,104 +16,93 @@ from .schemas import (
 )
 
 logger = logging.getLogger(__name__)
+T = TypeVar("T", bound=BaseModel)
 
 class MissionIntelligenceAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def analyze(self, query: str, original_mission: str) -> DecisionDelta[MissionAnalysisOutput]:
+    def analyze(self, query: str) -> DecisionDelta[MissionAnalysisOutput]:
         logger.info("Executing MissionIntelligenceAgent...")
-        original_json = json.dumps({"detected_mission": original_mission})
         return self.gateway.execute_agent(
             agent_name="mission",
             schema_class=DecisionDelta[MissionAnalysisOutput],
-            query=query,
-            original_json=original_json
+            query=query
         )
 
 class CartIntelligenceAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def analyze(self, mission_id: str, products: List[Dict[str, Any]]) -> DecisionDelta[CartAnalysisOutput]:
+    def analyze(self, mission: str, capabilities: List[str], blueprint: Dict[str, Any]) -> DecisionDelta[CartAnalysisOutput]:
         logger.info("Executing CartIntelligenceAgent...")
-        products_json = json.dumps(products, default=str)
         return self.gateway.execute_agent(
             agent_name="cart",
             schema_class=DecisionDelta[CartAnalysisOutput],
-            mission_id=mission_id,
-            products_json=products_json
+            mission=mission,
+            capabilities=json.dumps(capabilities),
+            blueprint=json.dumps(blueprint)
         )
 
 class VerificationIntelligenceAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def analyze(self, mission_id: str, cart_items: List[str], original_verification: Dict[str, Any]) -> DecisionDelta[VerificationAnalysisOutput]:
+    def analyze(self, cart: List[str], blueprint: Dict[str, Any]) -> DecisionDelta[VerificationAnalysisOutput]:
         logger.info("Executing VerificationIntelligenceAgent...")
-        original_json = json.dumps(original_verification, default=str)
         return self.gateway.execute_agent(
             agent_name="verification",
             schema_class=DecisionDelta[VerificationAnalysisOutput],
-            mission_id=mission_id,
-            cart_items=json.dumps(cart_items),
-            original_json=original_json
+            cart=json.dumps(cart),
+            blueprint=json.dumps(blueprint)
         )
 
 class RiskIntelligenceAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def analyze(self, mission_id: str, cart_items: List[str], original_risk: Dict[str, Any]) -> DecisionDelta[RiskAnalysisOutput]:
+    def analyze(self, verification: Dict[str, Any]) -> DecisionDelta[RiskAnalysisOutput]:
         logger.info("Executing RiskIntelligenceAgent...")
-        original_json = json.dumps(original_risk, default=str)
         return self.gateway.execute_agent(
             agent_name="risk",
             schema_class=DecisionDelta[RiskAnalysisOutput],
-            mission_id=mission_id,
-            cart_items=json.dumps(cart_items),
-            original_json=original_json
+            verification=json.dumps(verification)
         )
 
 class RegretPreventionIntelligenceAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def analyze(self, mission_id: str, cart_items: List[str], original_regret: Dict[str, Any]) -> DecisionDelta[RegretAnalysisOutput]:
+    def analyze(self, cart: List[str], blueprint: Dict[str, Any]) -> DecisionDelta[RegretAnalysisOutput]:
         logger.info("Executing RegretPreventionIntelligenceAgent...")
-        original_json = json.dumps(original_regret, default=str)
         return self.gateway.execute_agent(
             agent_name="regret",
             schema_class=DecisionDelta[RegretAnalysisOutput],
-            mission_id=mission_id,
-            cart_items=json.dumps(cart_items),
-            original_json=original_json
+            cart=json.dumps(cart),
+            blueprint=json.dumps(blueprint)
         )
 
 class SimulationIntelligenceAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def analyze(self, original_simulation: Dict[str, Any], additions: List[str]) -> DecisionDelta[SimulationAnalysisOutput]:
+    def analyze(self, verification: Dict[str, Any], risk: Dict[str, Any]) -> DecisionDelta[SimulationAnalysisOutput]:
         logger.info("Executing SimulationIntelligenceAgent...")
-        original_json = json.dumps(original_simulation, default=str)
         return self.gateway.execute_agent(
             agent_name="simulation",
             schema_class=DecisionDelta[SimulationAnalysisOutput],
-            original_json=original_json,
-            additions=json.dumps(additions)
+            verification=json.dumps(verification),
+            risk=json.dumps(risk)
         )
 
 class OutcomeAuditorAgent:
     def __init__(self, gateway: AIGateway):
         self.gateway = gateway
 
-    def audit(self, agent_logs: List[Dict[str, Any]]) -> DecisionDelta[AuditorAnalysisOutput]:
+    def audit(self, metrics: Dict[str, Any]) -> DecisionDelta[AuditorAnalysisOutput]:
         logger.info("Executing OutcomeAuditorAgent...")
-        agent_logs_json = json.dumps(agent_logs, default=str)
         return self.gateway.execute_agent(
             agent_name="auditor",
             schema_class=DecisionDelta[AuditorAnalysisOutput],
-            agent_logs_json=agent_logs_json
+            metrics=json.dumps(metrics)
         )
-

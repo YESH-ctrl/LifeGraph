@@ -93,33 +93,17 @@ class AIGateway:
         # Populate original_output programmatically if empty
         if not parsed.original_output:
             import json
-            if "original_json" in kwargs:
-                orig = kwargs["original_json"]
-                if isinstance(orig, str):
-                    try:
-                        parsed.original_output = json.loads(orig)
-                    except Exception:
-                        parsed.original_output = {"raw_text": orig}
-                elif isinstance(orig, dict):
-                    parsed.original_output = orig
-            elif "products_json" in kwargs:
-                prods = kwargs["products_json"]
-                if isinstance(prods, str):
-                    try:
-                        parsed.original_output = {"items": json.loads(prods)}
-                    except Exception:
-                        parsed.original_output = {"items": prods}
-                elif isinstance(prods, list) or isinstance(prods, dict):
-                    parsed.original_output = {"items": prods}
-            elif "cart_items" in kwargs:
-                items = kwargs["cart_items"]
-                if isinstance(items, str):
-                    try:
-                        parsed.original_output = {"items": json.loads(items)}
-                    except Exception:
-                        parsed.original_output = {"items": items}
-                elif isinstance(items, list) or isinstance(items, dict):
-                    parsed.original_output = {"items": items}
+            for key in ["original_json", "verification", "risk", "metrics", "cart", "blueprint", "capabilities", "products_json", "cart_items"]:
+                if key in kwargs:
+                    val = kwargs[key]
+                    if isinstance(val, str):
+                        try:
+                            parsed.original_output = json.loads(val)
+                        except Exception:
+                            parsed.original_output = {key: val}
+                    elif isinstance(val, (dict, list)):
+                        parsed.original_output = {key: val} if isinstance(val, list) else val
+                    break
         
         # 7. Hallucination Detection (UUID leak checks)
         parsed_dict = parsed.model_dump()

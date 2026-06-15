@@ -148,23 +148,49 @@ class CartGenerationService:
         
         # Track which capability matched each selected product for explainability
         product_matched_capability = {}
+        selected_subcats = set()
 
-        # Round 1: Select top product for each capability to ensure coverage
+        # Round 1: Select top product for each capability to ensure coverage with strict diversity first
         for cap in capabilities:
             candidates = selected_by_cap[cap]
+            selected_any = False
             for c in candidates:
                 if c["product_id"] not in selected_pids:
-                    selected_pids.add(c["product_id"])
-                    product_matched_capability[c["product_id"]] = cap
-                    
-                    priority = get_capability_priority(cap)
-                    if priority == "CRITICAL":
-                        selected_critical.append(c)
-                    elif priority == "IMPORTANT":
-                        selected_important.append(c)
-                    else:
-                        selected_optional.append(c)
-                    break
+                    sub = (c["prod_info"].get("subcategory") or "").strip().lower()
+                    if not sub or sub not in selected_subcats:
+                        selected_pids.add(c["product_id"])
+                        if sub:
+                            selected_subcats.add(sub)
+                        product_matched_capability[c["product_id"]] = cap
+                        
+                        priority = get_capability_priority(cap)
+                        if priority == "CRITICAL":
+                            selected_critical.append(c)
+                        elif priority == "IMPORTANT":
+                            selected_important.append(c)
+                        else:
+                            selected_optional.append(c)
+                        selected_any = True
+                        break
+            
+            # Fallback if no product with unique subcategory covers the capability
+            if not selected_any:
+                for c in candidates:
+                    if c["product_id"] not in selected_pids:
+                        selected_pids.add(c["product_id"])
+                        sub = (c["prod_info"].get("subcategory") or "").strip().lower()
+                        if sub:
+                            selected_subcats.add(sub)
+                        product_matched_capability[c["product_id"]] = cap
+                        
+                        priority = get_capability_priority(cap)
+                        if priority == "CRITICAL":
+                            selected_critical.append(c)
+                        elif priority == "IMPORTANT":
+                            selected_important.append(c)
+                        else:
+                            selected_optional.append(c)
+                        break
 
         # Fill remaining cart to meet requirements: total >= 8, critical >= 5
         def get_total_size():
@@ -177,29 +203,39 @@ class CartGenerationService:
             for p in remaining_crit:
                 if len(selected_critical) >= 5:
                     break
-                selected_critical.append(p)
-                selected_pids.add(p["product_id"])
+                sub = (p["prod_info"].get("subcategory") or "").strip().lower()
+                if not sub or sub not in selected_subcats or len(selected_critical) < 3:
+                    selected_critical.append(p)
+                    selected_pids.add(p["product_id"])
+                    if sub:
+                        selected_subcats.add(sub)
 
-        # Fill total to >= 8
+        # Fill total to >= 8 (prioritizing subcategory diversity)
         remaining_all = [p for p in scored_products if p["product_id"] not in selected_pids]
-        remaining_all.sort(key=lambda x: (x["match_score"], x["rel_score"]), reverse=True)
+        remaining_all.sort(key=lambda x: (
+            (x["prod_info"].get("subcategory") or "").strip().lower() in selected_subcats,
+            -x["match_score"],
+            -x["rel_score"]
+        ))
         
         for p in remaining_all:
             if get_total_size() >= 8:
                 break
+            selected_pids.add(p["product_id"])
+            sub = (p["prod_info"].get("subcategory") or "").strip().lower()
+            if sub:
+                selected_subcats.add(sub)
             if p["priority_tier"] == 3:
                 selected_critical.append(p)
             elif p["priority_tier"] == 2:
                 selected_important.append(p)
             else:
                 selected_optional.append(p)
-            selected_pids.add(p["product_id"])
 
-        # Fallback expansion using same subcategory
+        # Fallback if total size is still < 8
         if get_total_size() < 8:
-            selected_subcats = set(p['prod_info'].get('subcategory') for p in selected_critical + selected_important + selected_optional if p['prod_info'].get('subcategory'))
             expanded_candidates = [p for p in scored_products if p['product_id'] not in selected_pids]
-            expanded_candidates.sort(key=lambda x: (x['prod_info'].get('subcategory') in selected_subcats, x['match_score'], x['rel_score']), reverse=True)
+            expanded_candidates.sort(key=lambda x: (-x['match_score'], -x['rel_score']))
             for p in expanded_candidates:
                 if get_total_size() >= 8:
                     break
